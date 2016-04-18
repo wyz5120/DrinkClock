@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06181CC4718F003DF13C /* AppDelegate.swift */; };
-		71BF061B1CC4718F003DF13C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF061A1CC4718F003DF13C /* ViewController.swift */; };
-		71BF061E1CC4718F003DF13C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BF061C1CC4718F003DF13C /* Main.storyboard */; };
+		71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF061A1CC4718F003DF13C /* HomeViewController.swift */; };
 		71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BF061F1CC4718F003DF13C /* Assets.xcassets */; };
 		71BF06231CC4718F003DF13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BF06211CC4718F003DF13C /* LaunchScreen.storyboard */; };
 		71BF062E1CC4718F003DF13C /* DrinkClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF062D1CC4718F003DF13C /* DrinkClockTests.swift */; };
 		71BF06391CC4718F003DF13C /* DrinkClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06381CC4718F003DF13C /* DrinkClockUITests.swift */; };
+		71BF064A1CC479B9003DF13C /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06491CC479B9003DF13C /* UIBarButtonItem+Category.swift */; };
+		71BF064C1CC47D04003DF13C /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF064B1CC47D04003DF13C /* NavigationController.swift */; };
+		71BF064E1CC47D70003DF13C /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF064D1CC47D70003DF13C /* NavigationBar.swift */; };
+		71BF06501CC4AFA9003DF13C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +39,7 @@
 /* Begin PBXFileReference section */
 		71BF06151CC4718F003DF13C /* DrinkClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BF06181CC4718F003DF13C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71BF061A1CC4718F003DF13C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71BF061D1CC4718F003DF13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71BF061A1CC4718F003DF13C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
 		71BF061F1CC4718F003DF13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BF06221CC4718F003DF13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BF06241CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		71BF06341CC4718F003DF13C /* DrinkClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BF06381CC4718F003DF13C /* DrinkClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkClockUITests.swift; sourceTree = "<group>"; };
 		71BF063A1CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BF06491CC479B9003DF13C /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
+		71BF064B1CC47D04003DF13C /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		71BF064D1CC47D70003DF13C /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				71BF06181CC4718F003DF13C /* AppDelegate.swift */,
-				71BF061A1CC4718F003DF13C /* ViewController.swift */,
-				71BF061C1CC4718F003DF13C /* Main.storyboard */,
+				71BF06461CC4793F003DF13C /* Categroy */,
+				71BF06471CC4794D003DF13C /* Classes */,
+				71BF06481CC47955003DF13C /* Other */,
 				71BF061F1CC4718F003DF13C /* Assets.xcassets */,
 				71BF06211CC4718F003DF13C /* LaunchScreen.storyboard */,
 				71BF06241CC4718F003DF13C /* Info.plist */,
@@ -123,6 +130,32 @@
 				71BF063A1CC4718F003DF13C /* Info.plist */,
 			);
 			path = DrinkClockUITests;
+			sourceTree = "<group>";
+		};
+		71BF06461CC4793F003DF13C /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				71BF06491CC479B9003DF13C /* UIBarButtonItem+Category.swift */,
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		71BF06471CC4794D003DF13C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				71BF061A1CC4718F003DF13C /* HomeViewController.swift */,
+				71BF064B1CC47D04003DF13C /* NavigationController.swift */,
+				71BF064D1CC47D70003DF13C /* NavigationBar.swift */,
+				71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		71BF06481CC47955003DF13C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +264,6 @@
 			files = (
 				71BF06231CC4718F003DF13C /* LaunchScreen.storyboard in Resources */,
 				71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */,
-				71BF061E1CC4718F003DF13C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BF061B1CC4718F003DF13C /* ViewController.swift in Sources */,
+				71BF064E1CC47D70003DF13C /* NavigationBar.swift in Sources */,
+				71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */,
+				71BF064C1CC47D04003DF13C /* NavigationController.swift in Sources */,
 				71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */,
+				71BF06501CC4AFA9003DF13C /* InfoViewController.swift in Sources */,
+				71BF064A1CC479B9003DF13C /* UIBarButtonItem+Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71BF061C1CC4718F003DF13C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71BF061D1CC4718F003DF13C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71BF06211CC4718F003DF13C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
