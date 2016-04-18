@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06181CC4718F003DF13C /* AppDelegate.swift */; };
+		71BF061B1CC4718F003DF13C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF061A1CC4718F003DF13C /* ViewController.swift */; };
+		71BF061E1CC4718F003DF13C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BF061C1CC4718F003DF13C /* Main.storyboard */; };
+		71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BF061F1CC4718F003DF13C /* Assets.xcassets */; };
+		71BF06231CC4718F003DF13C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BF06211CC4718F003DF13C /* LaunchScreen.storyboard */; };
+		71BF062E1CC4718F003DF13C /* DrinkClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF062D1CC4718F003DF13C /* DrinkClockTests.swift */; };
+		71BF06391CC4718F003DF13C /* DrinkClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06381CC4718F003DF13C /* DrinkClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71BF062A1CC4718F003DF13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BF060D1CC4718F003DF13C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BF06141CC4718F003DF13C;
+			remoteInfo = DrinkClock;
+		};
+		71BF06351CC4718F003DF13C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71BF060D1CC4718F003DF13C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BF06141CC4718F003DF13C;
+			remoteInfo = DrinkClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71BF06151CC4718F003DF13C /* DrinkClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BF06181CC4718F003DF13C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71BF061A1CC4718F003DF13C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		71BF061D1CC4718F003DF13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71BF061F1CC4718F003DF13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71BF06221CC4718F003DF13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71BF06241CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BF06291CC4718F003DF13C /* DrinkClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BF062D1CC4718F003DF13C /* DrinkClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkClockTests.swift; sourceTree = "<group>"; };
+		71BF062F1CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71BF06341CC4718F003DF13C /* DrinkClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrinkClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BF06381CC4718F003DF13C /* DrinkClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkClockUITests.swift; sourceTree = "<group>"; };
+		71BF063A1CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71BF06121CC4718F003DF13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF06261CC4718F003DF13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF06311CC4718F003DF13C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71BF060C1CC4718F003DF13C = {
+			isa = PBXGroup;
+			children = (
+				71BF06171CC4718F003DF13C /* DrinkClock */,
+				71BF062C1CC4718F003DF13C /* DrinkClockTests */,
+				71BF06371CC4718F003DF13C /* DrinkClockUITests */,
+				71BF06161CC4718F003DF13C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71BF06161CC4718F003DF13C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71BF06151CC4718F003DF13C /* DrinkClock.app */,
+				71BF06291CC4718F003DF13C /* DrinkClockTests.xctest */,
+				71BF06341CC4718F003DF13C /* DrinkClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71BF06171CC4718F003DF13C /* DrinkClock */ = {
+			isa = PBXGroup;
+			children = (
+				71BF06181CC4718F003DF13C /* AppDelegate.swift */,
+				71BF061A1CC4718F003DF13C /* ViewController.swift */,
+				71BF061C1CC4718F003DF13C /* Main.storyboard */,
+				71BF061F1CC4718F003DF13C /* Assets.xcassets */,
+				71BF06211CC4718F003DF13C /* LaunchScreen.storyboard */,
+				71BF06241CC4718F003DF13C /* Info.plist */,
+			);
+			path = DrinkClock;
+			sourceTree = "<group>";
+		};
+		71BF062C1CC4718F003DF13C /* DrinkClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				71BF062D1CC4718F003DF13C /* DrinkClockTests.swift */,
+				71BF062F1CC4718F003DF13C /* Info.plist */,
+			);
+			path = DrinkClockTests;
+			sourceTree = "<group>";
+		};
+		71BF06371CC4718F003DF13C /* DrinkClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71BF06381CC4718F003DF13C /* DrinkClockUITests.swift */,
+				71BF063A1CC4718F003DF13C /* Info.plist */,
+			);
+			path = DrinkClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71BF06141CC4718F003DF13C /* DrinkClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BF063D1CC4718F003DF13C /* Build configuration list for PBXNativeTarget "DrinkClock" */;
+			buildPhases = (
+				71BF06111CC4718F003DF13C /* Sources */,
+				71BF06121CC4718F003DF13C /* Frameworks */,
+				71BF06131CC4718F003DF13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrinkClock;
+			productName = DrinkClock;
+			productReference = 71BF06151CC4718F003DF13C /* DrinkClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71BF06281CC4718F003DF13C /* DrinkClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BF06401CC4718F003DF13C /* Build configuration list for PBXNativeTarget "DrinkClockTests" */;
+			buildPhases = (
+				71BF06251CC4718F003DF13C /* Sources */,
+				71BF06261CC4718F003DF13C /* Frameworks */,
+				71BF06271CC4718F003DF13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BF062B1CC4718F003DF13C /* PBXTargetDependency */,
+			);
+			name = DrinkClockTests;
+			productName = DrinkClockTests;
+			productReference = 71BF06291CC4718F003DF13C /* DrinkClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71BF06331CC4718F003DF13C /* DrinkClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71BF06431CC4718F003DF13C /* Build configuration list for PBXNativeTarget "DrinkClockUITests" */;
+			buildPhases = (
+				71BF06301CC4718F003DF13C /* Sources */,
+				71BF06311CC4718F003DF13C /* Frameworks */,
+				71BF06321CC4718F003DF13C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71BF06361CC4718F003DF13C /* PBXTargetDependency */,
+			);
+			name = DrinkClockUITests;
+			productName = DrinkClockUITests;
+			productReference = 71BF06341CC4718F003DF13C /* DrinkClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71BF060D1CC4718F003DF13C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wyz;
+				TargetAttributes = {
+					71BF06141CC4718F003DF13C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					71BF06281CC4718F003DF13C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 71BF06141CC4718F003DF13C;
+					};
+					71BF06331CC4718F003DF13C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 71BF06141CC4718F003DF13C;
+					};
+				};
+			};
+			buildConfigurationList = 71BF06101CC4718F003DF13C /* Build configuration list for PBXProject "DrinkClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71BF060C1CC4718F003DF13C;
+			productRefGroup = 71BF06161CC4718F003DF13C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BF06141CC4718F003DF13C /* DrinkClock */,
+				71BF06281CC4718F003DF13C /* DrinkClockTests */,
+				71BF06331CC4718F003DF13C /* DrinkClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71BF06131CC4718F003DF13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BF06231CC4718F003DF13C /* LaunchScreen.storyboard in Resources */,
+				71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */,
+				71BF061E1CC4718F003DF13C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF06271CC4718F003DF13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF06321CC4718F003DF13C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71BF06111CC4718F003DF13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BF061B1CC4718F003DF13C /* ViewController.swift in Sources */,
+				71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF06251CC4718F003DF13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BF062E1CC4718F003DF13C /* DrinkClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BF06301CC4718F003DF13C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71BF06391CC4718F003DF13C /* DrinkClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71BF062B1CC4718F003DF13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BF06141CC4718F003DF13C /* DrinkClock */;
+			targetProxy = 71BF062A1CC4718F003DF13C /* PBXContainerItemProxy */;
+		};
+		71BF06361CC4718F003DF13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71BF06141CC4718F003DF13C /* DrinkClock */;
+			targetProxy = 71BF06351CC4718F003DF13C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71BF061C1CC4718F003DF13C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BF061D1CC4718F003DF13C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71BF06211CC4718F003DF13C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71BF06221CC4718F003DF13C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71BF063B1CC4718F003DF13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71BF063C1CC4718F003DF13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71BF063E1CC4718F003DF13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrinkClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71BF063F1CC4718F003DF13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrinkClock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71BF06411CC4718F003DF13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkClock.app/DrinkClock";
+			};
+			name = Debug;
+		};
+		71BF06421CC4718F003DF13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrinkClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrinkClock.app/DrinkClock";
+			};
+			name = Release;
+		};
+		71BF06441CC4718F003DF13C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkClock;
+			};
+			name = Debug;
+		};
+		71BF06451CC4718F003DF13C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DrinkClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DrinkClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71BF06101CC4718F003DF13C /* Build configuration list for PBXProject "DrinkClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BF063B1CC4718F003DF13C /* Debug */,
+				71BF063C1CC4718F003DF13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71BF063D1CC4718F003DF13C /* Build configuration list for PBXNativeTarget "DrinkClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BF063E1CC4718F003DF13C /* Debug */,
+				71BF063F1CC4718F003DF13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71BF06401CC4718F003DF13C /* Build configuration list for PBXNativeTarget "DrinkClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BF06411CC4718F003DF13C /* Debug */,
+				71BF06421CC4718F003DF13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71BF06431CC4718F003DF13C /* Build configuration list for PBXNativeTarget "DrinkClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BF06441CC4718F003DF13C /* Debug */,
+				71BF06451CC4718F003DF13C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71BF060D1CC4718F003DF13C /* Project object */;
+}
