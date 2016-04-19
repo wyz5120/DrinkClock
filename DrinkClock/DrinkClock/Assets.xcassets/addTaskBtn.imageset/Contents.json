@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "addTaskBtn.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "addTaskBtn.png",
       "scale" : "2x"
     },
     {
