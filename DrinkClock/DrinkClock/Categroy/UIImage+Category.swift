@@ -24,4 +24,25 @@ extension UIImage {
         
         return image
     }
+    
+    class func imageWithColorAndFrame(color:UIColor,frame:CGRect) -> UIImage {
+    
+        UIGraphicsBeginImageContext(frame.size)
+        
+        let ctx = UIGraphicsGetCurrentContext()
+        
+        CGContextSetFillColorWithColor(ctx, color.CGColor)
+        
+        CGContextFillRect(ctx, frame)
+        
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        
+        UIGraphicsEndImageContext()
+        
+        return image
+    }
+    
+    class func imageWithColor(color:UIColor) -> UIImage {
+        return UIImage.imageWithColorAndFrame(color, frame: CGRect(x: 0, y: 0, width: 1, height: 1))
+    }
 }

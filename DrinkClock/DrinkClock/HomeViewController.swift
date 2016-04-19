@@ -10,41 +10,16 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    private let remindVc = RemindTableViewController()
+    
+    // MARK: - 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = UIColor(red: 50, green: 50, blue: 50, alpha: 0.2)
-        
-        navigationItem.leftBarButtonItem = UIBarButtonItem.item("menuBtn", target: self, action: #selector(HomeViewController.menuAction))
-        navigationItem.rightBarButtonItem = UIBarButtonItem.item("infoBtn", target: self, action: #selector(HomeViewController.infoAction))
-        
-        let titleView = TitleSwitchView()
-        titleView.frame.size.width = screenWidth * 0.5
-        titleView.frame.size.height = 36
-        navigationItem.titleView = titleView
-        
-        titleView.buttonClickAction = {[weak self](buttonTag) -> Void in
-            self!.centerViewAnimation(buttonTag)
-        }
-        
-        view.addSubview(bgImageView)
-        view.addSubview(addButton)
-        view.addSubview(homeView)
-        view.addSubview(remindView)
-        
-        addButton.snp_makeConstraints { (make) in
-            make.centerX.equalTo(self.view)
-            make.centerY.equalTo(self.view.snp_bottom).offset(-30)
-            make.width.height.equalTo(0)
-        }
-        
-        homeView.snp_makeConstraints { (make) in
-            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80, left: 20, bottom: 60, right: 20))
-        }
-        
-        remindView.snp_makeConstraints { (make) in
-            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80 + screenHeight, left: 20, bottom: 60 - screenHeight, right: 20))
-        }
+        view.layer.cornerRadius = 5
+        view.layer.masksToBounds = true
+        setupNav()
+        setupSubViews()
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +37,40 @@ class HomeViewController: UIViewController {
         addButtonAnimation(false)
     }
     
+    // MARK: - 界面
+    private func setupNav() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem.item("menuBtn", target: self, action: #selector(HomeViewController.menuAction))
+        navigationItem.rightBarButtonItem = UIBarButtonItem.item("infoBtn", target: self, action: #selector(HomeViewController.infoAction))
+        
+        let titleView = TitleSwitchView()
+        titleView.frame.size.width = screenWidth * 0.5
+        titleView.frame.size.height = 36
+        navigationItem.titleView = titleView
+        titleView.buttonClickAction = {[weak self](buttonTag) -> Void in
+            self!.centerViewAnimation(buttonTag)
+        }
+    }
+    
+    private func setupSubViews() {
+        addChildViewController(remindVc)
+        view.addSubview(bgImageView)
+        view.addSubview(addButton)
+        view.addSubview(homeView)
+        view.addSubview(remindView)
+        
+        addButton.snp_makeConstraints { (make) in
+            make.centerX.equalTo(self.view)
+            make.centerY.equalTo(self.view.snp_bottom).offset(-30)
+            make.width.height.equalTo(0)
+        }
+        homeView.snp_makeConstraints { (make) in
+            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80, left: 20, bottom: 60, right: 20))
+        }
+        remindView.snp_makeConstraints { (make) in
+            make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80 + screenHeight, left: 20, bottom: 60 - screenHeight, right: 20))
+        }
+    }
+    // MARK: - 懒加载
     private lazy var bgImageView:UIImageView = {
         let imageView = UIImageView(frame: self.view.bounds)
         imageView.contentMode = UIViewContentMode.ScaleAspectFill
@@ -85,13 +94,13 @@ class HomeViewController: UIViewController {
     }()
     
     private lazy var remindView: UIView = {
-        let view = UIView()
-        view.backgroundColor = UIColor.greenColor()
+        let view = self.remindVc.view
         view.layer.cornerRadius = 20
         view.layer.masksToBounds = true
         return view
     }()
 
+    // MARK: - 响应事件
     func menuAction() {
         print(#function)
     }
@@ -126,7 +135,8 @@ class HomeViewController: UIViewController {
     }
     
     func addButtonAction() {
-        print(#function)
+        let navigationVc = NavigationController(rootViewController: AddReminderViewController())
+        presentViewController(navigationVc, animated: true, completion: nil)
     }
     
     private let animationDuration = 0.3

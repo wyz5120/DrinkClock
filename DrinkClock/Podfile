@@ -1,4 +1,4 @@
 platform :ios, '8.0'
 use_frameworks!
 pod 'SnapKit'
-
+pod 'TPKeyboardAvoiding', '~> 1.2.11'
