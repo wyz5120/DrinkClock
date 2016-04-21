@@ -21,7 +21,8 @@ private let repeatLabelColor = UIColor(red: 27/255.0, green: 42/255.0, blue: 71/
 
 class RepeatPickerView: UIView {
     
-    var didSelectRowAtIndex:((text:String) -> Void)?
+    var didSelectRowClosure:((text:String) -> Void)?
+    
     private let dataSource = ["每一小时","每二小时","每三小时","每天","关闭"]
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -93,7 +94,7 @@ class RepeatPickerView: UIView {
     }
     
     deinit{
-        print("repeat销毁")
+        print(NSStringFromClass(self.classForCoder) + "释放")
     }
 }
 
@@ -111,8 +112,8 @@ extension RepeatPickerView:UITableViewDataSource,UITableViewDelegate {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        if didSelectRowAtIndex != nil {
-            didSelectRowAtIndex!(text:dataSource[indexPath.row])
+        if didSelectRowClosure != nil {
+            didSelectRowClosure!(text:dataSource[indexPath.row])
         }
         
         hide()

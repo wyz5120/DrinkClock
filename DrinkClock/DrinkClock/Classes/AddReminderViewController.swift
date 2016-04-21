@@ -15,48 +15,25 @@ private let themeColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.
 class AddReminderViewController: UIViewController {
     
     private var timeTextField:UITextField?
-    private var remindSwitch:UISwitch?
-    private var repeatLabel:UILabel?
-    private var soundLabel:UILabel?
-    private var messageTextField:UITextField?
     
     private var reminder:Reminder = Reminder()
-
+    
+    private var dataSource:[NSInteger:AnyObject]!
+ 
+    // MARK: - 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor.whiteColor()
         
-        navigationItem.leftBarButtonItem = UIBarButtonItem.item("cancelBtn", target: self, action: #selector(AddReminderViewController.dismissAction))
-        let titleLabel = UILabel()
-        titleLabel.textColor = UIColor.blackColor()
-        titleLabel.text = "新提醒"
-        titleLabel.font = UIFont(name: "GloberSemiBold", size: 20)
-        titleLabel.sizeToFit()
-        navigationItem.titleView = titleLabel
-
-        view.addSubview(tableView)
-        tableView.snp_makeConstraints { (make) in
-            make.edges.equalTo(self.view)
-        }
+        dataSource = [0:reminder.time,
+                                1:reminder.remind,
+                                2:reminder.repeatMode,
+                                3:reminder.sound,
+                                4:reminder.tipString]
         
-        
-        footerView.frame.size.height = 60
-        footerView.addSubview(addbutton)
-        
-        addbutton.snp_makeConstraints { (make) in
-            make.center.equalTo(footerView)
-            make.width.equalTo(screenWidth * 0.7)
-            make.height.equalTo(44)
-        }
-        
-        tableView.tableFooterView = footerView
-        
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-         super.viewDidAppear(animated)
-        initializeReminder()
+        setupNav()
+        addSubViews()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -70,23 +47,9 @@ class AddReminderViewController: UIViewController {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
     }
-
-     func dismissAction() {
-        dismissViewControllerAnimated(true, completion: nil)
-        repeatPickerView.removeFromSuperview()
-    }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    
-    func initializeReminder() {
-        remindSwitch?.on = reminder.remind
-        repeatLabel?.text = reminder.repeatMode.rawValue
-        soundLabel?.text = reminder.sound.soundName
-        messageTextField?.text = "喝水时间到了"
+    deinit {
+        print(NSStringFromClass(self.classForCoder) + "释放")
     }
     
     // MARK: - 懒加载
@@ -98,15 +61,11 @@ class AddReminderViewController: UIViewController {
         tableView.registerClass(AddDetailCell.self, forCellReuseIdentifier: addCellDetailIdentifier)
         tableView.registerClass(AddDetailCell.self, forCellReuseIdentifier: addCellSwitchIdentifier)
         tableView.rowHeight = 60
-//        tableView.scrollEnabled = false
         tableView.separatorStyle = UITableViewCellSeparatorStyle.None
         return tableView
     }()
     
-    private lazy var footerView:UIView = {
-        let view = UIView()
-        return view
-    }()
+    private lazy var footerView:UIView = UIView()
     
     private lazy var addbutton:UIButton = {
         let button = UIButton()
@@ -120,6 +79,61 @@ class AddReminderViewController: UIViewController {
         return button
     }()
     
+    private lazy var datePickerView:DatePickerView = {
+        let datePickerView = DatePickerView()
+        datePickerView.doneButtonClickClosure =  {[weak self](date) -> Void in
+            self!.dataSource[0] = self!.stringFromDate(date)
+            self!.tableView.reloadData()
+            self!.view.endEditing(true)
+        }
+        return datePickerView
+    }()
+    private lazy var repeatPickerView:RepeatPickerView = {
+        let repeatPickerView = RepeatPickerView()
+        repeatPickerView.didSelectRowClosure = {[weak self](text) -> Void in
+            self!.dataSource[2] = text
+            self!.tableView.reloadData()
+        }
+        return repeatPickerView
+    }()
+    private lazy var voicePickerView:VoicePickerView = {
+        let voicePickerView = VoicePickerView()
+        voicePickerView.didSelectItemClosure = {[weak self](sound) -> Void in
+            self!.dataSource[3] = sound
+            self!.tableView.reloadData()
+        }
+        return voicePickerView
+    }()
+    
+    // MARK: - 闭包
+
+    //MARK: - 事件响应
+    func addReminderAction() {
+        
+        reminder.time = dataSource[0] as! String
+        reminder.remind = dataSource[1] as! Bool
+        reminder.repeatMode = dataSource[2] as! String
+        reminder.sound = dataSource[3] as! RemindSound
+        reminder.tipString = dataSource[4] as! String
+       
+        if  reminder.time == "" || reminder.tipString == "" {
+            
+            let alert = UIAlertController(title: "请设置时间和提示内容", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "好哒", style: UIAlertActionStyle.Cancel, handler: nil))
+            presentViewController(alert, animated: true, completion: nil)
+            return
+        }
+        
+       save()
+    }
+    
+    func dismissAction() {
+        dismissViewControllerAnimated(true, completion: nil)
+        repeatPickerView.removeFromSuperview()
+        voicePickerView.removeFromSuperview()
+    }
+    
+    // MARK: - 私有方法
     private func stringFromDate(date:NSDate) -> String {
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "a hh:mm"
@@ -135,37 +149,54 @@ class AddReminderViewController: UIViewController {
             self.tableView.transform = CGAffineTransformMakeTranslation(0, translationY)
         })
         
-        voicePickerView.willHide = {[weak self]() -> Void in
+        voicePickerView.willHideClosure = {[weak self]() -> Void in
             UIView.animateWithDuration(0.5, animations: {
                 self!.tableView.transform = CGAffineTransformIdentity
             })
         }
     }
     
-    private lazy var repeatPickerView:RepeatPickerView = RepeatPickerView()
-    private lazy var voicePickerView:VoicePickerView = VoicePickerView()
-    
-    func addReminderAction() {
-        
-        if !timeTextField!.hasText() {
-            
-            let alert = UIAlertController(title: "请设置时间", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
-            alert.addAction(UIAlertAction(title: "好哒", style: UIAlertActionStyle.Cancel, handler: nil))
-            presentViewController(alert, animated: true, completion: nil)
-            return
+    private func addSubViews() {
+        view.addSubview(tableView)
+        tableView.snp_makeConstraints { (make) in
+            make.edges.equalTo(self.view)
         }
         
+        footerView.frame.size.height = 60
+        footerView.addSubview(addbutton)
+        addbutton.snp_makeConstraints { (make) in
+            make.center.equalTo(footerView)
+            make.width.equalTo(screenWidth * 0.7)
+            make.height.equalTo(44)
+        }
+        tableView.tableFooterView = footerView
     }
     
-    deinit{
-        print("销毁")
+    private func setupNav() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem.item("cancelBtn", target: self, action: #selector(AddReminderViewController.dismissAction))
+        let titleLabel = UILabel()
+        titleLabel.textColor = UIColor.blackColor()
+        titleLabel.text = "新提醒"
+        titleLabel.font = UIFont(name: "GloberSemiBold", size: 20)
+        titleLabel.sizeToFit()
+        navigationItem.titleView = titleLabel
+    }
+    
+    private func save() {
+        let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0].stringByAppendingString("/reminder.plist")
+        
+        let array = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! NSMutableArray
+        array.addObject(reminder)
+         NSKeyedArchiver.archiveRootObject(array, toFile: path)
     }
 }
 
+// MARK: - 数据源&代理
 extension AddReminderViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+       
+        return dataSource.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -174,64 +205,43 @@ extension AddReminderViewController:UITableViewDelegate,UITableViewDataSource {
         case 0:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellInputIdentifier) as! AddInputCell
             cell.inputTextField.placeholder = "时间"
-            let datePickerView = DatePickerView()
-        
-            datePickerView.doneButtonClickAction =  {[weak self](date) -> Void in
-                cell.inputTextField.text = self!.stringFromDate(date)
-                cell.inputTextField.resignFirstResponder()
-                self!.reminder.time = date
-            }
-            timeTextField = cell.inputTextField
             cell.inputTextField.inputView = datePickerView
             cell.inputTextField.iconImage = UIImage(named: "time")
+            cell.inputTextField.text = dataSource[indexPath.row] as? String
+            cell.textFieldClearClosure = {[weak self]() -> Void in
+                self!.dataSource[indexPath.row] = ""
+            }
             return cell
         case 1:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellSwitchIdentifier) as! AddDetailCell
             cell.iconView.image = UIImage(named: "reminderGrey")
             cell.tipLabel.text = "提醒"
-            cell.remindSwitchActionClosure = {[weak self](on) -> Void in
-                self!.reminder.remind = on
+            cell.remindSwitchChangedClosure = {[weak self](on) -> Void in
+                self!.dataSource[indexPath.row] = on
             }
-            remindSwitch = cell.remindSwitch
+            cell.remindSwitch.on = dataSource[indexPath.row] as! Bool
             return cell
         case 2:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellDetailIdentifier) as! AddDetailCell
             cell.iconView.image = UIImage(named: "repeatGrey")
             cell.tipLabel.text = "重复"
-            repeatPickerView.didSelectRowAtIndex = {[weak self](text) -> Void in
-                cell.selectionLabel.text = text
-                if let p = ReminderRepeatMode(rawValue: text) {
-                    switch p {
-                    case .None:
-                        self?.reminder.repeatMode = ReminderRepeatMode.None
-                    case .OneDay:
-                        self?.reminder.repeatMode = ReminderRepeatMode.OneDay
-                    case .OneHour:
-                        self?.reminder.repeatMode = ReminderRepeatMode.OneHour
-                    case .TwoHours:
-                        self?.reminder.repeatMode = ReminderRepeatMode.TwoHours
-                    case .ThreeHours:
-                        self?.reminder.repeatMode = ReminderRepeatMode.ThreeHours
-                    }
-                }
-            }
-            repeatLabel = cell.selectionLabel
+            cell.selectionLabel.text = dataSource[indexPath.row] as? String
             return cell
         case 3:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellDetailIdentifier) as! AddDetailCell
             cell.iconView.image = UIImage(named: "completedBtn")
             cell.tipLabel.text = "声音"
-            voicePickerView.didSelectItem = {(sound) -> Void in
-                cell.selectionLabel.text = sound.soundName
-            }
-            soundLabel = cell.selectionLabel
+            let sound = dataSource[indexPath.row] as! RemindSound
+            cell.selectionLabel.text = sound.soundName
             return cell
         case 4:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellInputIdentifier) as! AddInputCell
             cell.inputTextField.placeholder = "提示内容"
             cell.inputTextField.iconImage = UIImage(named: "reminderGrey")
-            cell.inputTextField.text = "喝水时间到了"
-            messageTextField = cell.inputTextField
+            cell.inputTextField.text = dataSource[indexPath.row] as? String
+            cell.editingChangedClosure = {[weak self](text) -> Void in
+                self!.dataSource[indexPath.row] = text
+            }
             return cell
         default:
             return UITableViewCell()
@@ -252,7 +262,5 @@ extension AddReminderViewController:UITableViewDelegate,UITableViewDataSource {
     
     func scrollViewWillBeginDragging(scrollView: UIScrollView) {
         self.view.endEditing(true)
-        
     }
-
 }

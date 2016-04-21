@@ -10,7 +10,7 @@ import UIKit
 
 class DatePickerView: UIView {
     
-    var doneButtonClickAction: ((date:NSDate) -> Void)?
+    var doneButtonClickClosure: ((date:NSDate) -> Void)?
 
     override init(frame: CGRect) {
         super.init(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 250))
@@ -53,8 +53,8 @@ class DatePickerView: UIView {
     
     func doneButtonAction(){
         
-        if doneButtonClickAction != nil {
-            doneButtonClickAction!(date: datePicker.date)
+        if doneButtonClickClosure != nil {
+            doneButtonClickClosure!(date: datePicker.date)
         }
     }
 }

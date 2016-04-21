@@ -18,16 +18,44 @@ enum ReminderRepeatMode: String {
 
 class Reminder: NSObject {
 
-    var time:NSDate?
+    var time:String = ""
     
     var remind:Bool = true
     
-    var repeatMode:ReminderRepeatMode = ReminderRepeatMode.OneDay
+    var repeatMode:String = ReminderRepeatMode.OneDay.rawValue
     
     var sound:RemindSound = RemindSound()
     
     var tipString:String = "喝水时间到了"
     
+    let properties = ["time","remind","repeatMode","sound","tipString"]
+    override var description: String {
+        let dict = dictionaryWithValuesForKeys(properties)
+        return "\(dict)"
+    }
+    
+    override init() {
+        super.init()
+    }
+    
+    
+    func encodeWithCoder(aCoder: NSCoder) {
+        aCoder.encodeObject(time, forKey: "time")
+        aCoder.encodeObject(remind, forKey: "remind")
+        aCoder.encodeObject(repeatMode, forKey: "repeatMode")
+        aCoder.encodeObject(sound, forKey: "sound")
+        aCoder.encodeObject(tipString, forKey: "tipString")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init()
+        time = aDecoder.decodeObjectForKey("time") as! String
+        remind = aDecoder.decodeObjectForKey("remind") as! Bool
+        repeatMode = aDecoder.decodeObjectForKey("repeatMode") as! String
+        sound = aDecoder.decodeObjectForKey("sound") as! RemindSound
+        tipString = aDecoder.decodeObjectForKey("tipString") as! String
+    }
+
 }
 
 class RemindSound: NSObject,NSCoding{

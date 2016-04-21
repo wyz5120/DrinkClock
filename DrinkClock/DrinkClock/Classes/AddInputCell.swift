@@ -10,8 +10,12 @@ import UIKit
 
 let addCellInputIdentifier = "addCellInputIdentifier"
 
-class AddInputCell: UITableViewCell {
-
+class AddInputCell: UITableViewCell,UITextFieldDelegate {
+    
+    var editingChangedClosure:((text:String) -> Void)?
+    
+    var textFieldClearClosure:(() ->Void)?
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -29,7 +33,21 @@ class AddInputCell: UITableViewCell {
 
     lazy var inputTextField: AddTextField = {
         let textField = AddTextField()
+        textField.addTarget(self, action: #selector(AddInputCell.editingChangedAction), forControlEvents: UIControlEvents.EditingChanged)
+        textField.delegate = self
         return textField
     }()
     
+    func editingChangedAction() {
+        if editingChangedClosure != nil {
+            editingChangedClosure!(text:inputTextField.text!)
+        }
+    }
+    
+    func textFieldShouldClear(textField: UITextField) -> Bool {
+        if textFieldClearClosure != nil {
+            textFieldClearClosure!()
+        }
+        return true
+    }
 }

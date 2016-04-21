@@ -18,7 +18,7 @@ private let switchColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255
 
 class AddDetailCell: UITableViewCell {
     
-    var remindSwitchActionClosure:((on:Bool) -> Void)?
+    var remindSwitchChangedClosure:((on:Bool) -> Void)?
 
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -113,8 +113,8 @@ class AddDetailCell: UITableViewCell {
     }
     
     func remindSwitchAction(){
-        if remindSwitchActionClosure != nil {
-            remindSwitchActionClosure!(on:remindSwitch.on)
+        if remindSwitchChangedClosure != nil {
+            remindSwitchChangedClosure!(on:remindSwitch.on)
         }
     }
 }

@@ -16,8 +16,10 @@ private let screenW = UIScreen.mainScreen().bounds.size.width
 private let themeColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0)
 
 class VoicePickerView: UIView {
-    var didSelectItem: ((sound:RemindSound) -> Void)?
-    var willHide:(()->Void)?
+    var didSelectItemClosure: ((sound:RemindSound) -> Void)?
+    
+    var willHideClosure:(()->Void)?
+    
     private var player:AVAudioPlayer?
     
     private let dataSource = NSKeyedUnarchiver.unarchiveObjectWithFile(NSBundle.mainBundle().pathForResource("sound", ofType: "plist")!) as! [RemindSound]
@@ -69,8 +71,8 @@ class VoicePickerView: UIView {
                 self.hidden = true
         }
         
-        if willHide != nil {
-            willHide!()
+        if willHideClosure != nil {
+            willHideClosure!()
         }
         
     }
@@ -93,7 +95,7 @@ class VoicePickerView: UIView {
     }
     
     deinit{
-        print("销毁")
+        print(NSStringFromClass(self.classForCoder) + "释放")
     }
 }
 
@@ -130,8 +132,8 @@ extension VoicePickerView:UICollectionViewDataSource,UICollectionViewDelegate {
 
         playMusicWithIndexPath(indexPath)
         
-        if didSelectItem != nil {
-            didSelectItem!(sound:dataSource[indexPath.row])
+        if didSelectItemClosure != nil {
+            didSelectItemClosure!(sound:dataSource[indexPath.row])
         }
     }
     
