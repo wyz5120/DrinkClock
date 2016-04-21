@@ -17,6 +17,8 @@ let userDefault = NSUserDefaults.standardUserDefaults()
 // 通知中心
 let notice = NSNotificationCenter.defaultCenter()
 
+let keyWindow = UIApplication.sharedApplication().keyWindow
+
 func scaleFromIphone5Width(value: CGFloat) -> CGFloat {
     return value * (screenWidth / 320)
 }

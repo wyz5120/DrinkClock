@@ -14,6 +14,20 @@
 		712D848D1CC60C4C00A25D95 /* AddInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D848C1CC60C4C00A25D95 /* AddInputCell.swift */; };
 		712D848F1CC6198400A25D95 /* AddDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D848E1CC6198400A25D95 /* AddDetailCell.swift */; };
 		712D84911CC658E100A25D95 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D84901CC658E100A25D95 /* DatePickerView.swift */; };
+		712D84931CC671D800A25D95 /* RepeatPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D84921CC671D800A25D95 /* RepeatPickerView.swift */; };
+		712D85661CC732E700A25D95 /* VoicePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D85651CC732E700A25D95 /* VoicePickerView.swift */; };
+		712D85731CC7331400A25D95 /* 1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D85691CC7331400A25D95 /* 1.caf */; };
+		712D85741CC7331400A25D95 /* 2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D856A1CC7331400A25D95 /* 2.caf */; };
+		712D85751CC7331400A25D95 /* 3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D856B1CC7331400A25D95 /* 3.caf */; };
+		712D85761CC7331400A25D95 /* 4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D856C1CC7331400A25D95 /* 4.caf */; };
+		712D85771CC7331400A25D95 /* 5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D856D1CC7331400A25D95 /* 5.caf */; };
+		712D85781CC7331400A25D95 /* 6.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D856E1CC7331400A25D95 /* 6.caf */; };
+		712D85791CC7331400A25D95 /* 7.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D856F1CC7331400A25D95 /* 7.caf */; };
+		712D857A1CC7331400A25D95 /* 8.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D85701CC7331400A25D95 /* 8.caf */; };
+		712D857B1CC7331400A25D95 /* 9.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D85711CC7331400A25D95 /* 9.caf */; };
+		712D857C1CC7331400A25D95 /* 10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D85721CC7331400A25D95 /* 10.caf */; };
+		712D857E1CC7678300A25D95 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D857D1CC7678300A25D95 /* Reminder.swift */; };
+		712D85C21CC8541900A25D95 /* sound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 712D85C11CC8541900A25D95 /* sound.plist */; };
 		71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06181CC4718F003DF13C /* AppDelegate.swift */; };
 		71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF061A1CC4718F003DF13C /* HomeViewController.swift */; };
 		71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BF061F1CC4718F003DF13C /* Assets.xcassets */; };
@@ -68,6 +82,20 @@
 		712D848C1CC60C4C00A25D95 /* AddInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInputCell.swift; sourceTree = "<group>"; };
 		712D848E1CC6198400A25D95 /* AddDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailCell.swift; sourceTree = "<group>"; };
 		712D84901CC658E100A25D95 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		712D84921CC671D800A25D95 /* RepeatPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatPickerView.swift; sourceTree = "<group>"; };
+		712D85651CC732E700A25D95 /* VoicePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicePickerView.swift; sourceTree = "<group>"; };
+		712D85691CC7331400A25D95 /* 1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.caf; sourceTree = "<group>"; };
+		712D856A1CC7331400A25D95 /* 2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.caf; sourceTree = "<group>"; };
+		712D856B1CC7331400A25D95 /* 3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.caf; sourceTree = "<group>"; };
+		712D856C1CC7331400A25D95 /* 4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.caf; sourceTree = "<group>"; };
+		712D856D1CC7331400A25D95 /* 5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.caf; sourceTree = "<group>"; };
+		712D856E1CC7331400A25D95 /* 6.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.caf; sourceTree = "<group>"; };
+		712D856F1CC7331400A25D95 /* 7.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.caf; sourceTree = "<group>"; };
+		712D85701CC7331400A25D95 /* 8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.caf; sourceTree = "<group>"; };
+		712D85711CC7331400A25D95 /* 9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.caf; sourceTree = "<group>"; };
+		712D85721CC7331400A25D95 /* 10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.caf; sourceTree = "<group>"; };
+		712D857D1CC7678300A25D95 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		712D85C11CC8541900A25D95 /* sound.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sound.plist; sourceTree = "<group>"; };
 		71BF06151CC4718F003DF13C /* DrinkClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BF06181CC4718F003DF13C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71BF061A1CC4718F003DF13C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +161,38 @@
 				22C53718AFB4048BA22B0D82 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		712D85671CC732F200A25D95 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				71BF069B1CC51870003DF13C /* 1.png */,
+				71BF069C1CC51870003DF13C /* 2.png */,
+				71BF069D1CC51870003DF13C /* 3.png */,
+				71BF069E1CC51870003DF13C /* 4.png */,
+				71BF069F1CC51870003DF13C /* 5.png */,
+				71BF06A01CC51870003DF13C /* 6.png */,
+				71BF06A11CC51870003DF13C /* 7.png */,
+				71BF06A21CC51870003DF13C /* 8.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		712D85681CC7330000A25D95 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				712D85691CC7331400A25D95 /* 1.caf */,
+				712D856A1CC7331400A25D95 /* 2.caf */,
+				712D856B1CC7331400A25D95 /* 3.caf */,
+				712D856C1CC7331400A25D95 /* 4.caf */,
+				712D856D1CC7331400A25D95 /* 5.caf */,
+				712D856E1CC7331400A25D95 /* 6.caf */,
+				712D856F1CC7331400A25D95 /* 7.caf */,
+				712D85701CC7331400A25D95 /* 8.caf */,
+				712D85711CC7331400A25D95 /* 9.caf */,
+				712D85721CC7331400A25D95 /* 10.caf */,
+			);
+			name = Audio;
 			sourceTree = "<group>";
 		};
 		71BF060C1CC4718F003DF13C = {
@@ -215,6 +275,9 @@
 				712D848C1CC60C4C00A25D95 /* AddInputCell.swift */,
 				712D848E1CC6198400A25D95 /* AddDetailCell.swift */,
 				712D84901CC658E100A25D95 /* DatePickerView.swift */,
+				712D84921CC671D800A25D95 /* RepeatPickerView.swift */,
+				712D85651CC732E700A25D95 /* VoicePickerView.swift */,
+				712D857D1CC7678300A25D95 /* Reminder.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -222,14 +285,9 @@
 		71BF06481CC47955003DF13C /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				71BF069B1CC51870003DF13C /* 1.png */,
-				71BF069C1CC51870003DF13C /* 2.png */,
-				71BF069D1CC51870003DF13C /* 3.png */,
-				71BF069E1CC51870003DF13C /* 4.png */,
-				71BF069F1CC51870003DF13C /* 5.png */,
-				71BF06A01CC51870003DF13C /* 6.png */,
-				71BF06A11CC51870003DF13C /* 7.png */,
-				71BF06A21CC51870003DF13C /* 8.png */,
+				712D85C11CC8541900A25D95 /* sound.plist */,
+				712D85681CC7330000A25D95 /* Audio */,
+				712D85671CC732F200A25D95 /* Image */,
 				71BF06AD1CC522BF003DF13C /* drinkInfo.plist */,
 			);
 			path = Other;
@@ -360,18 +418,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712D857B1CC7331400A25D95 /* 9.caf in Resources */,
+				712D85791CC7331400A25D95 /* 7.caf in Resources */,
+				712D85771CC7331400A25D95 /* 5.caf in Resources */,
+				712D85751CC7331400A25D95 /* 3.caf in Resources */,
+				712D85781CC7331400A25D95 /* 6.caf in Resources */,
+				712D85741CC7331400A25D95 /* 2.caf in Resources */,
+				712D857C1CC7331400A25D95 /* 10.caf in Resources */,
 				71BF06A81CC51870003DF13C /* 6.png in Resources */,
 				71BF06A61CC51870003DF13C /* 4.png in Resources */,
 				71BF06A71CC51870003DF13C /* 5.png in Resources */,
 				71BF06A91CC51870003DF13C /* 7.png in Resources */,
+				712D85731CC7331400A25D95 /* 1.caf in Resources */,
 				71BF06231CC4718F003DF13C /* LaunchScreen.storyboard in Resources */,
 				71BF06551CC4C9D5003DF13C /* Glober-xBold.ttf in Resources */,
+				712D85C21CC8541900A25D95 /* sound.plist in Resources */,
 				71BF06A41CC51870003DF13C /* 2.png in Resources */,
 				71BF06A51CC51870003DF13C /* 3.png in Resources */,
 				71BF06AE1CC522BF003DF13C /* drinkInfo.plist in Resources */,
 				71BF06AA1CC51870003DF13C /* 8.png in Resources */,
 				71BF06A31CC51870003DF13C /* 1.png in Resources */,
 				71BF06541CC4C9D5003DF13C /* Glober-SemiBold.ttf in Resources */,
+				712D857A1CC7331400A25D95 /* 8.caf in Resources */,
+				712D85761CC7331400A25D95 /* 4.caf in Resources */,
 				71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +521,7 @@
 				712D84891CC5D8CE00A25D95 /* AddReminderViewController.swift in Sources */,
 				712D848D1CC60C4C00A25D95 /* AddInputCell.swift in Sources */,
 				712D84911CC658E100A25D95 /* DatePickerView.swift in Sources */,
+				712D85661CC732E700A25D95 /* VoicePickerView.swift in Sources */,
 				712D84871CC5D19000A25D95 /* RemindCell.swift in Sources */,
 				712D848F1CC6198400A25D95 /* AddDetailCell.swift in Sources */,
 				71BF06571CC4CF17003DF13C /* UIImage+Category.swift in Sources */,
@@ -461,6 +531,8 @@
 				71BF06B01CC52F08003DF13C /* TitleSwitchView.swift in Sources */,
 				712D84851CC5C7F200A25D95 /* RemindTableViewController.swift in Sources */,
 				71BF064A1CC479B9003DF13C /* UIBarButtonItem+Category.swift in Sources */,
+				712D857E1CC7678300A25D95 /* Reminder.swift in Sources */,
+				712D84931CC671D800A25D95 /* RepeatPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

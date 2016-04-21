@@ -11,11 +11,14 @@ import UIKit
 let addCellDetailIdentifier = "addCellDetailIdentifier"
 let addCellSwitchIdentifier = "addCellSwitchIdentifier"
 
+
 private let borderColor = UIColor(red: 238/255.0, green: 244/255.0, blue: 248/255.0, alpha: 1.0).CGColor
 private let tipLabelColor = UIColor(red: 27/255.0, green: 42/255.0, blue: 71/255.0, alpha: 1.0)
 private let switchColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0)
 
 class AddDetailCell: UITableViewCell {
+    
+    var remindSwitchActionClosure:((on:Bool) -> Void)?
 
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -75,7 +78,6 @@ class AddDetailCell: UITableViewCell {
         let label = UILabel()
         label.textColor = tipLabelColor
         label.font = UIFont(name: "GloberSemiBold", size: 18)
-        label.text = "提醒"
         return label
     }()
     
@@ -83,14 +85,13 @@ class AddDetailCell: UITableViewCell {
         let label = UILabel()
         label.textColor = tipLabelColor
         label.font = UIFont(name: "GloberSemiBold", size: 18)
-        label.text = "提醒"
         label.textAlignment = NSTextAlignment.Right
         return label
     }()
     
     lazy var remindSwitch:UISwitch = {
         let remindSwitch = UISwitch()
-//        remindSwitch.tintColor = switchColor
+        remindSwitch.addTarget(self, action: #selector(AddDetailCell.remindSwitchAction), forControlEvents: UIControlEvents.ValueChanged)
         return remindSwitch
     }()
     
@@ -111,8 +112,9 @@ class AddDetailCell: UITableViewCell {
 //        bgImageView.layer.borderColor = selected ? switchColor.CGColor : borderColor
     }
     
-    override func prepareForReuse() {
-        super.prepareForReuse()
-        
+    func remindSwitchAction(){
+        if remindSwitchActionClosure != nil {
+            remindSwitchActionClosure!(on:remindSwitch.on)
+        }
     }
 }
