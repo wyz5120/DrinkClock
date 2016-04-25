@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "deleteBtnBlack.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "deleteBtnBlack.png",
       "scale" : "2x"
     },
     {

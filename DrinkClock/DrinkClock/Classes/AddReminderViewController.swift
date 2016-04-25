@@ -11,12 +11,17 @@ import TPKeyboardAvoiding
 
 private let addReminderCellIdentifier = "addReminderCellIdentifier"
 private let themeColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0)
+let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0].stringByAppendingString("/reminder.plist")
+
+let didAddReminderNotification = "didAddReminderNotification"
 
 class AddReminderViewController: UIViewController {
     
+    private var isReminderEditing:Bool = false
+    
     private var timeTextField:UITextField?
     
-    private var reminder:Reminder = Reminder()
+     var reminder:Reminder?
     
     private var dataSource:[NSInteger:AnyObject]!
  
@@ -26,11 +31,17 @@ class AddReminderViewController: UIViewController {
 
         view.backgroundColor = UIColor.whiteColor()
         
-        dataSource = [0:reminder.time,
-                                1:reminder.remind,
-                                2:reminder.repeatMode,
-                                3:reminder.sound,
-                                4:reminder.tipString]
+        if reminder == nil {
+            reminder = Reminder()
+        } else {
+            isReminderEditing = true
+        }
+        
+        dataSource = [0:reminder!.time,
+                                1:reminder!.remind,
+                                2:reminder!.repeatMode,
+                                3:reminder!.sound,
+                                4:reminder!.tipString]
         
         setupNav()
         addSubViews()
@@ -46,6 +57,7 @@ class AddReminderViewController: UIViewController {
     override func viewWillDisappear(animated: Bool) {
         super.viewWillAppear(animated)
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
+        view.endEditing(true)
     }
     
     deinit {
@@ -69,7 +81,9 @@ class AddReminderViewController: UIViewController {
     
     private lazy var addbutton:UIButton = {
         let button = UIButton()
-        button.setTitle("添加", forState: UIControlState.Normal)
+        
+        let title = self.isReminderEditing ? "保存" : "添加"
+        button.setTitle(title, forState: UIControlState.Normal)
         button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         button.backgroundColor = themeColor
         button.titleLabel?.font = UIFont(name: "GloberSemiBold", size: 15)
@@ -110,13 +124,13 @@ class AddReminderViewController: UIViewController {
     //MARK: - 事件响应
     func addReminderAction() {
         
-        reminder.time = dataSource[0] as! String
-        reminder.remind = dataSource[1] as! Bool
-        reminder.repeatMode = dataSource[2] as! String
-        reminder.sound = dataSource[3] as! RemindSound
-        reminder.tipString = dataSource[4] as! String
+        reminder!.time = dataSource[0] as! String
+        reminder!.remind = dataSource[1] as! Bool
+        reminder!.repeatMode = dataSource[2] as! String
+        reminder!.sound = dataSource[3] as! RemindSound
+        reminder!.tipString = dataSource[4] as! String
        
-        if  reminder.time == "" || reminder.tipString == "" {
+        if  reminder!.time == "" || reminder!.tipString == "" {
             
             let alert = UIAlertController(title: "请设置时间和提示内容", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
             alert.addAction(UIAlertAction(title: "好哒", style: UIAlertActionStyle.Cancel, handler: nil))
@@ -125,6 +139,7 @@ class AddReminderViewController: UIViewController {
         }
         
        save()
+       dismissAction()
     }
     
     func dismissAction() {
@@ -133,10 +148,36 @@ class AddReminderViewController: UIViewController {
         voicePickerView.removeFromSuperview()
     }
     
+    
+    func deleteAction() {
+        
+        let alert = UIAlertController(title: "确定删除吗?", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "取消", style: UIAlertActionStyle.Cancel, handler: nil))
+        alert.addAction(UIAlertAction(title: "确定", style: UIAlertActionStyle.Destructive, handler: { (_) in
+            let array = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! NSMutableArray
+            for r  in array {
+                let re = r as! Reminder
+                if  re.uuid == self.reminder?.uuid {
+                    array.removeObject(r)
+                    NotificationManager.cancelNotifationWithReminder(re)
+                    break
+                }
+            }
+            NSKeyedArchiver.archiveRootObject(array, toFile: path)
+            NSNotificationCenter.defaultCenter().postNotificationName(didAddReminderNotification, object: nil)
+            
+            self.dismissAction()
+        }))
+        presentViewController(alert, animated: true, completion: nil)
+
+        
+    }
+    
     // MARK: - 私有方法
     private func stringFromDate(date:NSDate) -> String {
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "a hh:mm"
+        dateFormatter.locale = NSLocale(localeIdentifier: "zh_CN")
         return dateFormatter.stringFromDate(date)
     }
     
@@ -176,19 +217,46 @@ class AddReminderViewController: UIViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem.item("cancelBtn", target: self, action: #selector(AddReminderViewController.dismissAction))
         let titleLabel = UILabel()
         titleLabel.textColor = UIColor.blackColor()
-        titleLabel.text = "新提醒"
+        titleLabel.text = isReminderEditing ? "编辑" : "新提醒"
         titleLabel.font = UIFont(name: "GloberSemiBold", size: 20)
         titleLabel.sizeToFit()
         navigationItem.titleView = titleLabel
+        
+        if isReminderEditing {
+            navigationItem.rightBarButtonItem = UIBarButtonItem.item("deleteBtnBlack", target: self, action: #selector(AddReminderViewController.deleteAction))
+        }
     }
     
     private func save() {
-        let path = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentDirectory, NSSearchPathDomainMask.UserDomainMask, true)[0].stringByAppendingString("/reminder.plist")
         
-        let array = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! NSMutableArray
-        array.addObject(reminder)
-         NSKeyedArchiver.archiveRootObject(array, toFile: path)
+        if !isReminderEditing {
+            let array:NSMutableArray?
+            let existed = NSFileManager.defaultManager().fileExistsAtPath(path)
+            if !existed {
+                array = [reminder!]
+            } else {
+                array = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as? NSMutableArray
+                array!.addObject(reminder!)
+            }
+            NSKeyedArchiver.archiveRootObject(array!, toFile: path)
+           
+        } else {
+            let array = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! NSMutableArray
+            for  i in 0..<array.count {
+                let r = array[i] as! Reminder
+                if r.uuid == reminder?.uuid {
+                    array.replaceObjectAtIndex(i, withObject: reminder!)
+                    NotificationManager.cancelNotifationWithReminder(r)
+                    break
+                }
+            }
+            NSKeyedArchiver.archiveRootObject(array, toFile: path)
+            
+        }
+        NSNotificationCenter.defaultCenter().postNotificationName(didAddReminderNotification, object: nil)
+         NotificationManager.addNotifationWithReminder(reminder!)
     }
+   
 }
 
 // MARK: - 数据源&代理

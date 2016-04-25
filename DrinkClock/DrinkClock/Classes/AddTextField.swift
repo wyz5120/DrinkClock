@@ -40,6 +40,8 @@ class AddTextField: UITextField {
         
         setValue(placeHolderColor, forKeyPath: "_placeholderLabel.textColor")
         setValue(UIFont(name: "GloberSemiBold", size: 18), forKeyPath: "_placeholderLabel.font")
+        
+
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -70,4 +72,5 @@ class AddTextField: UITextField {
         bgImageView.layer.borderWidth = 0
         return super.resignFirstResponder()
     }
+    
 }

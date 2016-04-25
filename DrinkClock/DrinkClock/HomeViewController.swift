@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
 
     private let remindVc = RemindTableViewController()
     
+    var showMenu = false
     // MARK: - 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -66,6 +67,7 @@ class HomeViewController: UIViewController {
         homeView.snp_makeConstraints { (make) in
             make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80, left: 20, bottom: 60, right: 20))
         }
+        
         remindView.snp_makeConstraints { (make) in
             make.edges.equalTo(self.view).inset(UIEdgeInsets(top: 80 + screenHeight, left: 20, bottom: 60 - screenHeight, right: 20))
         }
@@ -95,14 +97,38 @@ class HomeViewController: UIViewController {
     
     private lazy var remindView: UIView = {
         let view = self.remindVc.view
-        view.layer.cornerRadius = 20
-        view.layer.masksToBounds = true
+//        view.layer.cornerRadius = 20
+//        view.layer.masksToBounds = true
         return view
     }()
 
     // MARK: - 响应事件
     func menuAction() {
-        print(#function)
+        showMenu = !showMenu
+        let frame = navigationController?.navigationBar.frame
+        for button in (navigationController?.navigationBar.subviews)! {
+            if !button.isKindOfClass(UIButton) {
+                continue
+            }
+            if button.frame.origin.x < frame!.size.width * 0.5 {
+                
+                if showMenu {
+                    UIView.animateWithDuration(0.5, animations: {
+                        button.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+                        self.navigationItem.titleView?.alpha = 0.0
+                    })
+                } else {
+                    UIView.animateWithDuration(0.5, animations: { 
+                        button.transform = CGAffineTransformIdentity
+                        self.navigationItem.titleView?.alpha = 1.0
+                    })
+                }
+             
+            }
+        }
+
+   
+        
     }
     
     func infoAction() {

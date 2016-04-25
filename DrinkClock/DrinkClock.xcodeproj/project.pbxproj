@@ -28,6 +28,7 @@
 		712D857C1CC7331400A25D95 /* 10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D85721CC7331400A25D95 /* 10.caf */; };
 		712D857E1CC7678300A25D95 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D857D1CC7678300A25D95 /* Reminder.swift */; };
 		712D85C21CC8541900A25D95 /* sound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 712D85C11CC8541900A25D95 /* sound.plist */; };
+		71B2014C1CCC6EFF00404383 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2014B1CCC6EFF00404383 /* NotificationManager.swift */; };
 		71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06181CC4718F003DF13C /* AppDelegate.swift */; };
 		71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF061A1CC4718F003DF13C /* HomeViewController.swift */; };
 		71BF06201CC4718F003DF13C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BF061F1CC4718F003DF13C /* Assets.xcassets */; };
@@ -75,15 +76,15 @@
 /* Begin PBXFileReference section */
 		03B32D764B6B2F745903BA80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		22C53718AFB4048BA22B0D82 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		712D84841CC5C7F200A25D95 /* RemindTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindTableViewController.swift; sourceTree = "<group>"; };
-		712D84861CC5D19000A25D95 /* RemindCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindCell.swift; sourceTree = "<group>"; };
-		712D84881CC5D8CE00A25D95 /* AddReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReminderViewController.swift; sourceTree = "<group>"; };
-		712D848A1CC5F68B00A25D95 /* AddTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTextField.swift; sourceTree = "<group>"; };
-		712D848C1CC60C4C00A25D95 /* AddInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddInputCell.swift; sourceTree = "<group>"; };
-		712D848E1CC6198400A25D95 /* AddDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailCell.swift; sourceTree = "<group>"; };
-		712D84901CC658E100A25D95 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
-		712D84921CC671D800A25D95 /* RepeatPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatPickerView.swift; sourceTree = "<group>"; };
-		712D85651CC732E700A25D95 /* VoicePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoicePickerView.swift; sourceTree = "<group>"; };
+		712D84841CC5C7F200A25D95 /* RemindTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemindTableViewController.swift; path = ../RemindTableViewController.swift; sourceTree = "<group>"; };
+		712D84861CC5D19000A25D95 /* RemindCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemindCell.swift; path = ../RemindCell.swift; sourceTree = "<group>"; };
+		712D84881CC5D8CE00A25D95 /* AddReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddReminderViewController.swift; path = ../AddReminderViewController.swift; sourceTree = "<group>"; };
+		712D848A1CC5F68B00A25D95 /* AddTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddTextField.swift; path = ../AddTextField.swift; sourceTree = "<group>"; };
+		712D848C1CC60C4C00A25D95 /* AddInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddInputCell.swift; path = ../AddInputCell.swift; sourceTree = "<group>"; };
+		712D848E1CC6198400A25D95 /* AddDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddDetailCell.swift; path = ../AddDetailCell.swift; sourceTree = "<group>"; };
+		712D84901CC658E100A25D95 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerView.swift; path = ../DatePickerView.swift; sourceTree = "<group>"; };
+		712D84921CC671D800A25D95 /* RepeatPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepeatPickerView.swift; path = ../RepeatPickerView.swift; sourceTree = "<group>"; };
+		712D85651CC732E700A25D95 /* VoicePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoicePickerView.swift; path = ../VoicePickerView.swift; sourceTree = "<group>"; };
 		712D85691CC7331400A25D95 /* 1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.caf; sourceTree = "<group>"; };
 		712D856A1CC7331400A25D95 /* 2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.caf; sourceTree = "<group>"; };
 		712D856B1CC7331400A25D95 /* 3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.caf; sourceTree = "<group>"; };
@@ -94,11 +95,13 @@
 		712D85701CC7331400A25D95 /* 8.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.caf; sourceTree = "<group>"; };
 		712D85711CC7331400A25D95 /* 9.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.caf; sourceTree = "<group>"; };
 		712D85721CC7331400A25D95 /* 10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.caf; sourceTree = "<group>"; };
-		712D857D1CC7678300A25D95 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		712D857D1CC7678300A25D95 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reminder.swift; path = ../Reminder.swift; sourceTree = "<group>"; };
 		712D85C11CC8541900A25D95 /* sound.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sound.plist; sourceTree = "<group>"; };
+		71B200CB1CC9156D00404383 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		71B2014B1CCC6EFF00404383 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		71BF06151CC4718F003DF13C /* DrinkClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BF06181CC4718F003DF13C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71BF061A1CC4718F003DF13C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		71BF061A1CC4718F003DF13C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../HomeViewController.swift; sourceTree = "<group>"; };
 		71BF061F1CC4718F003DF13C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BF06221CC4718F003DF13C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71BF06241CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,9 +112,9 @@
 		71BF06381CC4718F003DF13C /* DrinkClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkClockUITests.swift; sourceTree = "<group>"; };
 		71BF063A1CC4718F003DF13C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71BF06491CC479B9003DF13C /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
-		71BF064B1CC47D04003DF13C /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
-		71BF064D1CC47D70003DF13C /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
-		71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		71BF064B1CC47D04003DF13C /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationController.swift; path = ../NavigationController.swift; sourceTree = "<group>"; };
+		71BF064D1CC47D70003DF13C /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBar.swift; path = ../NavigationBar.swift; sourceTree = "<group>"; };
+		71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = ../InfoViewController.swift; sourceTree = "<group>"; };
 		71BF06521CC4C9D5003DF13C /* Glober-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glober-SemiBold.ttf"; sourceTree = "<group>"; };
 		71BF06531CC4C9D5003DF13C /* Glober-xBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Glober-xBold.ttf"; sourceTree = "<group>"; };
 		71BF06561CC4CF17003DF13C /* UIImage+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Category.swift"; sourceTree = "<group>"; };
@@ -123,9 +126,9 @@
 		71BF06A01CC51870003DF13C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		71BF06A11CC51870003DF13C /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		71BF06A21CC51870003DF13C /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
-		71BF06AB1CC51E65003DF13C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		71BF06AB1CC51E65003DF13C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = ../Classes/Constant.swift; sourceTree = "<group>"; };
 		71BF06AD1CC522BF003DF13C /* drinkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = drinkInfo.plist; sourceTree = "<group>"; };
-		71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleSwitchView.swift; sourceTree = "<group>"; };
+		71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleSwitchView.swift; path = ../TitleSwitchView.swift; sourceTree = "<group>"; };
 		FC198A806AF2E7EFA3E8BBD1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +161,7 @@
 		5538CE75F3578D494A6ABCDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71B200CB1CC9156D00404383 /* libsqlite3.0.tbd */,
 				22C53718AFB4048BA22B0D82 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -195,6 +199,42 @@
 			name = Audio;
 			sourceTree = "<group>";
 		};
+		712D85C31CC8BA1400A25D95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				712D85651CC732E700A25D95 /* VoicePickerView.swift */,
+				712D84921CC671D800A25D95 /* RepeatPickerView.swift */,
+				712D84901CC658E100A25D95 /* DatePickerView.swift */,
+				712D848E1CC6198400A25D95 /* AddDetailCell.swift */,
+				712D848C1CC60C4C00A25D95 /* AddInputCell.swift */,
+				712D848A1CC5F68B00A25D95 /* AddTextField.swift */,
+				712D84861CC5D19000A25D95 /* RemindCell.swift */,
+				71BF064D1CC47D70003DF13C /* NavigationBar.swift */,
+				71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		712D85C41CC8BA1C00A25D95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				712D84881CC5D8CE00A25D95 /* AddReminderViewController.swift */,
+				712D84841CC5C7F200A25D95 /* RemindTableViewController.swift */,
+				71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */,
+				71BF061A1CC4718F003DF13C /* HomeViewController.swift */,
+				71BF064B1CC47D04003DF13C /* NavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		712D85C51CC8BA2400A25D95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				712D857D1CC7678300A25D95 /* Reminder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		71BF060C1CC4718F003DF13C = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				71BF06181CC4718F003DF13C /* AppDelegate.swift */,
+				71B2014B1CCC6EFF00404383 /* NotificationManager.swift */,
 				71BF06511CC4C9BD003DF13C /* Font */,
 				71BF06461CC4793F003DF13C /* Categroy */,
 				71BF06471CC4794D003DF13C /* Classes */,
@@ -253,6 +294,7 @@
 		71BF06461CC4793F003DF13C /* Categroy */ = {
 			isa = PBXGroup;
 			children = (
+				71BF06AB1CC51E65003DF13C /* Constant.swift */,
 				71BF06491CC479B9003DF13C /* UIBarButtonItem+Category.swift */,
 				71BF06561CC4CF17003DF13C /* UIImage+Category.swift */,
 			);
@@ -262,22 +304,9 @@
 		71BF06471CC4794D003DF13C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				71BF061A1CC4718F003DF13C /* HomeViewController.swift */,
-				71BF064B1CC47D04003DF13C /* NavigationController.swift */,
-				71BF064D1CC47D70003DF13C /* NavigationBar.swift */,
-				71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */,
-				71BF06AB1CC51E65003DF13C /* Constant.swift */,
-				71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */,
-				712D84841CC5C7F200A25D95 /* RemindTableViewController.swift */,
-				712D84861CC5D19000A25D95 /* RemindCell.swift */,
-				712D84881CC5D8CE00A25D95 /* AddReminderViewController.swift */,
-				712D848A1CC5F68B00A25D95 /* AddTextField.swift */,
-				712D848C1CC60C4C00A25D95 /* AddInputCell.swift */,
-				712D848E1CC6198400A25D95 /* AddDetailCell.swift */,
-				712D84901CC658E100A25D95 /* DatePickerView.swift */,
-				712D84921CC671D800A25D95 /* RepeatPickerView.swift */,
-				712D85651CC732E700A25D95 /* VoicePickerView.swift */,
-				712D857D1CC7678300A25D95 /* Reminder.swift */,
+				712D85C51CC8BA2400A25D95 /* Model */,
+				712D85C41CC8BA1C00A25D95 /* Controller */,
+				712D85C31CC8BA1400A25D95 /* View */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -285,9 +314,9 @@
 		71BF06481CC47955003DF13C /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				712D85C11CC8541900A25D95 /* sound.plist */,
 				712D85681CC7330000A25D95 /* Audio */,
 				712D85671CC732F200A25D95 /* Image */,
+				712D85C11CC8541900A25D95 /* sound.plist */,
 				71BF06AD1CC522BF003DF13C /* drinkInfo.plist */,
 			);
 			path = Other;
@@ -516,6 +545,7 @@
 			files = (
 				71BF064E1CC47D70003DF13C /* NavigationBar.swift in Sources */,
 				71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */,
+				71B2014C1CCC6EFF00404383 /* NotificationManager.swift in Sources */,
 				71BF064C1CC47D04003DF13C /* NavigationController.swift in Sources */,
 				71BF06AC1CC51E65003DF13C /* Constant.swift in Sources */,
 				712D84891CC5D8CE00A25D95 /* AddReminderViewController.swift in Sources */,
@@ -672,6 +702,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -686,6 +717,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.yz.DrinkClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
