@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Cob-Xz-bCw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Glober-SemiBold.ttf">
+            <string>GloberSemiBold</string>
+            <string>GloberSemiBold</string>
+        </mutableArray>
+        <mutableArray key="Glober-xBold.ttf">
+            <string>GloberxBold</string>
+            <string>GloberxBold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Drinktips Table View Controller-->
+        <scene sceneID="mzN-dC-7ua">
+            <objects>
+                <tableViewController storyboardIdentifier="drinktips" id="8Tz-DJ-6m5" customClass="DrinktipsTableViewController" customModule="DrinkClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="180" sectionHeaderHeight="28" sectionFooterHeight="28" id="Cbi-MM-kPA">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="FoldingCell" rowHeight="196" id="eWM-JF-Zcw" customClass="DrinktipsCell" customModule="DrinkClock" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="196"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eWM-JF-Zcw" id="NZb-dq-m7c">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="196"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XVa-vs-cws">
+                                            <rect key="frame" x="16" y="84" width="568" height="120"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tipbg" translatesAutoresizingMaskIntoConstraints="NO" id="Q5z-Wr-M5b">
+                                                    <rect key="frame" x="0.0" y="0.0" width="568" height="120"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="许多女人把起床后饮水视为每日的功课，图它润肠通便，降低血粘度，让整个人看上去水灵灵的。但早晨这第一杯水却不能乱喝。 牛奶 、碳酸饮料、果汁、冷水以及盐水、菜汤、肉汤都不合适作为早上第一杯水饮用。温开水或温水冲调的蜂蜜比较合适早上起床后饮用。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xxQ-bq-8Ke">
+                                                    <rect key="frame" x="15" y="10" width="538" height="100"/>
+                                                    <fontDescription key="fontDescription" name="GloberSemiBold" family="Glober" pointSize="14"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="Q5z-Wr-M5b" firstAttribute="top" secondItem="XVa-vs-cws" secondAttribute="top" id="4zD-zg-cc3"/>
+                                                <constraint firstAttribute="bottom" secondItem="xxQ-bq-8Ke" secondAttribute="bottom" constant="10" id="BCL-OT-f4E"/>
+                                                <constraint firstItem="xxQ-bq-8Ke" firstAttribute="centerY" secondItem="XVa-vs-cws" secondAttribute="centerY" id="Bz4-gV-dej"/>
+                                                <constraint firstItem="Q5z-Wr-M5b" firstAttribute="leading" secondItem="XVa-vs-cws" secondAttribute="leading" id="DQ5-hA-Zzw"/>
+                                                <constraint firstAttribute="trailing" secondItem="xxQ-bq-8Ke" secondAttribute="trailing" constant="15" id="N88-Bn-Ht1"/>
+                                                <constraint firstItem="xxQ-bq-8Ke" firstAttribute="leading" secondItem="XVa-vs-cws" secondAttribute="leading" constant="15" id="RDW-Ed-PgB"/>
+                                                <constraint firstItem="xxQ-bq-8Ke" firstAttribute="centerX" secondItem="XVa-vs-cws" secondAttribute="centerX" id="RNM-Bw-BwO"/>
+                                                <constraint firstAttribute="trailing" secondItem="Q5z-Wr-M5b" secondAttribute="trailing" id="Xrj-Fa-cFJ"/>
+                                                <constraint firstAttribute="height" constant="120" id="hQb-57-wpl"/>
+                                                <constraint firstAttribute="bottom" secondItem="Q5z-Wr-M5b" secondAttribute="bottom" id="qZy-gn-AKd"/>
+                                                <constraint firstItem="xxQ-bq-8Ke" firstAttribute="top" secondItem="XVa-vs-cws" secondAttribute="top" constant="10" id="rEb-WH-Y67"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="Bz4-gV-dej"/>
+                                                    <exclude reference="RNM-Bw-BwO"/>
+                                                </mask>
+                                            </variation>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oE2-l8-bgt" customClass="RotatedView" customModule="DrinkClock" customModuleProvider="target">
+                                            <rect key="frame" x="16" y="16" width="568" height="60"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paperbg" translatesAutoresizingMaskIntoConstraints="NO" id="gqd-6z-8z7">
+                                                    <rect key="frame" x="0.0" y="0.0" width="568" height="60"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="早晨第一杯水喝什么" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgL-U7-kG2">
+                                                    <rect key="frame" x="0.0" y="16" width="568" height="27"/>
+                                                    <fontDescription key="fontDescription" name="GloberxBold" family="Glober" pointSize="18"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="gqd-6z-8z7" firstAttribute="top" secondItem="oE2-l8-bgt" secondAttribute="top" id="BdW-Se-mj7"/>
+                                                <constraint firstAttribute="height" constant="60" id="Dk1-dK-ayA"/>
+                                                <constraint firstAttribute="bottom" secondItem="gqd-6z-8z7" secondAttribute="bottom" id="KE2-ex-RAL"/>
+                                                <constraint firstAttribute="trailing" secondItem="CgL-U7-kG2" secondAttribute="trailing" id="TZ1-VD-KrQ"/>
+                                                <constraint firstItem="CgL-U7-kG2" firstAttribute="centerY" secondItem="oE2-l8-bgt" secondAttribute="centerY" id="aTY-hz-Lxl"/>
+                                                <constraint firstAttribute="trailing" secondItem="gqd-6z-8z7" secondAttribute="trailing" id="bbh-ZX-aZ8"/>
+                                                <constraint firstItem="gqd-6z-8z7" firstAttribute="leading" secondItem="oE2-l8-bgt" secondAttribute="leading" id="dD8-Zm-CYp"/>
+                                                <constraint firstItem="CgL-U7-kG2" firstAttribute="centerX" secondItem="oE2-l8-bgt" secondAttribute="centerX" id="dgh-kW-23u"/>
+                                                <constraint firstItem="CgL-U7-kG2" firstAttribute="leading" secondItem="oE2-l8-bgt" secondAttribute="leading" id="kPe-2u-DyQ"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="XVa-vs-cws" firstAttribute="leading" secondItem="NZb-dq-m7c" secondAttribute="leadingMargin" constant="8" id="6Ef-TI-i99"/>
+                                        <constraint firstItem="oE2-l8-bgt" firstAttribute="top" secondItem="NZb-dq-m7c" secondAttribute="topMargin" constant="8" identifier="ForegroundViewTop" id="Hjh-2t-7VX"/>
+                                        <constraint firstItem="oE2-l8-bgt" firstAttribute="leading" secondItem="NZb-dq-m7c" secondAttribute="leadingMargin" constant="8" id="L73-4n-8a1"/>
+                                        <constraint firstItem="XVa-vs-cws" firstAttribute="top" secondItem="NZb-dq-m7c" secondAttribute="topMargin" constant="76" identifier="ContainerViewTop" id="PXY-PF-ram"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="XVa-vs-cws" secondAttribute="trailing" constant="8" id="ee8-FL-Qbh"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="oE2-l8-bgt" secondAttribute="trailing" constant="8" id="peL-J2-G9O"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backViewColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="itemCount">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="containerView" destination="XVa-vs-cws" id="lZG-4c-TF9"/>
+                                    <outlet property="detailLabel" destination="xxQ-bq-8Ke" id="thg-Mv-tdd"/>
+                                    <outlet property="foregroundView" destination="oE2-l8-bgt" id="Cff-Iz-4QG"/>
+                                    <outlet property="titleLabel" destination="CgL-U7-kG2" id="9kW-IB-344"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="8Tz-DJ-6m5" id="yn8-aC-SU2"/>
+                            <outlet property="delegate" destination="8Tz-DJ-6m5" id="GEG-RE-AhC"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PiY-44-dSO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="334" y="127"/>
+        </scene>
+        <!--Garden Table View Controller-->
+        <scene sceneID="RMr-H4-vpd">
+            <objects>
+                <tableViewController storyboardIdentifier="garden" id="Cob-Xz-bCw" customClass="GardenTableViewController" customModule="DrinkClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="86" sectionHeaderHeight="28" sectionFooterHeight="28" id="rg3-rC-EDT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="GardenCell" rowHeight="300" id="Thc-cq-rGm" customClass="GardenCell" customModule="DrinkClock" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="300"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Thc-cq-rGm" id="Wc6-y2-wce">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="299"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WP0-G1-POd">
+                                            <rect key="frame" x="0.0" y="100" width="600" height="200"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qt9-oe-VJX">
+                                                    <rect key="frame" x="0.0" y="4" width="600" height="53"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufu-qh-jig">
+                                                    <rect key="frame" x="15" y="36" width="570" height="21"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" name="GloberSemiBold" family="Glober" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="200" id="6Tw-BY-ebm"/>
+                                                <constraint firstItem="Qt9-oe-VJX" firstAttribute="bottom" secondItem="ufu-qh-jig" secondAttribute="bottom" id="7Zi-GF-ZRE"/>
+                                                <constraint firstItem="Qt9-oe-VJX" firstAttribute="top" secondItem="WP0-G1-POd" secondAttribute="top" constant="4" id="DEE-5P-HNB"/>
+                                                <constraint firstAttribute="trailing" secondItem="Qt9-oe-VJX" secondAttribute="trailing" id="GUl-Q3-7v0"/>
+                                                <constraint firstItem="ufu-qh-jig" firstAttribute="top" secondItem="WP0-G1-POd" secondAttribute="top" constant="36" id="I4e-N5-o1m"/>
+                                                <constraint firstItem="Qt9-oe-VJX" firstAttribute="leading" secondItem="WP0-G1-POd" secondAttribute="leading" id="Ipb-Fb-cxB"/>
+                                                <constraint firstItem="ufu-qh-jig" firstAttribute="leading" secondItem="WP0-G1-POd" secondAttribute="leading" constant="15" id="lhg-y2-HM5"/>
+                                                <constraint firstAttribute="trailing" secondItem="ufu-qh-jig" secondAttribute="trailing" constant="15" id="vxC-MQ-lT3"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VxL-9Q-DE1">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower1" translatesAutoresizingMaskIntoConstraints="NO" id="dQp-hQ-9k5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flf-La-k3P">
+                                                    <rect key="frame" x="15" y="72" width="170" height="20"/>
+                                                    <color key="backgroundColor" red="0.22298102319999999" green="0.9387034407" blue="0.55163831340000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="170" id="CkB-XG-ljB"/>
+                                                        <constraint firstAttribute="height" constant="20" id="lEW-is-a45"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="GloberxBold" family="Glober" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="flf-La-k3P" firstAttribute="leading" secondItem="VxL-9Q-DE1" secondAttribute="leading" constant="15" id="34c-jj-Ii4"/>
+                                                <constraint firstAttribute="bottom" secondItem="flf-La-k3P" secondAttribute="bottom" constant="8" id="635-Fb-9xf"/>
+                                                <constraint firstItem="dQp-hQ-9k5" firstAttribute="top" secondItem="VxL-9Q-DE1" secondAttribute="top" id="EW4-04-gqy"/>
+                                                <constraint firstItem="dQp-hQ-9k5" firstAttribute="leading" secondItem="VxL-9Q-DE1" secondAttribute="leading" id="T5X-hA-C3Z"/>
+                                                <constraint firstAttribute="bottom" secondItem="dQp-hQ-9k5" secondAttribute="bottom" id="VVE-Lc-Jji"/>
+                                                <constraint firstAttribute="height" constant="100" id="ehA-Wp-K5f"/>
+                                                <constraint firstAttribute="trailing" secondItem="dQp-hQ-9k5" secondAttribute="trailing" id="kYT-Bl-ATg"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="VxL-9Q-DE1" secondAttribute="trailing" id="NVs-9A-zpX"/>
+                                        <constraint firstItem="WP0-G1-POd" firstAttribute="top" secondItem="Wc6-y2-wce" secondAttribute="top" constant="100" id="Pgw-X6-9yc"/>
+                                        <constraint firstItem="VxL-9Q-DE1" firstAttribute="top" secondItem="Wc6-y2-wce" secondAttribute="top" id="QlD-nc-ptP"/>
+                                        <constraint firstItem="WP0-G1-POd" firstAttribute="leading" secondItem="Wc6-y2-wce" secondAttribute="leading" id="RZx-k7-sUO"/>
+                                        <constraint firstItem="VxL-9Q-DE1" firstAttribute="leading" secondItem="Wc6-y2-wce" secondAttribute="leading" id="TB4-8Z-gpV"/>
+                                        <constraint firstAttribute="trailing" secondItem="WP0-G1-POd" secondAttribute="trailing" id="a9R-tD-UB3"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="contentLabel" destination="ufu-qh-jig" id="y4i-8g-OdQ"/>
+                                    <outlet property="foreImageView" destination="dQp-hQ-9k5" id="aGe-12-t1h"/>
+                                    <outlet property="foreTitleLabel" destination="flf-La-k3P" id="Ihx-Og-jzn"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Cob-Xz-bCw" id="vxH-Rj-jhy"/>
+                            <outlet property="delegate" destination="Cob-Xz-bCw" id="r31-2T-gEG"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t4O-VL-huO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039" y="127"/>
+        </scene>
+        <!--Plan View Controller-->
+        <scene sceneID="xHX-Sb-Ybv">
+            <objects>
+                <viewController storyboardIdentifier="plan" id="ZjV-jM-SLW" customClass="PlanViewController" customModule="DrinkClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mEg-RW-1eF"/>
+                        <viewControllerLayoutGuide type="bottom" id="8aG-Qg-ake"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="K80-Wm-sRr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXd-mq-hAm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1702" y="127"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flower1" width="375" height="667"/>
+        <image name="paperbg" width="224" height="86"/>
+        <image name="tipbg" width="305" height="244"/>
+    </resources>
+</document>

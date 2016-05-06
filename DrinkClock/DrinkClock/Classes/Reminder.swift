@@ -9,9 +9,6 @@
 import UIKit
 
 enum ReminderRepeatMode: String {
-    case OneHour = "每一小时"
-    case TwoHours = "每二小时"
-    case ThreeHours = "每三小时"
     case OneDay = "每天"
     case None = "关闭"
 }

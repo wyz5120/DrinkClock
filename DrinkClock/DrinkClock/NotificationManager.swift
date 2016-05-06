@@ -86,10 +86,6 @@ class NotificationManager: NSObject {
                 notification.repeatInterval = NSCalendarUnit.Era
             case .OneDay:
                 notification.repeatInterval = NSCalendarUnit.Day
-            case .OneHour:
-                notification.repeatInterval = NSCalendarUnit.Hour
-            default:
-                notification.repeatInterval = NSCalendarUnit.Minute
             }
         }
 

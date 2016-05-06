@@ -28,6 +28,14 @@
 		712D857C1CC7331400A25D95 /* 10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 712D85721CC7331400A25D95 /* 10.caf */; };
 		712D857E1CC7678300A25D95 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712D857D1CC7678300A25D95 /* Reminder.swift */; };
 		712D85C21CC8541900A25D95 /* sound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 712D85C11CC8541900A25D95 /* sound.plist */; };
+		7138DCB11CDAE5F6005149B8 /* DrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7138DCB01CDAE5F6005149B8 /* DrinkViewController.swift */; };
+		71A405911CCDAF6B009ACDF6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A405901CCDAF6B009ACDF6 /* MenuViewController.swift */; };
+		71A405931CCDC3CD009ACDF6 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A405921CCDC3CD009ACDF6 /* MenuCell.swift */; };
+		71A405D51CCDEA92009ACDF6 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A405D41CCDEA92009ACDF6 /* TitleView.swift */; };
+		71A406571CCEEF25009ACDF6 /* DrinktipsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A406561CCEEF25009ACDF6 /* DrinktipsTableViewController.swift */; };
+		71A4065B1CCEF0CA009ACDF6 /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4065A1CCEF0CA009ACDF6 /* FoldingCell.swift */; };
+		71A4065D1CCEF293009ACDF6 /* DrinktipsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A4065C1CCEF293009ACDF6 /* DrinktipsCell.swift */; };
+		71A406991CCF03CB009ACDF6 /* drinktips.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71A406981CCF03CB009ACDF6 /* drinktips.plist */; };
 		71B2014C1CCC6EFF00404383 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2014B1CCC6EFF00404383 /* NotificationManager.swift */; };
 		71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06181CC4718F003DF13C /* AppDelegate.swift */; };
 		71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF061A1CC4718F003DF13C /* HomeViewController.swift */; };
@@ -53,6 +61,11 @@
 		71BF06AC1CC51E65003DF13C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06AB1CC51E65003DF13C /* Constant.swift */; };
 		71BF06AE1CC522BF003DF13C /* drinkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BF06AD1CC522BF003DF13C /* drinkInfo.plist */; };
 		71BF06B01CC52F08003DF13C /* TitleSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */; };
+		71D3A8761CCF3A990054FCA4 /* GardenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D3A8751CCF3A990054FCA4 /* GardenTableViewController.swift */; };
+		71D3A87F1CCF5AD30054FCA4 /* GardenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D3A87E1CCF5AD30054FCA4 /* GardenCell.swift */; };
+		71D3A8BB1CCF5F720054FCA4 /* garden.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71D3A8BA1CCF5F720054FCA4 /* garden.plist */; };
+		71D3A8BF1CD833D50054FCA4 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D3A8BE1CD833D50054FCA4 /* PlanViewController.swift */; };
+		71D3A8C11CD833FC0054FCA4 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D3A8C01CD833FC0054FCA4 /* main.storyboard */; };
 		BDBB177BDF0B41F84EA0D798 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C53718AFB4048BA22B0D82 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +85,19 @@
 			remoteInfo = DrinkClock;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71C623511CDAD7C20057DC7E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		03B32D764B6B2F745903BA80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,6 +123,14 @@
 		712D85721CC7331400A25D95 /* 10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.caf; sourceTree = "<group>"; };
 		712D857D1CC7678300A25D95 /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reminder.swift; path = ../Reminder.swift; sourceTree = "<group>"; };
 		712D85C11CC8541900A25D95 /* sound.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = sound.plist; sourceTree = "<group>"; };
+		7138DCB01CDAE5F6005149B8 /* DrinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkViewController.swift; sourceTree = "<group>"; };
+		71A405901CCDAF6B009ACDF6 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		71A405921CCDC3CD009ACDF6 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		71A405D41CCDEA92009ACDF6 /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		71A406561CCEEF25009ACDF6 /* DrinktipsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinktipsTableViewController.swift; sourceTree = "<group>"; };
+		71A4065A1CCEF0CA009ACDF6 /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		71A4065C1CCEF293009ACDF6 /* DrinktipsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinktipsCell.swift; sourceTree = "<group>"; };
+		71A406981CCF03CB009ACDF6 /* drinktips.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = drinktips.plist; sourceTree = "<group>"; };
 		71B200CB1CC9156D00404383 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		71B2014B1CCC6EFF00404383 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		71BF06151CC4718F003DF13C /* DrinkClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrinkClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,9 +160,15 @@
 		71BF06A01CC51870003DF13C /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		71BF06A11CC51870003DF13C /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
 		71BF06A21CC51870003DF13C /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
-		71BF06AB1CC51E65003DF13C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = ../Classes/Constant.swift; sourceTree = "<group>"; };
+		71BF06AB1CC51E65003DF13C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constant.swift; path = Classes/Constant.swift; sourceTree = "<group>"; };
 		71BF06AD1CC522BF003DF13C /* drinkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = drinkInfo.plist; sourceTree = "<group>"; };
 		71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitleSwitchView.swift; path = ../TitleSwitchView.swift; sourceTree = "<group>"; };
+		71C623411CDAD7C20057DC7E /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		71D3A8751CCF3A990054FCA4 /* GardenTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenTableViewController.swift; sourceTree = "<group>"; };
+		71D3A87E1CCF5AD30054FCA4 /* GardenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GardenCell.swift; sourceTree = "<group>"; };
+		71D3A8BA1CCF5F720054FCA4 /* garden.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = garden.plist; sourceTree = "<group>"; };
+		71D3A8BE1CD833D50054FCA4 /* PlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		71D3A8C01CD833FC0054FCA4 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
 		FC198A806AF2E7EFA3E8BBD1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +203,7 @@
 			children = (
 				71B200CB1CC9156D00404383 /* libsqlite3.0.tbd */,
 				22C53718AFB4048BA22B0D82 /* Pods.framework */,
+				71C623411CDAD7C20057DC7E /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,6 +252,10 @@
 				712D84861CC5D19000A25D95 /* RemindCell.swift */,
 				71BF064D1CC47D70003DF13C /* NavigationBar.swift */,
 				71BF06AF1CC52F08003DF13C /* TitleSwitchView.swift */,
+				71A405921CCDC3CD009ACDF6 /* MenuCell.swift */,
+				71A405D41CCDEA92009ACDF6 /* TitleView.swift */,
+				71A4065C1CCEF293009ACDF6 /* DrinktipsCell.swift */,
+				71D3A87E1CCF5AD30054FCA4 /* GardenCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,9 +265,15 @@
 			children = (
 				712D84881CC5D8CE00A25D95 /* AddReminderViewController.swift */,
 				712D84841CC5C7F200A25D95 /* RemindTableViewController.swift */,
+				7138DCB01CDAE5F6005149B8 /* DrinkViewController.swift */,
 				71BF064F1CC4AFA9003DF13C /* InfoViewController.swift */,
 				71BF061A1CC4718F003DF13C /* HomeViewController.swift */,
 				71BF064B1CC47D04003DF13C /* NavigationController.swift */,
+				71A405901CCDAF6B009ACDF6 /* MenuViewController.swift */,
+				71D3A8BE1CD833D50054FCA4 /* PlanViewController.swift */,
+				71A406561CCEEF25009ACDF6 /* DrinktipsTableViewController.swift */,
+				71D3A8751CCF3A990054FCA4 /* GardenTableViewController.swift */,
+				71D3A8C01CD833FC0054FCA4 /* main.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +313,8 @@
 			children = (
 				71BF06181CC4718F003DF13C /* AppDelegate.swift */,
 				71B2014B1CCC6EFF00404383 /* NotificationManager.swift */,
+				71A4065A1CCEF0CA009ACDF6 /* FoldingCell.swift */,
+				71BF06AB1CC51E65003DF13C /* Constant.swift */,
 				71BF06511CC4C9BD003DF13C /* Font */,
 				71BF06461CC4793F003DF13C /* Categroy */,
 				71BF06471CC4794D003DF13C /* Classes */,
@@ -294,7 +347,6 @@
 		71BF06461CC4793F003DF13C /* Categroy */ = {
 			isa = PBXGroup;
 			children = (
-				71BF06AB1CC51E65003DF13C /* Constant.swift */,
 				71BF06491CC479B9003DF13C /* UIBarButtonItem+Category.swift */,
 				71BF06561CC4CF17003DF13C /* UIImage+Category.swift */,
 			);
@@ -314,6 +366,8 @@
 		71BF06481CC47955003DF13C /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				71D3A8BA1CCF5F720054FCA4 /* garden.plist */,
+				71A406981CCF03CB009ACDF6 /* drinktips.plist */,
 				712D85681CC7330000A25D95 /* Audio */,
 				712D85671CC732F200A25D95 /* Image */,
 				712D85C11CC8541900A25D95 /* sound.plist */,
@@ -353,6 +407,7 @@
 				71BF06131CC4718F003DF13C /* Resources */,
 				D23E96DC59883A56E98EE495 /* Embed Pods Frameworks */,
 				506C8BB7B95B2DE35CEB0744 /* Copy Pods Resources */,
+				71C623511CDAD7C20057DC7E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -411,6 +466,12 @@
 				TargetAttributes = {
 					71BF06141CC4718F003DF13C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = A3RM8P4C6S;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					71BF06281CC4718F003DF13C = {
 						CreatedOnToolsVersion = 7.3;
@@ -454,6 +515,8 @@
 				712D85781CC7331400A25D95 /* 6.caf in Resources */,
 				712D85741CC7331400A25D95 /* 2.caf in Resources */,
 				712D857C1CC7331400A25D95 /* 10.caf in Resources */,
+				71D3A8C11CD833FC0054FCA4 /* main.storyboard in Resources */,
+				71A406991CCF03CB009ACDF6 /* drinktips.plist in Resources */,
 				71BF06A81CC51870003DF13C /* 6.png in Resources */,
 				71BF06A61CC51870003DF13C /* 4.png in Resources */,
 				71BF06A71CC51870003DF13C /* 5.png in Resources */,
@@ -462,6 +525,7 @@
 				71BF06231CC4718F003DF13C /* LaunchScreen.storyboard in Resources */,
 				71BF06551CC4C9D5003DF13C /* Glober-xBold.ttf in Resources */,
 				712D85C21CC8541900A25D95 /* sound.plist in Resources */,
+				71D3A8BB1CCF5F720054FCA4 /* garden.plist in Resources */,
 				71BF06A41CC51870003DF13C /* 2.png in Resources */,
 				71BF06A51CC51870003DF13C /* 3.png in Resources */,
 				71BF06AE1CC522BF003DF13C /* drinkInfo.plist in Resources */,
@@ -543,21 +607,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A406571CCEEF25009ACDF6 /* DrinktipsTableViewController.swift in Sources */,
+				71A4065B1CCEF0CA009ACDF6 /* FoldingCell.swift in Sources */,
+				71D3A8761CCF3A990054FCA4 /* GardenTableViewController.swift in Sources */,
 				71BF064E1CC47D70003DF13C /* NavigationBar.swift in Sources */,
+				71A4065D1CCEF293009ACDF6 /* DrinktipsCell.swift in Sources */,
+				71D3A8BF1CD833D50054FCA4 /* PlanViewController.swift in Sources */,
 				71BF061B1CC4718F003DF13C /* HomeViewController.swift in Sources */,
 				71B2014C1CCC6EFF00404383 /* NotificationManager.swift in Sources */,
 				71BF064C1CC47D04003DF13C /* NavigationController.swift in Sources */,
+				7138DCB11CDAE5F6005149B8 /* DrinkViewController.swift in Sources */,
 				71BF06AC1CC51E65003DF13C /* Constant.swift in Sources */,
 				712D84891CC5D8CE00A25D95 /* AddReminderViewController.swift in Sources */,
 				712D848D1CC60C4C00A25D95 /* AddInputCell.swift in Sources */,
 				712D84911CC658E100A25D95 /* DatePickerView.swift in Sources */,
 				712D85661CC732E700A25D95 /* VoicePickerView.swift in Sources */,
 				712D84871CC5D19000A25D95 /* RemindCell.swift in Sources */,
+				71A405911CCDAF6B009ACDF6 /* MenuViewController.swift in Sources */,
 				712D848F1CC6198400A25D95 /* AddDetailCell.swift in Sources */,
 				71BF06571CC4CF17003DF13C /* UIImage+Category.swift in Sources */,
 				712D848B1CC5F68B00A25D95 /* AddTextField.swift in Sources */,
 				71BF06191CC4718F003DF13C /* AppDelegate.swift in Sources */,
+				71D3A87F1CCF5AD30054FCA4 /* GardenCell.swift in Sources */,
+				71A405D51CCDEA92009ACDF6 /* TitleView.swift in Sources */,
 				71BF06501CC4AFA9003DF13C /* InfoViewController.swift in Sources */,
+				71A405931CCDC3CD009ACDF6 /* MenuCell.swift in Sources */,
 				71BF06B01CC52F08003DF13C /* TitleSwitchView.swift in Sources */,
 				712D84851CC5C7F200A25D95 /* RemindTableViewController.swift in Sources */,
 				71BF064A1CC479B9003DF13C /* UIBarButtonItem+Category.swift in Sources */,
@@ -697,6 +771,7 @@
 			baseConfigurationReference = FC198A806AF2E7EFA3E8BBD1 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = DrinkClock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -712,6 +787,7 @@
 			baseConfigurationReference = 03B32D764B6B2F745903BA80 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
 				INFOPLIST_FILE = DrinkClock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

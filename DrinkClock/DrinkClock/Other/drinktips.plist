@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>detail</key>
+		<string>早晨这第一杯水不能乱喝。 牛奶 、碳酸饮料、果汁、冷水以及盐水、菜汤、肉汤都不合适作为早上第一杯水饮用。温开水或温水冲调的蜂蜜比较合适早上起床后饮用。</string>
+		<key>title</key>
+		<string>早晨第一杯水喝什么</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>吃饭前半小时补水，既不会冲淡胃液影响消化，还会调动食欲，调节体内无机盐浓度，减轻饭后盐分摄入过多引起的体渴。</string>
+		<key>title</key>
+		<string>餐前半小时补水最养胃</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>夏日炎炎，很多人都会选择喝冰水，又或者是特意在热水中加冰饮用。其实冰水对胃脏功能不利，饮和暖开水更为有益，因为这特别有助身体吸收使用，更有助肠胃消化。</string>
+		<key>title</key>
+		<string>饮暖水</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>绿茶即提神醒脑，又能抵抗辐射。这里说的绿茶是茶叶冲的，不是茶饮料。要知道，茶饮料里茶的成分非常少，含糖量却非常高，经常饮用对体重有很大影响。</string>
+		<key>title</key>
+		<string>绿茶保健康</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>纯净水，经多重过滤去除了各种微生物、杂质和有益的矿物质，是一种软水。矿泉水，是种自然资源，由地层深处开采出来，含有丰富的稀有矿物质，更有利于健康。</string>
+		<key>title</key>
+		<string>识破“花样”水</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>运动后体内极容易缺水，所以一定要补水。运动前2小时补250-500毫升;运动前即刻补150-250毫升;运动中每15-20分钟补120-240毫升;运动后体重每下降1千克需补1升。</string>
+		<key>title</key>
+		<string>运动后要补水</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>喝水时，都要小口小口地喝,因为一次灌下太多水时,肾脏会收到进水太多的讯号,便会加速排尿的速度,反而让喝下去的水立刻流失,没有足够的时间送到身体各处。</string>
+		<key>title</key>
+		<string>有效的饮水方法</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>食物也含水，比如米饭，其中含水量达到60%，而粥呢，就更是含水丰富了。蔬菜水果的含水量一般超过70%，从中获得1500~2000毫升的水分并不困难。充分利用三餐进食的机会来补水吧。</string>
+		<key>title</key>
+		<string>多喝看不见的水</string>
+	</dict>
+	<dict>
+		<key>detail</key>
+		<string>《中国居民膳食指南》推荐，每人每天应该摄入至少1200ml的水，分为全天各个时段摄入，每次100-200ml不等。饮水量还会因为每个人的体质、所处环境、气候、运动量和工作的不同而有所不同。</string>
+		<key>title</key>
+		<string>每天必须喝水2000ml吗</string>
+	</dict>
+</array>
+</plist>

@@ -10,7 +10,40 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>03050B6DD6B797CB9BC3F856AABEAC82</key>
+		<key>007CFBDB97F684747183769C753AE3E8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SnapKit-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>00DC992D1B49829D52CD959E608111BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3BF8B8DBD3A963CDBBCCF95EDAD478B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0110BC8730112214DFDECC2C91C6F681</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>60FC1BF56011EBD7A280F5C4ED0B222C</string>
+			<key>remoteInfo</key>
+			<string>TPKeyboardAvoiding</string>
+		</dict>
+		<key>01AD95A366DACFAE43D6AC7291B61373</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -19,109 +52,40 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UIScrollView+TPKeyboardAvoidingAdditions.h</string>
+			<string>IFTTTShapeLayerAnimation.h</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h</string>
+			<string>JazzHands/IFTTTShapeLayerAnimation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0A5F77B8FE93E69F899D29A463DEE197</key>
+		<key>04D6DA182F1916ED74506E4AD2B530E8</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>A64909F345EF7B4D426195116F294268</string>
-			<key>buildPhases</key>
+			<key>children</key>
 			<array>
-				<string>9D75DEE47BB010AE43C63A6389EECEC8</string>
-				<string>D45CE0D2DE077D3A942E2DF413A001F8</string>
-				<string>11FBDE052C3F7602C779E2EEA2E4E2B1</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>0F0524A9DD42B0E35F3EC3774CA5B3FB</string>
-				<string>967ED28E6EF2303417B6E6698A155AAC</string>
+				<string>3F74BADB639B753FA202C994973421F7</string>
+				<string>75F38EE8ABD876674FC42042382F95FC</string>
+				<string>89DF66412383E56E46AA9170D161656F</string>
+				<string>407658553CCEB1BA21087A7F2C8091B9</string>
+				<string>A3291243B7FC3B99B6E7F018A1B29651</string>
+				<string>0579F9DE248E75FDC88AB897C269660D</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>F269B44797CF3ED593BBA7011DFFF6A1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>0A74C2DBA8D257B893749EE3444D4508</key>
-		<dict>
-			<key>fileRef</key>
-			<string>99FF02BCC217AD867C155DBAC4C1FE62</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0ACAD4DDC39C5703254E9E7C3DFB18CA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DB930B50830CF6A88EC66B5A58A89B24</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0AD3B0B7799CC7AD4EB10820112C78FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8147D20E3AD97BCC682299F055048F26</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0C226A9FD75C1801C7FB6C22B222087D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ConstraintAttributes.swift</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>Source/ConstraintAttributes.swift</string>
+			<string>../Target Support Files/JazzHands</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0D3FC619FAA52866985AEEB9B56CD465</key>
+		<key>05253664F0C6A2121B9BA9C7CE868D44</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DCC432A3D4DE422EF4C6B7AB9E6FD8B8</string>
+			<string>64BD34FCF512C69A1F4CD5B6C0ABD5A6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>0F0524A9DD42B0E35F3EC3774CA5B3FB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>SnapKit</string>
-			<key>target</key>
-			<string>1D92B625E201C799E4529BA128B4947F</string>
-			<key>targetProxy</key>
-			<string>749CA3D4B3F0C6A0437E112644E1DBB3</string>
-		</dict>
-		<key>0F0BCD2ABB6507D324C5F31A14DF2B2D</key>
+		<key>0579F9DE248E75FDC88AB897C269660D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -130,46 +94,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>SnapKit-umbrella.h</string>
+			<string>JazzHands-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>11FBDE052C3F7602C779E2EEA2E4E2B1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>38A86B4F68401BB95DCAB7549EB0C46A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>176D78A2C446CB89580A163D29072139</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SnapKit.framework</string>
-			<key>path</key>
-			<string>SnapKit.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>198A65C097ABCE37C4F9BD554D70A0C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CC2E170EB76BA262116645826B0FA3CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1A01999E7B6D8EBDA6182748D63E6D2A</key>
+		<key>07EDF4EC15BDC90CB415BB1EA36900F4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -178,41 +107,174 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>UIScrollView+TPKeyboardAvoidingAdditions.m</string>
+			<string>IFTTTTransform3DAnimation.m</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m</string>
+			<string>JazzHands/IFTTTTransform3DAnimation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1D92B625E201C799E4529BA128B4947F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F214E2EB18879D8FAFA33FCDD93E2687</string>
-			<key>buildPhases</key>
-			<array>
-				<string>89F658C90FF87B78F46FE6637271C1CB</string>
-				<string>31B73E81C8DA5094E2F0DAEF36772E80</string>
-				<string>5248A2515891856177AF913E2CD4C386</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>SnapKit</string>
-			<key>productName</key>
-			<string>SnapKit</string>
-			<key>productReference</key>
-			<string>176D78A2C446CB89580A163D29072139</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>2406E41A4EE0FFBF058CC1EEF3E0C8D2</key>
+		<key>09A80FA55E59969AAC43B744BA10097F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>03050B6DD6B797CB9BC3F856AABEAC82</string>
+			<string>ED04AE2201316F6590E7AD9952706C7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0A43A50734168633E0948DCD59282566</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C7916A997760696304549D36F39DEC3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8CB94D17BE64A4179F1567F21E71A2CC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0D7E0C6AC66064B7E47EDBFEB2B7D77B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTInterpolatable.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTInterpolatable.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0DD25CA4A497622D5ABF4C433D79E4DE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>0E9967E3844A842118F085506C304D66</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimator.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimator.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0EFFC23D9CA7CA2C07AF429D9520EB2B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>SnapKit.swift</string>
+			<key>path</key>
+			<string>Source/SnapKit.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10E931FC04E2EAC8D85A46B10C14F5BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DD120240BB86C0BFA38EE23785DBE950</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>126C75CE7767DEAE5613A89401D8B245</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTScrollViewPageConstraintAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScrollViewPageConstraintAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14B6391483824E99AFB62EF2366DB991</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTHideAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTHideAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>14B8B9B15ECBE87983FF987239AB2D7B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A9203A0FF197B8764CD853B6EE3A159E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>159F92C4BA561CB35F44ED472AC47177</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7CD1AC34DCD6AA1AD38152937644D706</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>15ACA6CFB49C7D8E174ACB0E55002856</key>
+		<dict>
+			<key>fileRef</key>
+			<string>77E8620DAA5A5F12979A3AAFB81F5E0E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -223,65 +285,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>253DFEE12D1D0107AB338FFFABCE85A1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>TPKeyboardAvoiding.framework</string>
-			<key>path</key>
-			<string>TPKeyboardAvoiding.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>268ECF7FCC8F30BED1D208ABC573C53D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DCC432A3D4DE422EF4C6B7AB9E6FD8B8</string>
-				<string>F3F2B56B71CCBCD69CC32059F6FCE724</string>
-				<string>99FF02BCC217AD867C155DBAC4C1FE62</string>
-				<string>A9A8D0323B3D0D626C4F893624466F4F</string>
-				<string>E8B085676DCCC6B4E42A4D9F61361F46</string>
-				<string>85C7FE66302928CE7E824762A91B15C5</string>
-				<string>03050B6DD6B797CB9BC3F856AABEAC82</string>
-				<string>1A01999E7B6D8EBDA6182748D63E6D2A</string>
-				<string>2AB16D38ADED2761E4BE9EB651DACCAD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TPKeyboardAvoiding</string>
-			<key>path</key>
-			<string>TPKeyboardAvoiding</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AB16D38ADED2761E4BE9EB651DACCAD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC19C98860D7CD00D30C06CB36AE737A</string>
-				<string>DE17226C5D78165E7F7E4043A6E0BA80</string>
-				<string>399370C24F3B40602D17596E08C1F67C</string>
-				<string>61E9BFB71DA8A2028903E5A4C0F95C60</string>
-				<string>3F9725C0A3FBF8570B7C59EC2ADE8027</string>
-				<string>F4503A308DE3319F7EB559C3495A3E0C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/TPKeyboardAvoiding</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B8D0B28CF6D0354D9E868910000DBB5</key>
+		<key>16F4372BA696018DFE41FEA095F5B2E3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -289,6 +293,311 @@
 			<string>PBXFileReference</string>
 			<key>path</key>
 			<string>SnapKit.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>186714B358686F6D3D50F9E086BB3C17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTCornerRadiusAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTCornerRadiusAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>186F3526CB3A1A9C8C40D00C3B2099E0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BB6E6D2DB1CFB927E63EB60FFCED84F3</string>
+			<key>buildPhases</key>
+			<array>
+				<string>65D16E4DA10AE1BB6950EBF2C61F5FC0</string>
+				<string>534E60B4D1361AA94AE64E0A76122FEE</string>
+				<string>6F9F2875ABB04E279F08651766D674A5</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>JazzHands</string>
+			<key>productName</key>
+			<string>JazzHands</string>
+			<key>productReference</key>
+			<string>C4CC7F9EC179FB07DDA1DE3A8FE35127</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>19E98ACE5B8C3DE715FECF6D0F2A27C0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>99B3EE661429BDB20D2496A644B92BCF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1A81A5B027B08C144ECF234747C6929B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9FB817C842605B2A0617AB37EEF9AC4C</string>
+				<string>D91799EE7C4F99D394232CAA218AD54B</string>
+				<string>42862FAA047DE34A3487C9B85EF7BDC2</string>
+				<string>664EC8BF7841F89EBE0AF7DC1E8ACCC5</string>
+				<string>EF34896FFF826F945261DB04E1829301</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>1AF8A16D421E638EE1980AFADFF9A0A2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5121F416E183B540CD04681AC8ED6580</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1B1DE7DE92FF537F91AD7B72E2316EFD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>515810AA1E80612A36A822B879BF3C6A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>1B25633014D2880E42ADBADBCB684ACE</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>TPKeyboardAvoiding</string>
+			<key>target</key>
+			<string>60FC1BF56011EBD7A280F5C4ED0B222C</string>
+			<key>targetProxy</key>
+			<string>0110BC8730112214DFDECC2C91C6F681</string>
+		</dict>
+		<key>1C5DC1B10A3C9AA3EC1BFC666797A6B1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>58DB4E45BBD17C59983FB32B341FF5FE</string>
+				<string>515810AA1E80612A36A822B879BF3C6A</string>
+				<string>DA3B229040D74B29C1D84B19AAAFB12B</string>
+				<string>28D10663C2FFD58183B9B49DB7B05700</string>
+				<string>2B4629F11DF0004CC99089F08E85825B</string>
+				<string>43A8AD176A48FA29404DDF21C4A1C91F</string>
+				<string>DD120240BB86C0BFA38EE23785DBE950</string>
+				<string>F0C54CB21A4BFB6053D675DA0D4C3D1F</string>
+				<string>C3CA3BECB09780E546CFCBD0968995DF</string>
+				<string>0E9967E3844A842118F085506C304D66</string>
+				<string>C9121F3F21EA5666D749CE93C763C376</string>
+				<string>A8505709FB445B45A3338F8D5FC2C30D</string>
+				<string>29AB54F0B6E78A7A80B1EBD5D6DD79F5</string>
+				<string>F34D95AA7535AD7408C04FD21788091C</string>
+				<string>B9360036BFAA9E105A0BB40C4B6DAD91</string>
+				<string>8572EAED146EFD2C42DF47F7A2304856</string>
+				<string>633BEE994F775FE02E754BC8BBC73BCF</string>
+				<string>28873C092874F1AA3E2EFF02E35D86AC</string>
+				<string>186714B358686F6D3D50F9E086BB3C17</string>
+				<string>CE6FC33483715AF7CDE1B02025829068</string>
+				<string>2F076F822999856EECDCC16BD7F8357C</string>
+				<string>6FB3E1DFEBF7746B27063CD9DFA8707C</string>
+				<string>A86F01EDE4FC8CF539EA894F3E6BE791</string>
+				<string>5FC105488EA9536C8FCB75494D5989EC</string>
+				<string>BDAEA30A9BE26529DCCCD00B6A58C499</string>
+				<string>77E8620DAA5A5F12979A3AAFB81F5E0E</string>
+				<string>14B6391483824E99AFB62EF2366DB991</string>
+				<string>0D7E0C6AC66064B7E47EDBFEB2B7D77B</string>
+				<string>2AA162BF7897D252745BBCB2B467624C</string>
+				<string>3A4883E39E2BA4B2F5EA645641CC60DF</string>
+				<string>7CE56C0805647B5ECC007E073017F4B3</string>
+				<string>61C07A3050F0E525B0966975864B6D17</string>
+				<string>5C394A1BD914031B325735705454AEF2</string>
+				<string>D74612D3B26978B0118A78A68BBF8322</string>
+				<string>3534611FF8E94DC09B18150F6C9E259F</string>
+				<string>7CD1AC34DCD6AA1AD38152937644D706</string>
+				<string>2021C987D15A732E9EACEAB5B3EF4AFA</string>
+				<string>D1E48578D5FB42E3900FD1AC14841047</string>
+				<string>9C615A4131FBF73B7635ACE45D8044A4</string>
+				<string>3071AB4772BCE4B58B1CCF1DADEB7A79</string>
+				<string>4697A3BA156D731857F9E31BC4AB66F6</string>
+				<string>B3D2C9A4EA49319BEA003E5E494E4FC2</string>
+				<string>4C48A794C1C7EFB456F587A018672E4F</string>
+				<string>553C04EFA3A83B4E2B5E15C130D9CCAF</string>
+				<string>E06BE1E4856B71EDD88D1396D057EDA6</string>
+				<string>126C75CE7767DEAE5613A89401D8B245</string>
+				<string>01AD95A366DACFAE43D6AC7291B61373</string>
+				<string>497FE013214B0772647006102D50BEC9</string>
+				<string>4D72FB01F50E05AD796B91B69BEEFFB0</string>
+				<string>472C71AF54FBD7B59B9A50DD68EFB1FE</string>
+				<string>CC015709EFB811E01DA509139137E9D1</string>
+				<string>07EDF4EC15BDC90CB415BB1EA36900F4</string>
+				<string>E5549044C09A6F57FA3CBB813B7097B3</string>
+				<string>3CAD9A8BC9B556C5A58A8695FA6C0F41</string>
+				<string>97734C2BE356E988994DCBBEB8134BAB</string>
+				<string>E660EA585C24C4E72FFEBD47730A6DE5</string>
+				<string>AA6C24C136E1236907B89428A12A6AC8</string>
+				<string>EBBCC3AD615071FA939599DD0CED8EF8</string>
+				<string>04D6DA182F1916ED74506E4AD2B530E8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>JazzHands</string>
+			<key>path</key>
+			<string>JazzHands</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2021C987D15A732E9EACEAB5B3EF4AFA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTMaskAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTMaskAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>202F6FC1E90B157CFE2582F71EC5E3EC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>28D10663C2FFD58183B9B49DB7B05700</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2209883228709CB3A08F6786B611DF16</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A1FDD78BB97677CE4DA7496906FE4F36</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>23F1BC154DBBB53AA67E61E5A041ED07</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0EFFC23D9CA7CA2C07AF429D9520EB2B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26EC72F1524553EC199207F673554427</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>28873C092874F1AA3E2EFF02E35D86AC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTCornerRadiusAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTCornerRadiusAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>28D10663C2FFD58183B9B49DB7B05700</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimatedPagingScrollViewController.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedPagingScrollViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>29AB54F0B6E78A7A80B1EBD5D6DD79F5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTBackgroundColorAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTBackgroundColorAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2AA162BF7897D252745BBCB2B467624C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTInterpolatable.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTInterpolatable.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B4629F11DF0004CC99089F08E85825B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimatedPagingScrollViewController.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedPagingScrollViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B4793CC4DC737FE8BB7B88FB626340F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SnapKit.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -305,6 +614,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>2C3563B6DCB35D5E6D1E8D072DB14E6B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SnapKit-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C4DEE92E6D0F70192280262F4307B0D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>CB715848B342A72A2E3357827877BE10</string>
+			<key>buildPhases</key>
+			<array>
+				<string>E75729CD54DC2023358F8C37FA86FBA8</string>
+				<string>8D7ED576D9895B111689CDA1A41BE921</string>
+				<string>0C7916A997760696304549D36F39DEC3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>85FCE0D1648B36D4F43AA0E480AC31DA</string>
+				<string>B1DD5BB7C2A839C0F6652ACA22142361</string>
+				<string>1B25633014D2880E42ADBADBCB684ACE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>B0FA94A5360137CC74A0E529801A4B0C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -319,45 +670,100 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2F538085874B5D9BA9F78D9440ADC990</key>
+		<key>2DAB76FAC219038DA2F7407036D2A33D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>CB0C73014A77974B9D6DDA52B722BA4A</string>
+				<string>F741650E6305D7CDDC0A699285B2A82E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2EAB88D32A7B34E4E96F5A55469FF98F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6716634BCE867A4E7835AA70DF2E45E2</string>
+			<string>61C07A3050F0E525B0966975864B6D17</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
 		</dict>
-		<key>31B73E81C8DA5094E2F0DAEF36772E80</key>
+		<key>2F076F822999856EECDCC16BD7F8357C</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDBB6CE641D764346BEE574A4379CD59</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>384BABD42A7290D410FB261D254D1F27</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F269B44797CF3ED593BBA7011DFFF6A1</string>
-				<string>176D78A2C446CB89580A163D29072139</string>
-				<string>253DFEE12D1D0107AB338FFFABCE85A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>IFTTTEasingFunction.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTEasingFunction.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>38A86B4F68401BB95DCAB7549EB0C46A</key>
+		<key>2F0B56992EC69F9B9BDE88E7FCCE8120</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2BCC458FDD5F692BBB2BFC64BB5701FC</string>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3054369E49599BC7B7A5380E04A79C2A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D1E48578D5FB42E3900FD1AC14841047</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>3071AB4772BCE4B58B1CCF1DADEB7A79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTPathPositionAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTPathPositionAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3534611FF8E94DC09B18150F6C9E259F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTLayerStrokeStartAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLayerStrokeStartAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>392D0B926C442E28CD412A0614073CF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3A4883E39E2BA4B2F5EA645641CC60DF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -368,7 +774,328 @@
 				</array>
 			</dict>
 		</dict>
-		<key>399370C24F3B40602D17596E08C1F67C</key>
+		<key>3A4883E39E2BA4B2F5EA645641CC60DF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTJazzHands.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTJazzHands.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3ABDCB0BEB0561E3AB9CD59C277A0284</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D72FB01F50E05AD796B91B69BEEFFB0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3B27E3989B54DE66120E4C7A5E6E7E39</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>45722FDC65C06D988898D554A6CF67C7</string>
+			<key>remoteInfo</key>
+			<string>SnapKit</string>
+		</dict>
+		<key>3BF8B8DBD3A963CDBBCCF95EDAD478B7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>Constraint.swift</string>
+			<key>path</key>
+			<string>Source/Constraint.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C6EB9A7373830B69AF1D5895D078E7B</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BF0E1B7EBBEB7E2C9D6EFA8783C59FA3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>3CAD9A8BC9B556C5A58A8695FA6C0F41</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTTranslationAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTranslationAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E5C2275DBE66C3615E2A41D3B8C3149</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8572EAED146EFD2C42DF47F7A2304856</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3F0D2B6BB0499BC3B85EB5FC828D2570</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E5549044C09A6F57FA3CBB813B7097B3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3F74BADB639B753FA202C994973421F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>407658553CCEB1BA21087A7F2C8091B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>JazzHands-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>413F8AE158B2AB42B94E712E233265DE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7BAFC7787FDE9BA0110C64DE7E690EED</string>
+				<string>16F4372BA696018DFE41FEA095F5B2E3</string>
+				<string>2B4793CC4DC737FE8BB7B88FB626340F</string>
+				<string>007CFBDB97F684747183769C753AE3E8</string>
+				<string>2C3563B6DCB35D5E6D1E8D072DB14E6B</string>
+				<string>E4B450B1DC342143780D480A90F78AE0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SnapKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>42862FAA047DE34A3487C9B85EF7BDC2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>926A7944906C28211D607215656E15F8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>429D58AA1DCFDC3368F76C0A87FF14D0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>97734C2BE356E988994DCBBEB8134BAB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>43A8AD176A48FA29404DDF21C4A1C91F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimatedScrollViewController.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimatedScrollViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>43FD86158F02DBD57911F3699BB53E7C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>SnapKit.framework</string>
+			<key>path</key>
+			<string>SnapKit.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>45722FDC65C06D988898D554A6CF67C7</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2DAB76FAC219038DA2F7407036D2A33D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>8FC236BC91D9C5F1D3E4591F0C416048</string>
+				<string>B78D229A2609D2CBD9008729EDFBCE78</string>
+				<string>3C6EB9A7373830B69AF1D5895D078E7B</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SnapKit</string>
+			<key>productName</key>
+			<string>SnapKit</string>
+			<key>productReference</key>
+			<string>43FD86158F02DBD57911F3699BB53E7C</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>4697A3BA156D731857F9E31BC4AB66F6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTRotationAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTRotationAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>472C71AF54FBD7B59B9A50DD68EFB1FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTTextColorAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTextColorAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47D1892DC359800BC5B76DB29825FA2E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5FC105488EA9536C8FCB75494D5989EC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>48594672943E842F6ED0DC345EC03EDC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4933BAC4FC01DAAFDA4C5335D054D854</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>TPKeyboardAvoiding.framework</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>497FE013214B0772647006102D50BEC9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTShapeLayerAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTShapeLayerAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A99E09B6F3AB34DB75ADF1D40ADA5A5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -381,10 +1108,53 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A19BCDC42C12067D1FA380CB32ACA41</key>
+		<key>4AD4C784EE51A9DBCC306DC4601C35C2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>AE347751DC0AC66034513E980DCE32DE</string>
+				<string>6A116ED1221917D84393616020907FF3</string>
+				<string>8FCB37156AAFDB67F275D34C7BE3D386</string>
+				<string>9C30EB2C00D01C33608F66B063FF2C84</string>
+				<string>A4419B90CE3D2F68B878AA88C7964161</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>4AE7FD0E16F3FACCFE19068F1E872D9F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>4B1E469BA876130845446DDE504A7167</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BB6A2B78E6092977F852409FB277092</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E8B085676DCCC6B4E42A4D9F61361F46</string>
+			<string>AA6C24C136E1236907B89428A12A6AC8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -395,33 +1165,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>3D96FF60399B46DCD74A206C855B685B</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C59B03C6E3AB1383E7EACAD5A4E8FC46</string>
-			<key>remoteInfo</key>
-			<string>TPKeyboardAvoiding</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3F9725C0A3FBF8570B7C59EC2ADE8027</key>
+		<key>4C48A794C1C7EFB456F587A018672E4F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -429,52 +1173,41 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TPKeyboardAvoiding-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43FE0A8BDEFD3ED4E096944C95528AD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CDFE017726BA9A763052994AA156858</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B4AE0192BF8B59931C617CF397E9A10</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D5AA8BCD77E90B50F3B44527B3DF0E01</string>
-				<string>268ECF7FCC8F30BED1D208ABC573C53D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>IFTTTScaleAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScaleAnimation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4B5AE8878A636999B7A34E876E68FBE8</key>
+		<key>4C925B25DB12CE8FF9A9BBEC6F9D8569</key>
 		<dict>
 			<key>fileRef</key>
-			<string>562194C7145EB73D2B3800F201233E71</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4CA2F0B7B58A5032A96C7A162FF38060</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9A8D0323B3D0D626C4F893624466F4F</string>
+			<string>07EDF4EC15BDC90CB415BB1EA36900F4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
+				<string>-fmodules</string>
 			</dict>
 		</dict>
-		<key>4CDFE017726BA9A763052994AA156858</key>
+		<key>4D72FB01F50E05AD796B91B69BEEFFB0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTTextColorAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTextColorAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E155C2BD3EA7538B40C11CD915D14A9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -483,16 +1216,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>LayoutConstraint.swift</string>
+			<string>ConstraintDescription.swift</string>
 			<key>path</key>
-			<string>Source/LayoutConstraint.swift</string>
+			<string>Source/ConstraintDescription.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>505221E596972CD05A603799FC66BBB5</key>
+		<key>50DFD2DA09F1B3696B2ECFF2318AC28A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>399370C24F3B40602D17596E08C1F67C</string>
+			<string>89DF66412383E56E46AA9170D161656F</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -510,9 +1243,9 @@
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch</string>
+				<string>Target Support Files/JazzHands/JazzHands-prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/TPKeyboardAvoiding/Info.plist</string>
+				<string>Target Support Files/JazzHands/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -524,11 +1257,11 @@
 					<string>@loader_path/Frameworks</string>
 				</array>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap</string>
+				<string>Target Support Files/JazzHands/JazzHands.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>YES</string>
 				<key>PRODUCT_NAME</key>
-				<string>TPKeyboardAvoiding</string>
+				<string>JazzHands</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
@@ -545,20 +1278,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5248A2515891856177AF913E2CD4C386</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7BB2CFDCFD6D35B775FA94243231C0D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>562194C7145EB73D2B3800F201233E71</key>
+		<key>5121F416E183B540CD04681AC8ED6580</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -567,30 +1287,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Constraint.swift</string>
+			<string>ConstraintMaker.swift</string>
 			<key>path</key>
-			<string>Source/Constraint.swift</string>
+			<string>Source/ConstraintMaker.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>60F487FDA0EFF18A5AB9B3B624C93399</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>845C0567526A131ABC8333D81ECC227F</string>
-				<string>0D3FC619FAA52866985AEEB9B56CD465</string>
-				<string>0A74C2DBA8D257B893749EE3444D4508</string>
-				<string>3A19BCDC42C12067D1FA380CB32ACA41</string>
-				<string>2406E41A4EE0FFBF058CC1EEF3E0C8D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>61E9BFB71DA8A2028903E5A4C0F95C60</key>
+		<key>515810AA1E80612A36A822B879BF3C6A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -598,12 +1301,80 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAlphaAnimation.m</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding-dummy.m</string>
+			<string>JazzHands/IFTTTAlphaAnimation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6716634BCE867A4E7835AA70DF2E45E2</key>
+		<key>534E60B4D1361AA94AE64E0A76122FEE</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D391380DD7853B16690D60D7BB6682A7</string>
+				<string>48594672943E842F6ED0DC345EC03EDC</string>
+				<string>78C79E91B2CB8CE580D6C87C013B28A6</string>
+				<string>09A80FA55E59969AAC43B744BA10097F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>53A5A0CC3BC5BE0EC3B6CA455F9F201B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8E26FF65ECE1CD816E1C563E6919B28D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>53B64B353EAE359D5653DDD3EBEA513C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0D7E0C6AC66064B7E47EDBFEB2B7D77B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>553C04EFA3A83B4E2B5E15C130D9CCAF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTScaleAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScaleAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>554A262A13B0EBF568CC07B410FAE6AB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4C48A794C1C7EFB456F587A018672E4F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>55B933D717AEE1147C842FBF3293C278</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -618,14 +1389,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6D99028C6B8496E7DEE9175CBBA591B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>76783CB8AA8DB6D461BE220CBBA6E80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6FF547B48616C847ACD5C4686E2B81EB</key>
+		<key>584A7A14D37EA8E926B36B3A041B0CD6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>977577C045EDA9D9D1F46E2598D19FC7</string>
@@ -689,25 +1453,420 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>7461D798B5F658A5BB35A39F13902246</key>
+		<key>58DB4E45BBD17C59983FB32B341FF5FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAlphaAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAlphaAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B1A38B22BD7EC3A2EDA6C673FDD6F49</key>
 		<dict>
 			<key>fileRef</key>
-			<string>94E2759869D1A66DF999F532DBF8B786</string>
+			<string>472C71AF54FBD7B59B9A50DD68EFB1FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>5C394A1BD914031B325735705454AEF2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTLayerStrokeEndAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLayerStrokeEndAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5CB8C3D6E77469D83916CBA0F15C79BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>55B933D717AEE1147C842FBF3293C278</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>749CA3D4B3F0C6A0437E112644E1DBB3</key>
+		<key>5FC105488EA9536C8FCB75494D5989EC</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>1D92B625E201C799E4529BA128B4947F</string>
-			<key>remoteInfo</key>
-			<string>SnapKit</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTFrameAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFrameAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60900073C740980B934C43E520B33DC7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>LayoutConstraint.swift</string>
+			<key>path</key>
+			<string>Source/LayoutConstraint.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>60FC1BF56011EBD7A280F5C4ED0B222C</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>61201A2478FCE27CF24F80F6A86EBDD6</string>
+			<key>buildPhases</key>
+			<array>
+				<string>1A81A5B027B08C144ECF234747C6929B</string>
+				<string>FC7184A80F427DE787CF0FD09A2EE850</string>
+				<string>4AD4C784EE51A9DBCC306DC4601C35C2</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>TPKeyboardAvoiding</string>
+			<key>productName</key>
+			<string>TPKeyboardAvoiding</string>
+			<key>productReference</key>
+			<string>4933BAC4FC01DAAFDA4C5335D054D854</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>61201A2478FCE27CF24F80F6A86EBDD6</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F32035E3B1D4338A783CDBB535478D3C</string>
+				<string>DFD3A9BCF04675150F9A40EA5800D84E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>61C07A3050F0E525B0966975864B6D17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTLayerFillColorAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLayerFillColorAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>633BEE994F775FE02E754BC8BBC73BCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTConstraintMultiplierAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintMultiplierAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6456D12B94F4028EA5402DDF488CCB3C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DA8537523AF44C3E2A5CDDEC0210DAE4</string>
+				<string>C8533EF01892AE9E94E8D0405D64235C</string>
+				<string>6902C703F287DCB3D93FA84768CBBD39</string>
+				<string>926A7944906C28211D607215656E15F8</string>
+				<string>BACF7EC05BE4620F38E1525074C482F9</string>
+				<string>9E02D43C415D40130EC451FEE7B5A20A</string>
+				<string>7F6C8BDB50E175F6D5828B053D998F4F</string>
+				<string>E16A42B0AEFF2D88033D004AEB5F4491</string>
+				<string>D86A066E99C72F8316BC19453DEFD55F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TPKeyboardAvoiding</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>64BD34FCF512C69A1F4CD5B6C0ABD5A6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>EdgeInsets.swift</string>
+			<key>path</key>
+			<string>Source/EdgeInsets.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6508E13B08F07DC568CDA0BAB3314B66</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C4CC7F9EC179FB07DDA1DE3A8FE35127</string>
+				<string>B0FA94A5360137CC74A0E529801A4B0C</string>
+				<string>43FD86158F02DBD57911F3699BB53E7C</string>
+				<string>4933BAC4FC01DAAFDA4C5335D054D854</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65D16E4DA10AE1BB6950EBF2C61F5FC0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1B1DE7DE92FF537F91AD7B72E2316EFD</string>
+				<string>F0ADD5E5A517014D7EBB643997696F17</string>
+				<string>10E931FC04E2EAC8D85A46B10C14F5BD</string>
+				<string>F11FD80512008E7F73093E84A633FB52</string>
+				<string>963E8C19F936B113737FEA6BC4125728</string>
+				<string>94F8EC9B6723003D1E2049135AABD503</string>
+				<string>6C8761F22EF7495D3A0AD5A6FD22BCD5</string>
+				<string>A9B6B479C696FCF2BEE3A09E163F63EE</string>
+				<string>9E51B0DE0AC30595852AB1524AA77950</string>
+				<string>E0274B79DDA15D7321912DAD8BD7D3ED</string>
+				<string>C2409F4CF04F64BD0BE6541C334F4268</string>
+				<string>E575641C63432FCDBD0D5145485BC763</string>
+				<string>B23FA7233E960CD04BDDAF6B7D51E818</string>
+				<string>804E131726AA4E8E18C9241BBD9FAA14</string>
+				<string>2EAB88D32A7B34E4E96F5A55469FF98F</string>
+				<string>A5723B3867F786859AD7DE0D747102F4</string>
+				<string>159F92C4BA561CB35F44ED472AC47177</string>
+				<string>3054369E49599BC7B7A5380E04A79C2A</string>
+				<string>9ABFFB99D3DC9D7282ADADFB8D1A8729</string>
+				<string>956400605F74F8FCF5B1F026DA8C9A2E</string>
+				<string>9360D850CD341F58985586EB3F3E93FB</string>
+				<string>C3E375E3F651C7C46C557410457F3701</string>
+				<string>6684726EC01F206AE684A7BE26EF5271</string>
+				<string>5B1A38B22BD7EC3A2EDA6C673FDD6F49</string>
+				<string>4C925B25DB12CE8FF9A9BBEC6F9D8569</string>
+				<string>AD44B76B4739E4D7570D0C30344F71FB</string>
+				<string>C8B4E72F7AA349486DBCD594FA9B01B8</string>
+				<string>97394BEB167238723F8B440422D94156</string>
+				<string>C73E94B71AA6F61305F7539C944DF943</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>664EC8BF7841F89EBE0AF7DC1E8ACCC5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9E02D43C415D40130EC451FEE7B5A20A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>6684726EC01F206AE684A7BE26EF5271</key>
+		<dict>
+			<key>fileRef</key>
+			<string>497FE013214B0772647006102D50BEC9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>6902C703F287DCB3D93FA84768CBBD39</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TPKeyboardAvoidingScrollView.h</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6A116ED1221917D84393616020907FF3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DA8537523AF44C3E2A5CDDEC0210DAE4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6C8761F22EF7495D3A0AD5A6FD22BCD5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B9360036BFAA9E105A0BB40C4B6DAD91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>6D2B1D43D339820FF7686417C43C2F91</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E06BE1E4856B71EDD88D1396D057EDA6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>6E5670DCA86C7609065305E90749E2EF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B7B06291F53C77BDF9AD9724045F37FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6F9F2875ABB04E279F08651766D674A5</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F1172BD3ACF8E61346F13B86020EB99A</string>
+				<string>76DFA174FDE1DB0CCC6C36D90EBF6C50</string>
+				<string>202F6FC1E90B157CFE2582F71EC5E3EC</string>
+				<string>B923B892E41C240B1BF4A3D983E7B311</string>
+				<string>9E7AB9B8FC217228CB5DCDF91D5FF3FA</string>
+				<string>C0D4030142FE82AF335887B3FBFDE1AC</string>
+				<string>AA9CDBA3FEE9C266174FB628AEF9A019</string>
+				<string>72E4ADB65A83F1A8172AE2728EEC794D</string>
+				<string>3E5C2275DBE66C3615E2A41D3B8C3149</string>
+				<string>CB8DE1B2A5B5A7CA1F6521E7865CBD05</string>
+				<string>A367BCDB3CB6EB5292CDD464158664AA</string>
+				<string>B0A5080361F6FBCA68698D86DAF3DBA4</string>
+				<string>47D1892DC359800BC5B76DB29825FA2E</string>
+				<string>15ACA6CFB49C7D8E174ACB0E55002856</string>
+				<string>53B64B353EAE359D5653DDD3EBEA513C</string>
+				<string>392D0B926C442E28CD412A0614073CF5</string>
+				<string>8E6F94895F93D650D0D3A6E120F131BB</string>
+				<string>71B2994AA246932FB5E17A3D4A0EE259</string>
+				<string>DC909245FC90D9382A22F782CA60F1AA</string>
+				<string>FC96A34E9FA13B668E8DEB33E0573C6D</string>
+				<string>E4DBE4C6FE5B8A3735FD983CC43BEBDE</string>
+				<string>DD58914C38E0020859B9979D4543DA6F</string>
+				<string>554A262A13B0EBF568CC07B410FAE6AB</string>
+				<string>6D2B1D43D339820FF7686417C43C2F91</string>
+				<string>CA5D877C550D3873B183FC4ED190DC58</string>
+				<string>3ABDCB0BEB0561E3AB9CD59C277A0284</string>
+				<string>C3B2994D8C671634460B93EAFC1B5763</string>
+				<string>3F0D2B6BB0499BC3B85EB5FC828D2570</string>
+				<string>429D58AA1DCFDC3368F76C0A87FF14D0</string>
+				<string>D8C6AD1FDFED61533DC457C511927C93</string>
+				<string>4BB6A2B78E6092977F852409FB277092</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6FB3E1DFEBF7746B27063CD9DFA8707C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTFilmstrip.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFilmstrip.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>71B2994AA246932FB5E17A3D4A0EE259</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5C394A1BD914031B325735705454AEF2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>72E4ADB65A83F1A8172AE2728EEC794D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F34D95AA7535AD7408C04FD21788091C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>75D98FF52E597A11900E131B6C4E1ADA</key>
 		<dict>
@@ -733,39 +1892,108 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7643E0C67C7D841248829344D058942B</key>
+		<key>75F38EE8ABD876674FC42042382F95FC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>JazzHands.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>76DFA174FDE1DB0CCC6C36D90EBF6C50</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<string>DA3B229040D74B29C1D84B19AAAFB12B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>76783CB8AA8DB6D461BE220CBBA6E80E</key>
+		<key>77E8620DAA5A5F12979A3AAFB81F5E0E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>ViewController+SnapKit.swift</string>
+			<string>IFTTTHideAnimation.h</string>
 			<key>path</key>
-			<string>Source/ViewController+SnapKit.swift</string>
+			<string>JazzHands/IFTTTHideAnimation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>77B5F849BEE46D5D04142357E972A7AD</key>
+		<key>78C79E91B2CB8CE580D6C87C013B28A6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1A01999E7B6D8EBDA6182748D63E6D2A</string>
+			<string>0DD25CA4A497622D5ABF4C433D79E4DE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
+		</dict>
+		<key>78E7DC20C8C783396623E704A590966D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>89DF66412383E56E46AA9170D161656F</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/JazzHands/JazzHands-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/JazzHands/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/JazzHands/JazzHands.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>JazzHands</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
 			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>79A9DEDC89FE8336BF5FEDAAF75BF7FC</key>
 		<dict>
@@ -778,79 +2006,27 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7BB2CFDCFD6D35B775FA94243231C0D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0F0BCD2ABB6507D324C5F31A14DF2B2D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>4B4AE0192BF8B59931C617CF397E9A10</string>
-				<string>384BABD42A7290D410FB261D254D1F27</string>
-				<string>B7B80995527643776607AFFA75B91E24</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DEAEACC94B1166B3661D849717FC0A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AB39B0A896FFB062363B7F2AC8F552DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7E1B8FABDC3A946F9D9425C391D950E0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8147D20E3AD97BCC682299F055048F26</key>
+		<key>7BAFC7787FDE9BA0110C64DE7E690EED</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>View+SnapKit.swift</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Source/View+SnapKit.swift</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>845C0567526A131ABC8333D81ECC227F</key>
+		<key>7C41683DC9DE48EA76C681F5E1D02F95</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F4503A308DE3319F7EB559C3495A3E0C</string>
+			<string>CE437620300D81EED04DF8C0301AF9D9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>85C7FE66302928CE7E824762A91B15C5</key>
+		<key>7CD1AC34DCD6AA1AD38152937644D706</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -859,11 +2035,108 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>TPKeyboardAvoidingTableView.m</string>
+			<string>IFTTTLayerStrokeStartAnimation.m</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m</string>
+			<string>JazzHands/IFTTTLayerStrokeStartAnimation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CE56C0805647B5ECC007E073017F4B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTLayerFillColorAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLayerFillColorAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>14B8B9B15ECBE87983FF987239AB2D7B</string>
+				<string>A4FD9D6A7DA0039EA196F47089A6A44A</string>
+				<string>6508E13B08F07DC568CDA0BAB3314B66</string>
+				<string>B7B80995527643776607AFFA75B91E24</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F6C8BDB50E175F6D5828B053D998F4F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIScrollView+TPKeyboardAvoidingAdditions.h</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>804E131726AA4E8E18C9241BBD9FAA14</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2AA162BF7897D252745BBCB2B467624C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>81BB9FE6BC4C37FE25D7CC41FD610AF5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>007CFBDB97F684747183769C753AE3E8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8572EAED146EFD2C42DF47F7A2304856</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTConstraintMultiplierAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintMultiplierAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>85FCE0D1648B36D4F43AA0E480AC31DA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>JazzHands</string>
+			<key>target</key>
+			<string>186F3526CB3A1A9C8C40D00C3B2099E0</string>
+			<key>targetProxy</key>
+			<string>B14E74EC6C491320422C2D5520DDA081</string>
+		</dict>
+		<key>87997B579AA2E39999B36870F3FD4258</key>
+		<dict>
+			<key>fileRef</key>
+			<string>894E5DA93A9F359521A89826BE6DA777</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>87B213035BAC5F75386F62D3C75D2342</key>
 		<dict>
@@ -891,164 +2164,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>89F658C90FF87B78F46FE6637271C1CB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4B5AE8878A636999B7A34E876E68FBE8</string>
-				<string>8DAFBDCBD2AF2D3813F251FCC7492D34</string>
-				<string>198A65C097ABCE37C4F9BD554D70A0C9</string>
-				<string>7DEAEACC94B1166B3661D849717FC0A2</string>
-				<string>95F5696A9A69E80602D0095762C19872</string>
-				<string>2F538085874B5D9BA9F78D9440ADC990</string>
-				<string>98DB167D6F6301EACED23ACA95028DC9</string>
-				<string>7461D798B5F658A5BB35A39F13902246</string>
-				<string>43FE0A8BDEFD3ED4E096944C95528AD6</string>
-				<string>0ACAD4DDC39C5703254E9E7C3DFB18CA</string>
-				<string>A52C195886B5978240CCA7E57670F19A</string>
-				<string>0AD3B0B7799CC7AD4EB10820112C78FC</string>
-				<string>6D99028C6B8496E7DEE9175CBBA591B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8C94B9E0037EC2CEA556089A5CFBCE73</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>399370C24F3B40602D17596E08C1F67C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/TPKeyboardAvoiding/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>TPKeyboardAvoiding</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8D48C9BB7DB336142C1DD272B9786285</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DA312349A49333542E6F4B36B329960E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods/Pods.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8DAFBDCBD2AF2D3813F251FCC7492D34</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0C226A9FD75C1801C7FB6C22B222087D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>94223838ABEF0077B440FBFF67455EAD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>894E5DA93A9F359521A89826BE6DA777</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9474516F882E4710F119719A93AFA049</key>
+		<key>89DF66412383E56E46AA9170D161656F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1057,11 +2173,38 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>SnapKit.xcconfig</string>
+			<string>JazzHands.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>94E2759869D1A66DF999F532DBF8B786</key>
+		<key>8CB94D17BE64A4179F1567F21E71A2CC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2BCC458FDD5F692BBB2BFC64BB5701FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8D7ED576D9895B111689CDA1A41BE921</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>26EC72F1524553EC199207F673554427</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8E26FF65ECE1CD816E1C563E6919B28D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1070,29 +2213,149 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>EdgeInsets.swift</string>
+			<string>ViewController+SnapKit.swift</string>
 			<key>path</key>
-			<string>Source/EdgeInsets.swift</string>
+			<string>Source/ViewController+SnapKit.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>95F5696A9A69E80602D0095762C19872</key>
+		<key>8E6F94895F93D650D0D3A6E120F131BB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BD2B81443F793761B52E9E882AA5D22C</string>
+			<string>7CE56C0805647B5ECC007E073017F4B3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8FC236BC91D9C5F1D3E4591F0C416048</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>00DC992D1B49829D52CD959E608111BC</string>
+				<string>2209883228709CB3A08F6786B611DF16</string>
+				<string>C9CD013EE6FBDECE89C37DA718761273</string>
+				<string>19E98ACE5B8C3DE715FECF6D0F2A27C0</string>
+				<string>1AF8A16D421E638EE1980AFADFF9A0A2</string>
+				<string>5CB8C3D6E77469D83916CBA0F15C79BE</string>
+				<string>6E5670DCA86C7609065305E90749E2EF</string>
+				<string>05253664F0C6A2121B9BA9C7CE868D44</string>
+				<string>FBEB0B3BFE676F4B23372B7D4EE9B022</string>
+				<string>81BB9FE6BC4C37FE25D7CC41FD610AF5</string>
+				<string>23F1BC154DBBB53AA67E61E5A041ED07</string>
+				<string>C18A91D036BD9A0EE5F7073B3B6D7E71</string>
+				<string>53A5A0CC3BC5BE0EC3B6CA455F9F201B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>8FCB37156AAFDB67F275D34C7BE3D386</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6902C703F287DCB3D93FA84768CBBD39</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>926A7944906C28211D607215656E15F8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TPKeyboardAvoidingScrollView.m</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9360D850CD341F58985586EB3F3E93FB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>553C04EFA3A83B4E2B5E15C130D9CCAF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>94F8EC9B6723003D1E2049135AABD503</key>
+		<dict>
+			<key>fileRef</key>
+			<string>29AB54F0B6E78A7A80B1EBD5D6DD79F5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>956400605F74F8FCF5B1F026DA8C9A2E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B3D2C9A4EA49319BEA003E5E494E4FC2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>963E8C19F936B113737FEA6BC4125728</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C9121F3F21EA5666D749CE93C763C376</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>97394BEB167238723F8B440422D94156</key>
+		<dict>
+			<key>fileRef</key>
+			<string>407658553CCEB1BA21087A7F2C8091B9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>967ED28E6EF2303417B6E6698A155AAC</key>
+		<key>97734C2BE356E988994DCBBEB8134BAB</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>TPKeyboardAvoiding</string>
-			<key>target</key>
-			<string>C59B03C6E3AB1383E7EACAD5A4E8FC46</string>
-			<key>targetProxy</key>
-			<string>3D96FF60399B46DCD74A206C855B685B</string>
+			<string>IFTTTViewAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTViewAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>977577C045EDA9D9D1F46E2598D19FC7</key>
 		<dict>
@@ -1107,14 +2370,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>98DB167D6F6301EACED23ACA95028DC9</key>
+		<key>99B3EE661429BDB20D2496A644B92BCF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ConstraintItem.swift</string>
+			<key>path</key>
+			<string>Source/ConstraintItem.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ABFFB99D3DC9D7282ADADFB8D1A8729</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F47A9D69E3F1488907CE7C9281483BA4</string>
+			<string>3071AB4772BCE4B58B1CCF1DADEB7A79</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
 		</dict>
-		<key>99FF02BCC217AD867C155DBAC4C1FE62</key>
+		<key>9C30EB2C00D01C33608F66B063FF2C84</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BACF7EC05BE4620F38E1525074C482F9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9C615A4131FBF73B7635ACE45D8044A4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1123,45 +2420,142 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>TPKeyboardAvoidingScrollView.h</string>
+			<string>IFTTTPathPositionAnimation.h</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h</string>
+			<string>JazzHands/IFTTTPathPositionAnimation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9D75DEE47BB010AE43C63A6389EECEC8</key>
+		<key>9E02D43C415D40130EC451FEE7B5A20A</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>94223838ABEF0077B440FBFF67455EAD</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>TPKeyboardAvoidingTableView.m</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A52C195886B5978240CCA7E57670F19A</key>
+		<key>9E51B0DE0AC30595852AB1524AA77950</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C3DCD5C8C1C523C45B3E9A8AB59347B7</string>
+			<string>186714B358686F6D3D50F9E086BB3C17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>9E7AB9B8FC217228CB5DCDF91D5FF3FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F0C54CB21A4BFB6053D675DA0D4C3D1F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9FB817C842605B2A0617AB37EEF9AC4C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0A43A50734168633E0948DCD59282566</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A64909F345EF7B4D426195116F294268</key>
+		<key>A1FDD78BB97677CE4DA7496906FE4F36</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6FF547B48616C847ACD5C4686E2B81EB</string>
-				<string>8D48C9BB7DB336142C1DD272B9786285</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ConstraintAttributes.swift</string>
+			<key>path</key>
+			<string>Source/ConstraintAttributes.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A3291243B7FC3B99B6E7F018A1B29651</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>JazzHands-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A367BCDB3CB6EB5292CDD464158664AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CE6FC33483715AF7CDE1B02025829068</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A4419B90CE3D2F68B878AA88C7964161</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F6C8BDB50E175F6D5828B053D998F4F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A4FD9D6A7DA0039EA196F47089A6A44A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1C5DC1B10A3C9AA3EC1BFC666797A6B1</string>
+				<string>CC061C02034117C3EAA6A06C8EA35450</string>
+				<string>6456D12B94F4028EA5402DDF488CCB3C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5723B3867F786859AD7DE0D747102F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D74612D3B26978B0118A78A68BBF8322</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
 		</dict>
 		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
 		<dict>
@@ -1236,7 +2630,22 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>A9A8D0323B3D0D626C4F893624466F4F</key>
+		<key>A8505709FB445B45A3338F8D5FC2C30D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTBackgroundColorAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTBackgroundColorAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A86F01EDE4FC8CF539EA894F3E6BE791</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1245,13 +2654,189 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>TPKeyboardAvoidingScrollView.m</string>
+			<string>IFTTTFilmstrip.m</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m</string>
+			<string>JazzHands/IFTTTFilmstrip.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AB39B0A896FFB062363B7F2AC8F552DB</key>
+		<key>A9203A0FF197B8764CD853B6EE3A159E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4AE7FD0E16F3FACCFE19068F1E872D9F</string>
+				<string>CE437620300D81EED04DF8C0301AF9D9</string>
+				<string>0DD25CA4A497622D5ABF4C433D79E4DE</string>
+				<string>ED04AE2201316F6590E7AD9952706C7B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A9B6B479C696FCF2BEE3A09E163F63EE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>633BEE994F775FE02E754BC8BBC73BCF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>AA6C24C136E1236907B89428A12A6AC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+IFTTTJazzHands.h</string>
+			<key>path</key>
+			<string>JazzHands/UIView+IFTTTJazzHands.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AA9CDBA3FEE9C266174FB628AEF9A019</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A8505709FB445B45A3338F8D5FC2C30D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>AD44B76B4739E4D7570D0C30344F71FB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3CAD9A8BC9B556C5A58A8695FA6C0F41</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>AE347751DC0AC66034513E980DCE32DE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D1ED51FB1ECA078C11E8A7DB53C062A3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B0A5080361F6FBCA68698D86DAF3DBA4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6FB3E1DFEBF7746B27063CD9DFA8707C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B0FA94A5360137CC74A0E529801A4B0C</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods.framework</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B14E74EC6C491320422C2D5520DDA081</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>186F3526CB3A1A9C8C40D00C3B2099E0</string>
+			<key>remoteInfo</key>
+			<string>JazzHands</string>
+		</dict>
+		<key>B1DD5BB7C2A839C0F6652ACA22142361</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SnapKit</string>
+			<key>target</key>
+			<string>45722FDC65C06D988898D554A6CF67C7</string>
+			<key>targetProxy</key>
+			<string>3B27E3989B54DE66120E4C7A5E6E7E39</string>
+		</dict>
+		<key>B23FA7233E960CD04BDDAF6B7D51E818</key>
+		<dict>
+			<key>fileRef</key>
+			<string>14B6391483824E99AFB62EF2366DB991</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>B3D2C9A4EA49319BEA003E5E494E4FC2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTRotationAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTRotationAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B78D229A2609D2CBD9008729EDFBCE78</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2F0B56992EC69F9B9BDE88E7FCCE8120</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B7B06291F53C77BDF9AD9724045F37FE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1260,24 +2845,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>ConstraintItem.swift</string>
+			<string>Debugging.swift</string>
 			<key>path</key>
-			<string>Source/ConstraintItem.swift</string>
+			<string>Source/Debugging.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B27F0EF90FD3B8C7F91E99F8A5998608</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7E1B8FABDC3A946F9D9425C391D950E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>B7B80995527643776607AFFA75B91E24</key>
 		<dict>
@@ -1289,6 +2861,35 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B923B892E41C240B1BF4A3D983E7B311</key>
+		<dict>
+			<key>fileRef</key>
+			<string>43A8AD176A48FA29404DDF21C4A1C91F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B9360036BFAA9E105A0BB40C4B6DAD91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTConstraintConstantAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintConstantAnimation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1309,187 +2910,243 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BC00364678BF792F7489C2559BC7EF68</key>
+		<key>BACF7EC05BE4620F38E1525074C482F9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>TPKeyboardAvoidingTableView.h</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB6E6D2DB1CFB927E63EB60FFCED84F3</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>50DFD2DA09F1B3696B2ECFF2318AC28A</string>
+				<string>78E7DC20C8C783396623E704A590966D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BDAEA30A9BE26529DCCCD00B6A58C499</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTFrameAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTFrameAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF0E1B7EBBEB7E2C9D6EFA8783C59FA3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>85C7FE66302928CE7E824762A91B15C5</string>
+			<string>E4B450B1DC342143780D480A90F78AE0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C045B1E98E54D88E13106F7250C34BDB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C0D4030142FE82AF335887B3FBFDE1AC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0E9967E3844A842118F085506C304D66</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C18A91D036BD9A0EE5F7073B3B6D7E71</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EDF2949E0B8B08E2632BC1AD7E483555</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C2409F4CF04F64BD0BE6541C334F4268</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A86F01EDE4FC8CF539EA894F3E6BE791</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
+				<string>-fmodules</string>
 			</dict>
 		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<key>C3B2994D8C671634460B93EAFC1B5763</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
+			<key>fileRef</key>
+			<string>CC015709EFB811E01DA509139137E9D1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD2B81443F793761B52E9E882AA5D22C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>ConstraintMaker.swift</string>
-			<key>path</key>
-			<string>Source/ConstraintMaker.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3DCD5C8C1C523C45B3E9A8AB59347B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>name</key>
-			<string>SnapKit.swift</string>
-			<key>path</key>
-			<string>Source/SnapKit.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C47EB02F980576101FDC9542C15B66D5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9474516F882E4710F119719A93AFA049</string>
-			<key>buildSettings</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
 			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/SnapKit/SnapKit-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/SnapKit/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<key>ATTRIBUTES</key>
 				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
+					<string>Public</string>
 				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/SnapKit/SnapKit.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>SnapKit</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
 			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
 		</dict>
-		<key>C59B03C6E3AB1383E7EACAD5A4E8FC46</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E82A50422A3D870EA1986298F3C5CFFE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E08703B1800FA56D6AB5F3F08E6F3FE3</string>
-				<string>B27F0EF90FD3B8C7F91E99F8A5998608</string>
-				<string>60F487FDA0EFF18A5AB9B3B624C93399</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TPKeyboardAvoiding</string>
-			<key>productName</key>
-			<string>TPKeyboardAvoiding</string>
-			<key>productReference</key>
-			<string>253DFEE12D1D0107AB338FFFABCE85A1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>CBC0F7C552B739C909B650A0F42F7F38</key>
+		<key>C3CA3BECB09780E546CFCBD0968995DF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimation.m</string>
 			<key>path</key>
-			<string>Pods-resources.sh</string>
+			<string>JazzHands/IFTTTAnimation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CC2E170EB76BA262116645826B0FA3CB</key>
+		<key>C3E375E3F651C7C46C557410457F3701</key>
+		<dict>
+			<key>fileRef</key>
+			<string>126C75CE7767DEAE5613A89401D8B245</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>C4CC7F9EC179FB07DDA1DE3A8FE35127</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>JazzHands.framework</string>
+			<key>path</key>
+			<string>JazzHands.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C73E94B71AA6F61305F7539C944DF943</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EBBCC3AD615071FA939599DD0CED8EF8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>C8533EF01892AE9E94E8D0405D64235C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>ConstraintDescription.swift</string>
+			<string>TPKeyboardAvoidingCollectionView.m</string>
 			<key>path</key>
-			<string>Source/ConstraintDescription.swift</string>
+			<string>TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CFD2BBFB9DBFA10DAF4F32693EBAD842</key>
+		<key>C8B4E72F7AA349486DBCD594FA9B01B8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E660EA585C24C4E72FFEBD47730A6DE5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>C9121F3F21EA5666D749CE93C763C376</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimator.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C9CD013EE6FBDECE89C37DA718761273</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4E155C2BD3EA7538B40C11CD915D14A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CA5D877C550D3873B183FC4ED190DC58</key>
+		<dict>
+			<key>fileRef</key>
+			<string>01AD95A366DACFAE43D6AC7291B61373</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CB0C73014A77974B9D6DDA52B722BA4A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>9474516F882E4710F119719A93AFA049</string>
+			<string>2B4793CC4DC737FE8BB7B88FB626340F</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1544,6 +3201,117 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>CB715848B342A72A2E3357827877BE10</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>584A7A14D37EA8E926B36B3A041B0CD6</string>
+				<string>E782028BA36F08D02721AAB3C62EFE25</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>CB8DE1B2A5B5A7CA1F6521E7865CBD05</key>
+		<dict>
+			<key>fileRef</key>
+			<string>28873C092874F1AA3E2EFF02E35D86AC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CBC0F7C552B739C909B650A0F42F7F38</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC015709EFB811E01DA509139137E9D1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTTransform3DAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTransform3DAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CC061C02034117C3EAA6A06C8EA35450</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3BF8B8DBD3A963CDBBCCF95EDAD478B7</string>
+				<string>A1FDD78BB97677CE4DA7496906FE4F36</string>
+				<string>4E155C2BD3EA7538B40C11CD915D14A9</string>
+				<string>99B3EE661429BDB20D2496A644B92BCF</string>
+				<string>5121F416E183B540CD04681AC8ED6580</string>
+				<string>55B933D717AEE1147C842FBF3293C278</string>
+				<string>B7B06291F53C77BDF9AD9724045F37FE</string>
+				<string>64BD34FCF512C69A1F4CD5B6C0ABD5A6</string>
+				<string>60900073C740980B934C43E520B33DC7</string>
+				<string>0EFFC23D9CA7CA2C07AF429D9520EB2B</string>
+				<string>EDF2949E0B8B08E2632BC1AD7E483555</string>
+				<string>8E26FF65ECE1CD816E1C563E6919B28D</string>
+				<string>413F8AE158B2AB42B94E712E233265DE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SnapKit</string>
+			<key>path</key>
+			<string>SnapKit</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CE437620300D81EED04DF8C0301AF9D9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CE6FC33483715AF7CDE1B02025829068</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTEasingFunction.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTEasingFunction.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D0405803033A2A777B8E4DFA0C1800ED</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1556,6 +3324,41 @@
 			<string>Pods-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1E48578D5FB42E3900FD1AC14841047</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTMaskAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTMaskAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1ED51FB1ECA078C11E8A7DB53C062A3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D391380DD7853B16690D60D7BB6682A7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4AE7FD0E16F3FACCFE19068F1E872D9F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1583,7 +3386,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>384BABD42A7290D410FB261D254D1F27</string>
+			<string>6508E13B08F07DC568CDA0BAB3314B66</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1592,48 +3395,83 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>0A5F77B8FE93E69F899D29A463DEE197</string>
-				<string>1D92B625E201C799E4529BA128B4947F</string>
-				<string>C59B03C6E3AB1383E7EACAD5A4E8FC46</string>
+				<string>186F3526CB3A1A9C8C40D00C3B2099E0</string>
+				<string>2C4DEE92E6D0F70192280262F4307B0D</string>
+				<string>45722FDC65C06D988898D554A6CF67C7</string>
+				<string>60FC1BF56011EBD7A280F5C4ED0B222C</string>
 			</array>
 		</dict>
-		<key>D45CE0D2DE077D3A942E2DF413A001F8</key>
+		<key>D74612D3B26978B0118A78A68BBF8322</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7643E0C67C7D841248829344D058942B</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTLayerStrokeEndAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTLayerStrokeEndAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D5AA8BCD77E90B50F3B44527B3DF0E01</key>
+		<key>D86A066E99C72F8316BC19453DEFD55F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>562194C7145EB73D2B3800F201233E71</string>
-				<string>0C226A9FD75C1801C7FB6C22B222087D</string>
-				<string>CC2E170EB76BA262116645826B0FA3CB</string>
-				<string>AB39B0A896FFB062363B7F2AC8F552DB</string>
-				<string>BD2B81443F793761B52E9E882AA5D22C</string>
-				<string>6716634BCE867A4E7835AA70DF2E45E2</string>
-				<string>F47A9D69E3F1488907CE7C9281483BA4</string>
-				<string>94E2759869D1A66DF999F532DBF8B786</string>
-				<string>4CDFE017726BA9A763052994AA156858</string>
-				<string>C3DCD5C8C1C523C45B3E9A8AB59347B7</string>
-				<string>8147D20E3AD97BCC682299F055048F26</string>
-				<string>76783CB8AA8DB6D461BE220CBBA6E80E</string>
-				<string>DBAE4EAF95DC4C4E70636055C2BEE66F</string>
+				<string>4B1E469BA876130845446DDE504A7167</string>
+				<string>C045B1E98E54D88E13106F7250C34BDB</string>
+				<string>4A99E09B6F3AB34DB75ADF1D40ADA5A5</string>
+				<string>0A43A50734168633E0948DCD59282566</string>
+				<string>D94E808C801BCE231365FF30102651AB</string>
+				<string>D1ED51FB1ECA078C11E8A7DB53C062A3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>SnapKit</string>
+			<string>Support Files</string>
 			<key>path</key>
-			<string>SnapKit</string>
+			<string>../Target Support Files/TPKeyboardAvoiding</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D8C6AD1FDFED61533DC457C511927C93</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0579F9DE248E75FDC88AB897C269660D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D91799EE7C4F99D394232CAA218AD54B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C8533EF01892AE9E94E8D0405D64235C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>D94E808C801BCE231365FF30102651AB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1650,53 +3488,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DB930B50830CF6A88EC66B5A58A89B24</key>
+		<key>DA3B229040D74B29C1D84B19AAAFB12B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>SnapKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DBAE4EAF95DC4C4E70636055C2BEE66F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F4071447EE8ACA4D20692A8A972CBF62</string>
-				<string>2B8D0B28CF6D0354D9E868910000DBB5</string>
-				<string>9474516F882E4710F119719A93AFA049</string>
-				<string>DB930B50830CF6A88EC66B5A58A89B24</string>
-				<string>E990A0DAD6390A174E03CE917C85B824</string>
-				<string>0F0BCD2ABB6507D324C5F31A14DF2B2D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>IFTTTAnimatable.h</string>
 			<key>path</key>
-			<string>../Target Support Files/SnapKit</string>
+			<string>JazzHands/IFTTTAnimatable.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DC19C98860D7CD00D30C06CB36AE737A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DCC432A3D4DE422EF4C6B7AB9E6FD8B8</key>
+		<key>DA8537523AF44C3E2A5CDDEC0210DAE4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1711,33 +3518,290 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DE17226C5D78165E7F7E4043A6E0BA80</key>
+		<key>DC909245FC90D9382A22F782CA60F1AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3534611FF8E94DC09B18150F6C9E259F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DD120240BB86C0BFA38EE23785DBE950</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTAnimatedScrollViewController.m</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding.modulemap</string>
+			<string>JazzHands/IFTTTAnimatedScrollViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E08703B1800FA56D6AB5F3F08E6F3FE3</key>
+		<key>DD58914C38E0020859B9979D4543DA6F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4697A3BA156D731857F9E31BC4AB66F6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>DFD3A9BCF04675150F9A40EA5800D84E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4A99E09B6F3AB34DB75ADF1D40ADA5A5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/TPKeyboardAvoiding/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>TPKeyboardAvoiding</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E0274B79DDA15D7321912DAD8BD7D3ED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2F076F822999856EECDCC16BD7F8357C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>E06BE1E4856B71EDD88D1396D057EDA6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTScrollViewPageConstraintAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTScrollViewPageConstraintAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E16A42B0AEFF2D88033D004AEB5F4491</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIScrollView+TPKeyboardAvoidingAdditions.m</string>
+			<key>path</key>
+			<string>TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4B450B1DC342143780D480A90F78AE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SnapKit-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4DBE4C6FE5B8A3735FD983CC43BEBDE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9C615A4131FBF73B7635ACE45D8044A4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E5549044C09A6F57FA3CBB813B7097B3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTTranslationAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTTranslationAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E575641C63432FCDBD0D5145485BC763</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BDAEA30A9BE26529DCCCD00B6A58C499</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>E660EA585C24C4E72FFEBD47730A6DE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>IFTTTViewAnimation.m</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTViewAnimation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E75729CD54DC2023358F8C37FA86FBA8</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>EF7948DF419134086FD88B50C54FF8AE</string>
-				<string>F7FCA4E9297FDDFFDB2A5559D3790316</string>
-				<string>4CA2F0B7B58A5032A96C7A162FF38060</string>
-				<string>BC00364678BF792F7489C2559BC7EF68</string>
-				<string>77B5F849BEE46D5D04142357E972A7AD</string>
+				<string>87997B579AA2E39999B36870F3FD4258</string>
 			</array>
 			<key>isa</key>
 			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>E782028BA36F08D02721AAB3C62EFE25</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>DA312349A49333542E6F4B36B329960E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods/Pods.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>E7F21354943D9F42A70697D5A5EF72E9</key>
 		<dict>
@@ -1752,20 +3816,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E82A50422A3D870EA1986298F3C5CFFE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>505221E596972CD05A603799FC66BBB5</string>
-				<string>8C94B9E0037EC2CEA556089A5CFBCE73</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
 		<key>E8446514FBAD26C0E18F24A5715AEF67</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1779,78 +3829,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E8B085676DCCC6B4E42A4D9F61361F46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TPKeyboardAvoidingTableView.h</string>
-			<key>path</key>
-			<string>TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E990A0DAD6390A174E03CE917C85B824</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>SnapKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDBB6CE641D764346BEE574A4379CD59</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EF7948DF419134086FD88B50C54FF8AE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61E9BFB71DA8A2028903E5A4C0F95C60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F214E2EB18879D8FAFA33FCDD93E2687</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>CFD2BBFB9DBFA10DAF4F32693EBAD842</string>
-				<string>C47EB02F980576101FDC9542C15B66D5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F269B44797CF3ED593BBA7011DFFF6A1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods.framework</string>
-			<key>path</key>
-			<string>Pods.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>F3F2B56B71CCBCD69CC32059F6FCE724</key>
+		<key>EBBCC3AD615071FA939599DD0CED8EF8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1859,39 +3838,26 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>TPKeyboardAvoidingCollectionView.m</string>
+			<string>UIView+IFTTTJazzHands.m</string>
 			<key>path</key>
-			<string>TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m</string>
+			<string>JazzHands/UIView+IFTTTJazzHands.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F4071447EE8ACA4D20692A8A972CBF62</key>
+		<key>ED04AE2201316F6590E7AD9952706C7B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>F4503A308DE3319F7EB559C3495A3E0C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TPKeyboardAvoiding-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F47A9D69E3F1488907CE7C9281483BA4</key>
+		<key>EDF2949E0B8B08E2632BC1AD7E483555</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1900,16 +3866,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Debugging.swift</string>
+			<string>View+SnapKit.swift</string>
 			<key>path</key>
-			<string>Source/Debugging.swift</string>
+			<string>Source/View+SnapKit.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F7FCA4E9297FDDFFDB2A5559D3790316</key>
+		<key>EF34896FFF826F945261DB04E1829301</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F3F2B56B71CCBCD69CC32059F6FCE724</string>
+			<string>E16A42B0AEFF2D88033D004AEB5F4491</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1917,6 +3883,186 @@
 				<key>COMPILER_FLAGS</key>
 				<string>-fno-objc-arc</string>
 			</dict>
+		</dict>
+		<key>F0ADD5E5A517014D7EBB643997696F17</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B4629F11DF0004CC99089F08E85825B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>F0C54CB21A4BFB6053D675DA0D4C3D1F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F1172BD3ACF8E61346F13B86020EB99A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>58DB4E45BBD17C59983FB32B341FF5FE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F11FD80512008E7F73093E84A633FB52</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C3CA3BECB09780E546CFCBD0968995DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fmodules</string>
+			</dict>
+		</dict>
+		<key>F32035E3B1D4338A783CDBB535478D3C</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4A99E09B6F3AB34DB75ADF1D40ADA5A5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/TPKeyboardAvoiding/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>TPKeyboardAvoiding</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F34D95AA7535AD7408C04FD21788091C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IFTTTConstraintConstantAnimation.h</string>
+			<key>path</key>
+			<string>JazzHands/IFTTTConstraintConstantAnimation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F741650E6305D7CDDC0A699285B2A82E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2B4793CC4DC737FE8BB7B88FB626340F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SnapKit/SnapKit-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/SnapKit/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/SnapKit/SnapKit.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>SnapKit</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
@@ -1985,6 +4131,40 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>FBEB0B3BFE676F4B23372B7D4EE9B022</key>
+		<dict>
+			<key>fileRef</key>
+			<string>60900073C740980B934C43E520B33DC7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FC7184A80F427DE787CF0FD09A2EE850</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7C41683DC9DE48EA76C681F5E1D02F95</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FC96A34E9FA13B668E8DEB33E0573C6D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2021C987D15A732E9EACEAB5B3EF4AFA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 	</dict>
 	<key>rootObject</key>

@@ -15,8 +15,8 @@ extension UIBarButtonItem {
         let button = UIButton()
         button.setImage(UIImage(named: imageName), forState: UIControlState.Normal)
         button.setImage(UIImage(named: imageName), forState: UIControlState.Highlighted)
-        button .addTarget(target, action: action, forControlEvents: UIControlEvents.TouchUpInside)
-        button .sizeToFit()
+        button.addTarget(target, action: action, forControlEvents: UIControlEvents.TouchUpInside)
+        button.sizeToFit()
         
         return UIBarButtonItem(customView: button)
     }

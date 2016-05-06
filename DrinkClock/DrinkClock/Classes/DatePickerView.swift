@@ -16,11 +16,16 @@ class DatePickerView: UIView {
         super.init(frame: CGRect(x: 0, y: 0, width: screenWidth, height: 250))
         
         backgroundColor = UIColor.clearColor()
-        layer.cornerRadius = 10
-        layer.masksToBounds = true
-        
+        layer.shadowColor = UIColor.lightGrayColor().CGColor
+        layer.shadowOffset = CGSize(width: 0, height: -1)
+        layer.shadowOpacity = 0.5
+        addSubview(bgView)
         addSubview(datePicker)
         addSubview(doneButton)
+        bgView.snp_makeConstraints { (make) in
+            make.edges.equalTo(self)
+        }
+        
         datePicker.snp_makeConstraints { (make) in
             make.edges.equalTo(self).inset(UIEdgeInsets(top: 25, left: 15, bottom: 10, right: 15))
         }
@@ -40,6 +45,12 @@ class DatePickerView: UIView {
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = UIDatePickerMode.Time
         return datePicker
+    }()
+    
+    private lazy var bgView:UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.whiteColor()
+        return view
     }()
     
     private lazy var doneButton:UIButton = {

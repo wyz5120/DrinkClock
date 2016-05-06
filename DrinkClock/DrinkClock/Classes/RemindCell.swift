@@ -38,13 +38,13 @@ class RemindCell: UITableViewCell {
             make.centerY.equalTo(self.contentView)
         }
         
-        remindButton.snp_makeConstraints { (make) in
-            make.right.equalTo(doneButton.snp_left)
-            make.centerY.equalTo(self.contentView)
-            make.width.height.equalTo(50)
-        }
+//        remindButton.snp_makeConstraints { (make) in
+//            make.right.equalTo(doneButton.snp_left)
+//            make.centerY.equalTo(self.contentView)
+//            make.width.height.equalTo(50)
+//        }
         
-        doneButton.snp_makeConstraints { (make) in
+        remindButton.snp_makeConstraints { (make) in
             make.right.equalTo(self.contentView).offset(-20)
             make.centerY.equalTo(self.contentView)
             make.width.height.equalTo(50)
@@ -89,6 +89,7 @@ class RemindCell: UITableViewCell {
         visualEffectView.alpha = 1.0
         visualEffectView.layer.cornerRadius = 5
         visualEffectView.layer.masksToBounds = true
+        visualEffectView.userInteractionEnabled = false
         return visualEffectView
     }()
     

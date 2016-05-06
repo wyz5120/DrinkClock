@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
-        UIApplication.sharedApplication().setStatusBarHidden(false, withAnimation: UIStatusBarAnimation.Fade)
+        UIApplication.sharedApplication().setStatusBarHidden(false, withAnimation: UIStatusBarAnimation.None)
         
         NotificationManager.registerLoacalNotification()
         
@@ -67,5 +67,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         completionHandler()
     }
 
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
+        let prefix = "drink520://"
+        if url.absoluteString.hasPrefix(prefix) {
+            let index = url.absoluteString.startIndex.advancedBy(prefix.characters.count)
+            let action = url.absoluteString.substringFromIndex(index)
+            
+            if action == "GoToHomePage" {
+                print("GoToHomePage")
+            } else if action == "GoToReminderPage" {
+                print( "GoToReminderPage")
+            }
+        }
+        return true
+    }
+    
 }
 

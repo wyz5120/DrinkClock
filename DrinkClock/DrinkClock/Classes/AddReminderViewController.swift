@@ -51,7 +51,11 @@ class AddReminderViewController: UIViewController {
         super.viewWillAppear(animated)
        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.Default, animated: true)
         navigationController?.navigationBar .setBackgroundImage(UIImage.imageWithColor(UIColor.whiteColor()), forBarMetrics: UIBarMetrics.Default)
-        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        timeTextField?.becomeFirstResponder()
     }
     
     override func viewWillDisappear(animated: Bool) {
@@ -279,6 +283,7 @@ extension AddReminderViewController:UITableViewDelegate,UITableViewDataSource {
             cell.textFieldClearClosure = {[weak self]() -> Void in
                 self!.dataSource[indexPath.row] = ""
             }
+            timeTextField = cell.inputTextField
             return cell
         case 1:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellSwitchIdentifier) as! AddDetailCell

@@ -11,16 +11,19 @@ import UIKit
 class HomeViewController: UIViewController {
 
     private let remindVc = RemindTableViewController()
+    private let menuVc = MenuViewController()
+    private let drinkVc = DrinkViewController()
     
     var showMenu = false
     // MARK: - 生命周期
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 50, green: 50, blue: 50, alpha: 0.2)
         view.layer.cornerRadius = 5
         view.layer.masksToBounds = true
         setupNav()
         setupSubViews()
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(HomeViewController.centerViewAnimation(_:)), name: TitleSwitchViewDidClickButtonNotifacation, object: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,26 +41,30 @@ class HomeViewController: UIViewController {
         addButtonAnimation(false)
     }
     
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
+    
     // MARK: - 界面
     private func setupNav() {
         navigationItem.leftBarButtonItem = UIBarButtonItem.item("menuBtn", target: self, action: #selector(HomeViewController.menuAction))
         navigationItem.rightBarButtonItem = UIBarButtonItem.item("infoBtn", target: self, action: #selector(HomeViewController.infoAction))
         
-        let titleView = TitleSwitchView()
-        titleView.frame.size.width = screenWidth * 0.5
-        titleView.frame.size.height = 36
-        navigationItem.titleView = titleView
-        titleView.buttonClickAction = {[weak self](buttonTag) -> Void in
-            self!.centerViewAnimation(buttonTag)
-        }
+        let view = TitleView()
+        view.frame.size.width = screenWidth/2
+        view.frame.size.height = 44
+        navigationItem.titleView = view
     }
     
     private func setupSubViews() {
         addChildViewController(remindVc)
+        addChildViewController(menuVc)
+        addChildViewController(drinkVc)
         view.addSubview(bgImageView)
         view.addSubview(addButton)
         view.addSubview(homeView)
         view.addSubview(remindView)
+        view.addSubview(menuView)
         
         addButton.snp_makeConstraints { (make) in
             make.centerX.equalTo(self.view)
@@ -88,8 +95,7 @@ class HomeViewController: UIViewController {
     }()
     
     private lazy var homeView: UIView = {
-        let view = UIView()
-        view.backgroundColor = UIColor.brownColor()
+        let view = self.drinkVc.view
         view.layer.cornerRadius = 20
         view.layer.masksToBounds = true
         return view
@@ -97,14 +103,23 @@ class HomeViewController: UIViewController {
     
     private lazy var remindView: UIView = {
         let view = self.remindVc.view
-//        view.layer.cornerRadius = 20
-//        view.layer.masksToBounds = true
         return view
     }()
-
+    
+    private lazy var menuView: UIView = {
+        let view = self.menuVc.view
+        view.frame = CGRect(x: 0, y: topHeight, width: screenWidth, height: 0)
+        view.clipsToBounds = true
+        return view
+    }()
+    
     // MARK: - 响应事件
     func menuAction() {
         showMenu = !showMenu
+        
+        let titleView = navigationItem.titleView as! TitleView
+        titleView.show()
+        
         let frame = navigationController?.navigationBar.frame
         for button in (navigationController?.navigationBar.subviews)! {
             if !button.isKindOfClass(UIButton) {
@@ -112,23 +127,17 @@ class HomeViewController: UIViewController {
             }
             if button.frame.origin.x < frame!.size.width * 0.5 {
                 
-                if showMenu {
-                    UIView.animateWithDuration(0.5, animations: {
-                        button.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
-                        self.navigationItem.titleView?.alpha = 0.0
-                    })
-                } else {
-                    UIView.animateWithDuration(0.5, animations: { 
+                UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.6, initialSpringVelocity: 7, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+                    if !self.showMenu {
                         button.transform = CGAffineTransformIdentity
-                        self.navigationItem.titleView?.alpha = 1.0
-                    })
-                }
-             
+                        self.menuView.frame.size.height = 0
+                    } else {
+                        button.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+                        self.menuView.frame.size.height = screenHeight - topHeight
+                    }
+                }, completion: nil)
             }
         }
-
-   
-        
     }
     
     func infoAction() {
@@ -165,10 +174,13 @@ class HomeViewController: UIViewController {
         presentViewController(navigationVc, animated: true, completion: nil)
     }
     
+    
     private let animationDuration = 0.3
     private let damp:CGFloat = 0.8
     private let velocity:CGFloat = 4
-    func centerViewAnimation(buttonTag: NSInteger) {
+    func centerViewAnimation(noti: NSNotification) {
+        
+        let buttonTag = noti.userInfo!["buttonTag"] as! Int
         if buttonTag == 101 {
             UIView.animateWithDuration(animationDuration, delay: 0, usingSpringWithDamping: damp, initialSpringVelocity: velocity, options: UIViewAnimationOptions.CurveEaseOut, animations: {
                 self.remindView.transform = CGAffineTransformIdentity

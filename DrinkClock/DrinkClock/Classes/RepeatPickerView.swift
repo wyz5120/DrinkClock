@@ -9,7 +9,7 @@
 import UIKit
 
 private let HInset:CGFloat = 30
-private let VInset:CGFloat = screenHeight * 0.2
+private let VInset:CGFloat = screenHeight * 0.3
 
 private let animationDuration = 0.5
 private let damp:CGFloat = 0.8
@@ -23,7 +23,7 @@ class RepeatPickerView: UIView {
     
     var didSelectRowClosure:((text:String) -> Void)?
     
-    private let dataSource = ["每一小时","每二小时","每三小时","每天","关闭"]
+    private let dataSource = ["每天","关闭"]
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -52,7 +52,7 @@ class RepeatPickerView: UIView {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.registerClass(repeatCell.self, forCellReuseIdentifier: repeatCellIdentifier)
-        tableView.rowHeight = (screenHeight * 0.6 - 40) / 5
+        tableView.rowHeight = (screenHeight * 0.4 - 40) / 2
         tableView.scrollEnabled = false
         tableView.separatorStyle = UITableViewCellSeparatorStyle.None
         tableView.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 20))

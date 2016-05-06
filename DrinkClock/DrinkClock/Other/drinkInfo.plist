@@ -6,7 +6,7 @@
 		<key>image</key>
 		<string>1</string>
 		<key>time</key>
-		<string>08:00</string>
+		<string>上午 08:00</string>
 		<key>tip</key>
 		<string>早上起床后是不是觉得昏昏沉沉没睡醒呢，别急着吃早餐，先喝一杯温开水保护肠胃，别忘了吃早餐哦！</string>
 	</dict>
@@ -14,7 +14,7 @@
 		<key>image</key>
 		<string>2</string>
 		<key>time</key>
-		<string>09:00</string>
+		<string>上午 09:00</string>
 		<key>tip</key>
 		<string>上午开始一天的工作时，别忘了喝杯水，它可以让你精神焕发，提神醒脑，提高工作效率哦，所以做工作之前千万别忘了喝杯水</string>
 	</dict>
@@ -22,7 +22,7 @@
 		<key>image</key>
 		<string>3</string>
 		<key>time</key>
-		<string>11:30</string>
+		<string>上午 11:30</string>
 		<key>tip</key>
 		<string>辛苦工作了一上午，马上就到午餐时间了，可是吃午饭之前记得喝杯水，避免因为空腹而引起暴食哦</string>
 	</dict>
@@ -30,7 +30,7 @@
 		<key>image</key>
 		<string>4</string>
 		<key>time</key>
-		<string>13:30</string>
+		<string>下午 01:30</string>
 		<key>tip</key>
 		<string>午餐很重要，但是也要适量的吃到八分饱，如果吃的太饱会给肠胃造成负担，所以要记得在饭后20分钟喝杯水，促进消化</string>
 	</dict>
@@ -38,7 +38,7 @@
 		<key>image</key>
 		<string>5</string>
 		<key>time</key>
-		<string>15:30</string>
+		<string>下午 03:30</string>
 		<key>tip</key>
 		<string>下午茶时间记得喝杯咖啡或者喝杯水，振奋精神哦</string>
 	</dict>
@@ -46,7 +46,7 @@
 		<key>image</key>
 		<string>6</string>
 		<key>time</key>
-		<string>17:30</string>
+		<string>下午 05:30</string>
 		<key>tip</key>
 		<string>一天的工作结束了，下班之前记得喝杯温开水，缓解因为工作带来的疲劳哦</string>
 	</dict>
@@ -54,7 +54,7 @@
 		<key>image</key>
 		<string>7</string>
 		<key>time</key>
-		<string>19:00</string>
+		<string>下午 07:00</string>
 		<key>tip</key>
 		<string>这个时间段正是代谢的高峰期，记得喝杯温开水，促进身体排毒</string>
 	</dict>
@@ -62,7 +62,7 @@
 		<key>image</key>
 		<string>8</string>
 		<key>time</key>
-		<string>20:15</string>
+		<string>下午 08:15</string>
 		<key>tip</key>
 		<string>睡前两个小时之内喝杯水，可以预防血稠，建议大家睡前几分钟内不要喝水，避免第二天水肿</string>
 	</dict>

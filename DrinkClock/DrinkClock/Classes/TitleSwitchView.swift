@@ -8,9 +8,9 @@
 
 import UIKit
 
+let TitleSwitchViewDidClickButtonNotifacation = "TitleSwitchViewDidClickButtonNotifacation"
+
 class TitleSwitchView: UIView {
-    
-    var buttonClickAction: ((buttonTag:NSInteger) -> Void)?
     
     private var selectButton: UIButton?
     
@@ -84,7 +84,6 @@ class TitleSwitchView: UIView {
     
     func buttonAction(button:UIButton) {
     
-       
         button.enabled = false
         
        indicatorView.snp_remakeConstraints { (make) in
@@ -97,12 +96,8 @@ class TitleSwitchView: UIView {
                 self.selectButton?.enabled = true
                 self.selectButton = button
         }
-        
-        if buttonClickAction != nil {
-            buttonClickAction!(buttonTag: button.tag)
-        }
+   
+        NSNotificationCenter.defaultCenter().postNotificationName(TitleSwitchViewDidClickButtonNotifacation, object: self, userInfo: ["buttonTag":button.tag])
     }
-    
- 
     
 }
