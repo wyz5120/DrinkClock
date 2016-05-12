@@ -50,7 +50,7 @@ class TitleSwitchView: UIView {
     // MARK: - 懒加载
     private lazy var leftButton: UIButton = {
         let button = UIButton()
-        button.setTitle("全部", forState: UIControlState.Normal)
+        button.setTitle("时间", forState: UIControlState.Normal)
         button.titleLabel?.font = UIFont(name: "GloberSemiBold", size: 15)
         button.setTitleColor(UIColor.grayColor(), forState: UIControlState.Normal)
         button.setTitleColor(UIColor.blackColor(), forState: UIControlState.Disabled)

@@ -64,10 +64,6 @@ class AddReminderViewController: UIViewController {
         view.endEditing(true)
     }
     
-    deinit {
-        print(NSStringFromClass(self.classForCoder) + "释放")
-    }
-    
     // MARK: - 懒加载
     private lazy var tableView:TPKeyboardAvoidingTableView = {
         let tableView = TPKeyboardAvoidingTableView(frame: CGRectZero, style: UITableViewStyle.Plain)
@@ -302,7 +298,8 @@ extension AddReminderViewController:UITableViewDelegate,UITableViewDataSource {
             return cell
         case 3:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellDetailIdentifier) as! AddDetailCell
-            cell.iconView.image = UIImage(named: "completedBtn")
+            cell.iconView.image = UIImage(named: "soundGrey")
+            cell.iconView.contentMode = UIViewContentMode.Center
             cell.tipLabel.text = "声音"
             let sound = dataSource[indexPath.row] as! RemindSound
             cell.selectionLabel.text = sound.soundName
@@ -310,7 +307,7 @@ extension AddReminderViewController:UITableViewDelegate,UITableViewDataSource {
         case 4:
             let cell = tableView.dequeueReusableCellWithIdentifier(addCellInputIdentifier) as! AddInputCell
             cell.inputTextField.placeholder = "提示内容"
-            cell.inputTextField.iconImage = UIImage(named: "reminderGrey")
+            cell.inputTextField.iconImage = UIImage(named: "note")
             cell.inputTextField.text = dataSource[indexPath.row] as? String
             cell.editingChangedClosure = {[weak self](text) -> Void in
                 self!.dataSource[indexPath.row] = text

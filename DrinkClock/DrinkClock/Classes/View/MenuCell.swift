@@ -64,7 +64,7 @@ class MenuCell: UITableViewCell {
     
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "GloberxBold", size: 20)
+        label.font = UIFont(name: "GloberxBold", size: 25)
         label.textColor = UIColor.whiteColor()
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center
@@ -74,15 +74,15 @@ class MenuCell: UITableViewCell {
     }()
     
     private func startAnimation() {
-        UIView.animateWithDuration(10, animations: { 
-            self.bgView.transform = CGAffineTransformMakeScale(1.2, 1.2)
-            }) { (_) in
-                UIView.animateWithDuration(10, animations: { 
-                    self.bgView.transform = CGAffineTransformIdentity
-                    }, completion: { (_) in
-                        self.startAnimation()
-                })
-        }
+//        UIView.animateWithDuration(10, animations: { 
+//            self.bgView.transform = CGAffineTransformMakeScale(1.2, 1.2)
+//            }) { (_) in
+//                UIView.animateWithDuration(10, animations: { 
+//                    self.bgView.transform = CGAffineTransformIdentity
+//                    }, completion: { (_) in
+//                        self.startAnimation()
+//                })
+//        }
     }
 
 }

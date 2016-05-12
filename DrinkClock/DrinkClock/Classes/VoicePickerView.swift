@@ -93,10 +93,6 @@ class VoicePickerView: UIView {
         player!.prepareToPlay()
         player!.play()
     }
-    
-    deinit{
-        print(NSStringFromClass(self.classForCoder) + "释放")
-    }
 }
 
 extension VoicePickerView:UICollectionViewDataSource,UICollectionViewDelegate {

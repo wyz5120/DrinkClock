@@ -33,7 +33,7 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
         let label = UILabel()
         label.font = UIFont(name: "GloberxBold", size: 20)
         label.textColor = UIColor.whiteColor()
-        label.text = "推荐喝水时间"
+        label.text = "喝水时间推荐"
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center
         return label
@@ -70,6 +70,7 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
             let titleImage = UIImage(named: titleName)
             if iconImage != nil {
                 let iconView = UIImageView(image: UIImage(named: (dict.valueForKey("image") as! String)))
+                iconView.clipsToBounds = true
                 iconView.layer.cornerRadius = 10
                 iconView.layer.masksToBounds = true
                 contentView.addSubview(iconView)
@@ -117,7 +118,7 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
     private lazy var addButton:UIButton = {
         let button = UIButton()
         button.setTitleColor(UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0), forState: UIControlState.Normal)
-        button.setTitle("添加计划到提醒", forState: UIControlState.Normal)
+        button.setTitle("添加到提醒", forState: UIControlState.Normal)
         button.backgroundColor = UIColor.clearColor()
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 22
@@ -177,6 +178,8 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
          
             iconView.snp_makeConstraints(closure: { (make) in
                 make.centerY.equalTo(self.view).offset(scaleFromIphone5Height(-100))
+                make.width.equalTo(150)
+                make.height.equalTo(200)
             })
             titleView.snp_makeConstraints(closure: { (make) in
                 make.centerY.equalTo(self.view).offset(scaleFromIphone5Height(75))

@@ -9,6 +9,7 @@
 import UIKit
 
 private let remindCellIdentifier = "remindCellIdentifier"
+let dataSourceDidChangeNotification = "dataSourceDidChangeNotification"
 class RemindTableViewController: UIViewController {
     
     var dataSource:NSMutableArray?
@@ -18,13 +19,19 @@ class RemindTableViewController: UIViewController {
 
         view.backgroundColor = UIColor.clearColor()
         view.addSubview(tableView)
-        
+        view.addSubview(coverView)
         tableView.backgroundColor = UIColor.clearColor()
-        refresh()
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(RemindTableViewController.refresh), name: didAddReminderNotification, object: nil)
         tableView.snp_makeConstraints { (make) in
             make.edges.equalTo(self.view)
         }
+        coverView.snp_makeConstraints { (make) in
+            make.edges.equalTo(self.view)
+        }
+        coverView.hidden = true
+        
+        refresh()
     }
 
     deinit {
@@ -41,6 +48,49 @@ class RemindTableViewController: UIViewController {
         tableView.showsVerticalScrollIndicator = false
         return tableView
     }()
+    
+    private lazy var coverView:UIView = {
+        let view = CoverView()
+        view.addReminderColoure = {[weak self]() -> Void in
+            self!.addReminderPlan()
+        }
+        return view
+    }()
+    
+    func addReminderPlan() {
+        let plan = NSArray(contentsOfFile: NSBundle.mainBundle().pathForResource("drinkInfo", ofType: "plist")!)!
+        let existed = NSFileManager.defaultManager().fileExistsAtPath(path)
+        var array = NSMutableArray()
+        if existed {
+            array = NSKeyedUnarchiver.unarchiveObjectWithFile(path) as! NSMutableArray
+        }
+        
+        loop: for  i in 0..<8 {
+            let dict = plan[i] as! NSDictionary
+            let r = Reminder()
+            r.time = (dict.valueForKey("time") as! String)
+            r.uuid = "\(i)"
+            r.remind = true
+            r.repeatMode = ReminderRepeatMode.OneDay.rawValue
+            r.sound = RemindSound()
+            r.isDone = false
+            r.tipString = (dict.valueForKey("tip") as! String)
+            for re in array {
+                if re.uuid == r.uuid {
+                    continue loop
+                }
+            }
+            array.addObject(r)
+        }
+        
+        NSKeyedArchiver.archiveRootObject(array, toFile: path)
+        NSNotificationCenter.defaultCenter().postNotificationName(didAddReminderNotification, object: nil)
+        NotificationManager.addLoacalNotification()
+        
+        let alert = UIAlertController(title: "成功添加到提醒", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addAction(UIAlertAction(title: "确定", style: UIAlertActionStyle.Cancel, handler: nil))
+        presentViewController(alert, animated: true, completion: nil)
+    }
   
     func refresh() {
         let dateFormatter = NSDateFormatter()
@@ -56,7 +106,14 @@ class RemindTableViewController: UIViewController {
                 return d1!.compare(d2!)
             })
         }
-    
+        
+        if dataSource == nil {
+            coverView.hidden = false
+        } else {
+           coverView.hidden = dataSource?.count != 0
+        }
+        
+        NSNotificationCenter.defaultCenter().postNotificationName(dataSourceDidChangeNotification, object: nil)
         tableView.reloadData()
     }
     
@@ -138,4 +195,79 @@ extension RemindTableViewController:UITableViewDataSource,UITableViewDelegate {
         isAnimating = false
     }
     
+}
+
+ class CoverView:UIView {
+    
+    
+    var addReminderColoure:(()->Void)?
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        
+        layer.cornerRadius = 10
+        layer.masksToBounds = true
+        
+        addSubview(visualEffectView)
+        addSubview(textLabel)
+        addSubview(addButton)
+        visualEffectView.snp_makeConstraints { (make) in
+            make.edges.equalTo(self)
+        }
+        textLabel.snp_makeConstraints { (make) in
+            make.centerX.equalTo(self)
+            make.bottom.equalTo(self.snp_centerY).offset(-20)
+        }
+        
+        addButton.snp_makeConstraints { (make) in
+            make.centerX.equalTo(self)
+            make.top.equalTo(self.snp_centerY).offset(10)
+            make.width.equalTo(screenWidth * 0.5)
+            make.height.equalTo(44)
+        }
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    private lazy var textLabel:UILabel = {
+        let label = UILabel()
+        label.textColor = UIColor.cyanColor()
+        label.font = UIFont(name: "GloberSemiBold", size: scaleFromIphone5Width(17))
+        label.text = "还没添加提醒呢"
+        label.numberOfLines = 0;
+        label.textAlignment = NSTextAlignment.Center
+        return label
+    }()
+    
+    private lazy var addButton:UIButton = {
+        let button = UIButton()
+        button.setTitleColor(UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0), forState: UIControlState.Normal)
+        button.setTitle("添加推荐时间", forState: UIControlState.Normal)
+        button.backgroundColor = UIColor.clearColor()
+        button.layer.masksToBounds = true
+        button.layer.cornerRadius = 22
+        button.layer.borderWidth = 2
+        button.layer.borderColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0).CGColor
+        button.sizeToFit()
+        button.addTarget(self, action:#selector(CoverView.addPlanAction), forControlEvents: UIControlEvents.TouchUpInside)
+        return button
+    }()
+    
+    private lazy var visualEffectView: UIVisualEffectView = {
+        let visualEffectView = UIVisualEffectView(effect: UIBlurEffect(style: UIBlurEffectStyle.Dark))
+        visualEffectView.alpha = 1.0
+        visualEffectView.layer.cornerRadius = 10
+        visualEffectView.layer.masksToBounds = true
+        visualEffectView.userInteractionEnabled = false
+        return visualEffectView
+    }()
+    
+    func addPlanAction() {
+        if addReminderColoure != nil {
+            addReminderColoure!()
+        }
+    }
 }

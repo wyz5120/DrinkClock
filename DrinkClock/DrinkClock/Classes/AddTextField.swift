@@ -59,6 +59,7 @@ class AddTextField: UITextField {
     
     private lazy var iconView:UIImageView = {
         let imageView = UIImageView()
+        imageView.contentMode = UIViewContentMode.Center
         return imageView
     }()
     

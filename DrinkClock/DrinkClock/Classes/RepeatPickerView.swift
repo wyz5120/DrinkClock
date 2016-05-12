@@ -92,10 +92,7 @@ class RepeatPickerView: UIView {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         hide()
     }
-    
-    deinit{
-        print(NSStringFromClass(self.classForCoder) + "释放")
-    }
+
 }
 
 extension RepeatPickerView:UITableViewDataSource,UITableViewDelegate {

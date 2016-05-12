@@ -214,9 +214,4 @@ private class InfoCollectionViewLayout: UICollectionViewFlowLayout {
         collectionView?.pagingEnabled = true
     }
     
-    deinit{
-        
-        print("销毁")
-        
-    }
 }

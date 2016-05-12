@@ -70,9 +70,9 @@ class Reminder: NSObject {
 
 class RemindSound: NSObject,NSCoding{
     
-    var soundName:String = "声音1"
+    var soundName:String = "梦幻水泡"
     
-    var image:String = "sound1"
+    var image:String = "梦幻水泡"
     
     var path:String = "1.caf"
     

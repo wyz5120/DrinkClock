@@ -59,7 +59,7 @@ class TitleView: UIView {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.text = "DrinkingTime"
+        label.text = "喝水时间"
         label.font = UIFont(name: "GloberxBold", size: 18)
         label.textColor = UIColor.whiteColor()
         label.sizeToFit()
