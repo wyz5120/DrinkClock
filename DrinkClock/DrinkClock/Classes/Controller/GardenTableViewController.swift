@@ -49,7 +49,7 @@ class GardenTableViewController: UITableViewController {
         let label = UILabel()
         label.font = UIFont(name: "GloberxBold", size: 20)
         label.textColor = UIColor.whiteColor()
-        label.text = "补水果蔬推荐"
+        label.text = "补水果蔬"
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center
         return label

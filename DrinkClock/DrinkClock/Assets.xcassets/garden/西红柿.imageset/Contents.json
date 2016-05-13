@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "西红柿.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "西红柿.jpg",
       "scale" : "2x"
     },
     {

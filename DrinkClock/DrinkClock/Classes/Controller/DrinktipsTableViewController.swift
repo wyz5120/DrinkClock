@@ -49,7 +49,7 @@ class DrinktipsTableViewController: UITableViewController {
         let label = UILabel()
         label.font = UIFont(name: "GloberxBold", size: 20)
         label.textColor = UIColor.whiteColor()
-        label.text = "喝水小贴士"
+        label.text = "喝水问答"
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center
         return label

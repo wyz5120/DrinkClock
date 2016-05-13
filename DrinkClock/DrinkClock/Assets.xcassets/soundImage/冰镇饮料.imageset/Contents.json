@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "冰镇饮料.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "冰镇饮料.jpg",
       "scale" : "2x"
     },
     {

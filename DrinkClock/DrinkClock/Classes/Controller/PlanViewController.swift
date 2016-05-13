@@ -33,7 +33,7 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
         let label = UILabel()
         label.font = UIFont(name: "GloberxBold", size: 20)
         label.textColor = UIColor.whiteColor()
-        label.text = "喝水时间推荐"
+        label.text = "喝水时间"
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center
         return label

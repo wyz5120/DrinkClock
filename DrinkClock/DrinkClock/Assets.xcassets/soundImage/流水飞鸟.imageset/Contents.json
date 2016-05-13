@@ -2,11 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "流水飞鸟.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "流水飞鸟.jpg",
       "scale" : "2x"
     },
     {

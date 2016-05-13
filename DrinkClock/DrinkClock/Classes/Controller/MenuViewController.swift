@@ -12,8 +12,8 @@ private let menuCellIdentifier = "menuCellIdentifier"
 
 private let rowCount = 3
 
-private let titleArray = ["喝水时间推荐","喝水小贴士","补水果蔬推荐"]
-private let imageArray = ["flower1","tip.jpeg","garden"]
+private let titleArray = ["喝水时间","喝水问答","补水果蔬"]
+private let imageArray = ["timeBg.jpg","tipBg.jpg","vfBg.jpg"]
 
 class MenuViewController: UIViewController {
 
