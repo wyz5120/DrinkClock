@@ -16,7 +16,9 @@ class InfoViewController: UIViewController {
     var image: UIImage?
     
     
-    let dataSource = NSArray(contentsOfFile: NSBundle.mainBundle().pathForResource("drinkInfo", ofType: "plist")!)!
+    let dataSource = [["image":"reminder","title":"添加喝水提醒","detail":"自定义时间、重复、铃声、提示内容等"],
+                      ["image":"cup","title":"每天补充充足的水分","detail":"无论工作多么忙碌，提醒您按时喝水"],
+                      ["image":"tips","title":"温馨的喝水小贴士","detail":"精心推荐的喝水时间，补水果蔬与喝水问答"]]
     
     
     override func viewDidLoad() {
@@ -61,7 +63,7 @@ class InfoViewController: UIViewController {
     private lazy var bgImageView: UIImageView = {
         let imageView = UIImageView(frame: self.view.bounds)
         imageView.contentMode = UIViewContentMode.ScaleAspectFill
-        imageView.image = self.image
+        imageView.image = UIImage(named: "flower")
         return imageView
     }()
     
@@ -92,7 +94,7 @@ class InfoViewController: UIViewController {
         let button = UIButton()
         button.setTitleColor(UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0), forState: UIControlState.Normal)
         button.titleLabel?.font = UIFont(name: "GloberSemiBold", size: scaleFromIphone5Width(15))
-        button.setTitle("支持我们,请给我们好评", forState: UIControlState.Normal)
+        button.setTitle("给个好评", forState: UIControlState.Normal)
         button.addTarget(self, action: #selector(InfoViewController.rateAction), forControlEvents: UIControlEvents.TouchUpInside)
         return button
     }()
@@ -101,7 +103,8 @@ class InfoViewController: UIViewController {
         let label = UILabel()
         label.textColor = UIColor.grayColor()
         label.font = UIFont.systemFontOfSize(scaleFromIphone5Width(14))
-        label.text = (NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String)
+        let version = (NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String)
+        label.text = "Version " + "\(version)"
         label.textAlignment = NSTextAlignment.Center
         return label
     }()
@@ -122,9 +125,9 @@ extension InfoViewController: UICollectionViewDataSource,UICollectionViewDelegat
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! infoCell
         
-        let dict = self.dataSource[indexPath.item] as! NSDictionary
-        cell.timeLabel.text = (dict.valueForKey("time") as! String)
-        cell.tipLabel.text = (dict.valueForKey("tip") as! String)
+        let dict = self.dataSource[indexPath.item] as NSDictionary
+        cell.timeLabel.text = (dict.valueForKey("title") as! String)
+        cell.tipLabel.text = (dict.valueForKey("detail") as! String)
         cell.imageView.image = UIImage(named: (dict.valueForKey("image") as! String))
         return cell
     }
@@ -148,15 +151,15 @@ class infoCell:UICollectionViewCell {
         contentView.addSubview(imageView)
         
         imageView.snp_makeConstraints { (make) in
-            make.width.equalTo(scaleFromIphone5Width(120))
-            make.height.equalTo(scaleFromIphone5Height(150))
+            make.width.equalTo(scaleFromIphone5Width(100))
+            make.height.equalTo(scaleFromIphone5Height(120))
             make.centerX.equalTo(self.contentView)
-            make.top.equalTo(self.contentView).offset(self.contentView.bounds.size.height * 0.20)
+            make.top.equalTo(self.contentView).offset(self.contentView.bounds.size.height * 0.25)
         }
         
         timeLabel.snp_makeConstraints { (make) in
             make.left.right.equalTo(self.contentView)
-            make.top.equalTo(self.imageView.snp_bottom).offset(scaleFromIphone5Height(20))
+            make.top.equalTo(self.imageView.snp_bottom).offset(scaleFromIphone5Height(30))
         }
         
         tipLabel.snp_makeConstraints { (make) in
@@ -172,16 +175,16 @@ class infoCell:UICollectionViewCell {
     
     private lazy var timeLabel: UILabel = {
         let label = UILabel()
-        label.textColor = UIColor.greenColor()
-        label.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Width(25))
+        label.textColor = UIColor.whiteColor()
+        label.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Width(18))
         label.textAlignment = NSTextAlignment.Center
         return label
     }()
     
     private lazy var tipLabel: UILabel = {
         let label = UILabel()
-        label.textColor = UIColor.cyanColor()
-        label.font = UIFont(name: "GloberSemiBold", size: scaleFromIphone5Width(14))
+        label.textColor = UIColor.lightGrayColor()
+        label.font = UIFont(name: "GloberSemiBold", size: scaleFromIphone5Width(15))
         label.numberOfLines = 0;
         label.textAlignment = NSTextAlignment.Center
         return label
@@ -189,8 +192,8 @@ class infoCell:UICollectionViewCell {
     
     private lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = UIViewContentMode.ScaleAspectFill
-        imageView.layer.cornerRadius = scaleFromIphone5Width(10)
+        imageView.contentMode = UIViewContentMode.ScaleToFill
+        imageView.layer.cornerRadius = scaleFromIphone5Width(5)
         imageView.layer.masksToBounds = true
         return imageView
     }()

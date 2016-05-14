@@ -90,17 +90,17 @@ class DrinkViewController: UIViewController {
             }
             
             if nextReminder != nil {
-                drinkLabel.font = UIFont(name: "GloberxBold", size: 40)
+                drinkLabel.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Height(40))
                 timeLabel.text = "下次喝水时间"
                 drinkLabel.text = "\(nextReminder!.time)"
             } else {
-                drinkLabel.font = UIFont(name: "GloberxBold", size: 22)
+                drinkLabel.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Height(20))
                 timeLabel.text = "今天没有提醒了"
                 drinkLabel.text = "明天记得按时喝水哟"
             }
             nextReminder = nil
         } else {
-            drinkLabel.font = UIFont(name: "GloberxBold", size: 40)
+            drinkLabel.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Height(40))
             timeLabel.text = "当前时间"
             dateformatter.dateFormat = "a hh:mm"
             dateformatter.locale = NSLocale(localeIdentifier: "zh_CN")
@@ -117,7 +117,7 @@ class DrinkViewController: UIViewController {
     
     private lazy var drinkLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "GloberxBold", size: 40)
+        label.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Height(40))
         label.textColor = UIColor(red: 64/255.0, green: 228/255.0, blue: 165/255.0, alpha: 1.0)
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center
@@ -127,7 +127,7 @@ class DrinkViewController: UIViewController {
     
     private lazy var timeLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "GloberxBold", size: 20)
+        label.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Height(20))
         label.textColor = UIColor.greenColor()
         label.sizeToFit()
         label.textAlignment = NSTextAlignment.Center

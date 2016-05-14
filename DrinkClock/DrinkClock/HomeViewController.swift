@@ -24,7 +24,6 @@ class HomeViewController: UIViewController {
         setupSubViews()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(HomeViewController.centerViewAnimation(_:)), name: TitleSwitchViewDidClickButtonNotifacation, object: nil)
-        
     }
 
     override func didReceiveMemoryWarning() {

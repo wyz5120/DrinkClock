@@ -31,7 +31,7 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
     
     lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = UIFont(name: "GloberxBold", size: 20)
+        label.font = UIFont(name: "GloberxBold", size: scaleFromIphone5Height(20))
         label.textColor = UIColor.whiteColor()
         label.text = "喝水时间"
         label.sizeToFit()
@@ -178,8 +178,8 @@ class PlanViewController: IFTTTAnimatedPagingScrollViewController {
          
             iconView.snp_makeConstraints(closure: { (make) in
                 make.centerY.equalTo(self.view).offset(scaleFromIphone5Height(-100))
-                make.width.equalTo(150)
-                make.height.equalTo(200)
+                make.width.equalTo(scaleFromIphone5Width(150))
+                make.height.equalTo(scaleFromIphone5Height(200))
             })
             titleView.snp_makeConstraints(closure: { (make) in
                 make.centerY.equalTo(self.view).offset(scaleFromIphone5Height(75))
